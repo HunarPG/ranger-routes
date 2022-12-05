@@ -414,17 +414,17 @@ Use a Potion before Rival
 
 :::::trainer[Rival 2]
   :::pokemon[Pidgeotto]
-    Bite + Water Pulse
+    - Bite + Water Pulse
     - 25% (4/16) to OHKO with Water Pulse Torrent
     :::
     ::damage[Pidgeotto's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=21 evolution=1 opponentLevel=17 opponentStat=26 special=false stab=true type=flying}
   :::
   :::pokemon[Bulbasaur]
-    Bite + Mega Kick
+    - Bite + Mega Kick
     ::damage[Bulbasaur's Vine Whip]{source="Squirtle" offensive=false movePower=35 level=21 evolution=1 opponentLevel=18 opponentStat=30 special=true stab=true type=Grass}
   :::
   :::pokemon[Abra]
-    Water Pulse	
+    - Water Pulse	
     - 81.25% (13/16) to OHKO
     :::if{source="Squirtle" condition="$fight == 'Josh'"}
     - 20-23 Speed Ties
@@ -608,20 +608,20 @@ Head to the S.S. Anne
 
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
-    Water Pulse + Bite
+    - Water Pulse + Bite
     - Water Pulse* if in torrent
     ::damage[Pidgeotto's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=27 evolution=1 opponentLevel=19 opponentStat=28 special=false stab=true type=flying}
   :::
   :::pokemon[Ivysaur]
-    Bite + Mega Kick
+    - Bite + Mega Kick
     ::damage[Ivysaur's Vine Whip]{source="Squirtle" offensive=false movePower=35 level=27 evolution=1 opponentLevel=20 opponentStat=39 special=true stab=true type=grass}
   :::
   :::pokemon[Raticate]
-    Bite
+    - Mega Kick/Water Pulse*
     ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=27 evolution=1 opponentLevel=16 opponentStat=34 special=false stab=true type=normal}
   :::
   :::pokemon[Kadabra]
-    Bite
+    - Bite
     ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=27 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
   :::
 :::::
@@ -1242,16 +1242,16 @@ On spinner bag manip
 - Heal to around the HP below
 
 :::if{source="Squirtle" condition="defense=(0-11 / x / x)"}
-    - 82 HP
+  - 82 HP
 :::
 :::if{source="Squirtle" condition="defense=(12-31 / 0-4 / x)"}
-    - 80 HP
+  - 80 HP
 :::
 :::if{source="Squirtle" condition="defense=(x / 5-25 / x)"}
-    - 76 HP
+  - 76 HP
 :::
 :::if{source="Squirtle" condition="defense=(x / 26-31 / x)"}
-    - 74 HP
+  - 74 HP
 :::
 
 :::::trainer[Rival 5]
