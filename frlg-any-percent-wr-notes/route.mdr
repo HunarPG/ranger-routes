@@ -54,15 +54,16 @@
     57 ->	33, 64, 64, 57, 18, 73
 :::
 
-## Pokémon FireRed/LeafGreen Any%(High Exp Route) Route
-Prepared by PulseEffects#1096
+## Pokémon FireRed/LeafGreen Any% WR Route
+Prepared by Thunder and Truely
 
 Ported to Ranger by HunarPG#2786
 
 Please DM me if you have any issues!
 
 Credits for these notes:
-  - Pulse for making the route
+  - Thunder for making the original route and Truely for updating it
+  - Everyone else involved in the routing process
 
 If the route does not say to learn a move explicitly, do not learn it.
 
@@ -75,12 +76,13 @@ Before starting your run, make sure your save file has the following:
 Download the RNG Manip program and set the following IV restrictions:
   - Frame window: 4000 to 5500
   - Natures: Rash,Mild or Modest
-  - HP: x
-  - Atk: 21 / 4 / x
-  - Def: 7 / x / x
+  - HP: 1
+  - Atk: 21 / 6 / x
+  - Def: 16 / 7 / x
   - Sp. Atk: x / x / 30
   - Sp. Def: 5 / x / X
   - Spe: x / 21 / x
+  - Go with 22+attack Modest and 26+ defense mild if going for top time
 
 Give yourself a 1 character name (manip time starts when you confirm your name)
 
@@ -143,7 +145,7 @@ Grab this hidden potion if necessary
 
 If poisoned, Antidote on the HP in the chart below
 
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039413257242419200/Antidote_HP.png)
+![](https://cdn.discordapp.com/attachments/917309676717244436/1094302194980892823/Antidote_HP.png)
 
 Head straight to the gym
 
@@ -259,7 +261,7 @@ If you didn’t catch Pidgey on route 1, catch a Spearow/Pidgey now in the grass
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039429533180370964/Persim_Location.png)
 
-Grab this Persim Berry if 28-29 SPA or the chart below says to “Grab Persim” 
+Grab this Persim Berry if the chart below says to “Grab Persim” 
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039428835688579113/Persim_Grab.png)
 
@@ -274,9 +276,9 @@ Grab this Rare Candy near the Bug Catcher (after fighting him if you’re fighti
 
 Fight ONE of these optional trainers for exp depending on the situation 
 
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039430465737719808/Moon_Trainers.png)
+![](https://cdn.discordapp.com/attachments/917309676717244436/1094303887395147886/Moon_Trainers.png.png)
 
-::variable{name="fight" type="select" title="Which trainer will you fight?" options='["Robby", "Josh", "Marcos", "Grunt"]'}
+::variable{name="fight" type="select" title="Which trainer will you fight?" options='["Robby", "Josh", "Grunt"]'}
 
 ::::::if{source="Squirtle" condition="$fight == 'Robby'"}
 :::::trainer[Bug Catcher Robby]
@@ -302,12 +304,6 @@ Fight ONE of these optional trainers for exp depending on the situation
     Water Gun* (x2)
     - Zubat is 62.5% (10/16) to OHKO in torrent
   :::
-:::::
-::::::
-
-::::::if{source="Squirtle" condition="$fight == 'Marcos'"}
-:::::trainer[Hiker Marcos]
-  Bubble x3
 :::::
 ::::::
 
@@ -351,9 +347,6 @@ Force the Rocket Grunt to walk up to you to save repel steps by running.
     - 25-30 Speed Ties
     :::
     :::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    - 25-30 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
     - 25-30 Speed Ties
     :::
   :::
@@ -444,9 +437,6 @@ Use a Potion before Rival
     - 21-24 Speed Ties
     :::
     :::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    - 21-24 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
     - 21-24 Speed Ties
     :::
   :::
@@ -702,16 +692,8 @@ Save after you find the 1st Can puzzle
     :::if{source="Squirtle" condition="$fight == 'Grunt'"}
     - 25-27 Speed Ties
     :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    - 25-27 Speed Ties
-    :::
   :::
 :::::
-
-:::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    Add 1 Defense IV to your squirtle to get accurate calcs of Raichu's quick attack(increase it back after 
-    fighting surge)
-:::
 
 :::::trainer[Leader Surge]
   :::pokemon[Voltorb]
@@ -728,9 +710,6 @@ Save after you find the 1st Can puzzle
     - 28-31 Speed Ties
     :::
     :::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    - 28-31 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
     - 28-31 Speed Ties
     :::
   :::
@@ -804,14 +783,6 @@ Grab this hidden Rare Candy after the Hiker
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039516829808332910/Tunnel_Candy.png)
 
-:::if{source="Squirtle" condition="$fight == 'Robby'"}
-    If your speed is 20-21, 29 or 30-31 switch to Low exp/WR route
-:::
-
-:::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    If your speed is 20-21, 29 or 30-31 switch to Low exp/WR route
-:::
-
 Use Elixir on a Repel menu as necessary for Mega Kick PP
 
 :::::trainer[Pokémaniac Ashton]
@@ -854,18 +825,14 @@ Oddish 2HKO ranges =
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039514893675671592/Oddish_Kick.png)
 
-*NEED to fight Hiker Eric on the top right instead of Hiker Allen on the bottom left*
+*Fight the left Bottom Hiker*
 
-:::::trainer[Hiker Eric]
-  :::pokemon[Machop]
-    Water Pulse
-  :::
-  :::pokemon[Onix]
-    Water Pulse
-  :::
+:::::trainer[Hiker Allen]
+  :::pokemon[Geodude]
+    Water Gun
 :::::
 
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039515270491947060/Top_Hiker.png)
+![](https://cdn.discordapp.com/attachments/917309676717244436/1043882409055236096/Bottom_Hiker.png)
 
 :::::trainer[Hiker Oliver]
   :::pokemon[Onix]
@@ -949,17 +916,9 @@ Head straight to the game corner
 
 Talk to the poster and head into the Rocket Hideout
 
-Grab this Rare Candy before going into the Spinny Tiles 
-
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039520343762686002/Game_Corner_Candy.png)
-
 Grab these Black Glasses before heading downstairs to Lift Key guy
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039520683773919242/BlackGlasses.png)
-
-BEFORE battling the lift key guy:
- - Rare Candy to 35
- - Put your cursor on Escape Rope
 
 :::::trainer[Rocket Grunt]
   :::pokemon[Koffing]
@@ -970,13 +929,19 @@ BEFORE battling the lift key guy:
   :::
 :::::
 
+Grab this Rare Candy after fighting the lift key guy
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1039520343762686002/Game_Corner_Candy.png)
+
 Head towards the elevator to floor B4 and fight the left Rocket Grunt first
 
 Fight the left Rocket Grunt first
 
 :::::trainer[Rocket Grunt]
   :::pokemon[Sandshrew]
-    - Bite
+    - Bite	
+    :::if{source="Squirtle" condition="spatk=(x / x / 28-30)"}
+    - 14/16 range
   :::
   :::pokemon[Sandslash]
     - Water Gun
@@ -994,10 +959,21 @@ Fight the left Rocket Grunt first
   :::
   :::pokemon[Sandshrew]
     - Bite
+    :::if{source="Squirtle" condition="spatk=(x / x / 28-30)"}
+    - 56.25% range
+    :::
+    :::if{source="Squirtle" condition="spatk=(x / x / 31)"}
+    - 62.5% range
   :::
   :::pokemon[Arbok]
-    - Bite + Water Pulse/Water Pulse*
+    - Bite + Water Pulse
+    - Water Pulse in torrent
     - Should get either +14 or 15 HP upon evolution
+    :::if{source="Squirtle" condition="spatk=(x / x / 28-30)"}
+    - 43.75% range
+    :::
+    :::if{source="Squirtle" condition="spatk=(x / x / 31)"}
+    - 62.5% range
   :::
 :::::
 
@@ -1005,6 +981,11 @@ Fight the left Rocket Grunt first
     Subtract 1 Defense IV to your squirtle to get accurate calcs of Kangaskhan's Mega Punch and Quick Attack
     (increase it back after fighting Giovanni)
 :::
+
+Before fighting Giovanni:-
+- Rare Candy x2 to Level 36
+- Heal out of Mega Punch range
+- Put your cursor on escape rope    
 
 :::::trainer[Giovanni 1]
   :::pokemon[Onix]
@@ -1030,15 +1011,15 @@ Bike straight to the mart and take the elevator to 5F (vv)
 **Shopping: (bottom vendor)**
 
 *Low on Mega Kicks or High HP after Giovanni:*
-- 5 X Speeds(4 if 30+IV or 29+ with Josh)	(vv)           
+- 6 X Speeds(5 if faster than Blaine and 4 if faster than Sabrina too)	(vv)           
 - 21 X Specials (v)	
-- 4 X Accuracy (v)
+- 5 X Accuracy (v)
 - 2 Guard Specs (v)
 
 *2-3 Mega Kicks Left:*
 - 1 X Attack
-- 5 X Speeds(4 if 30+IV or 29+ with Josh)	(vv)
-- 18 X Specials (v)
+- 6 X Speeds(5 if faster than Blaine and 4 if faster than Sabrina too)	(vv)   
+- 17 X Specials(18 if bought 4/5 X Speeds) (v)
 - 5 X Accuracy (v)
 - 3 Guard Specs. (v)
 
@@ -1046,7 +1027,7 @@ Take the elevator back down and bike west to get Fly
 
 After obtaining fly:
 - Teach Fly to bird
-- Heal to around 44 HP
+- Heal to around 42 HP
 - Super Repel
 - Equip Black Glasses
 - Toss Moon Stone (makes for faster scrolling up and down in the menus)
@@ -1140,11 +1121,6 @@ Grab this Rare Candy before fighting Marowak
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039540528129265684/Tower_Candy.png)
 
-:::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    Add 1 Defense IV to your squirtle to get accurate calcs of Marowak's Bonemerang(increase it back after 
-    fighting Marowak)
-:::
-
 :::::trainer[Ghost Marowak]
   :::pokemon[Marowak]
     - Water Pulse*
@@ -1182,8 +1158,8 @@ Head upstairs and let every Rocket Grunt walk up to you along the way
 :::::
 
 :::::trainer[Rocket Grunt]
-  - Water Gun x4
-  - Water Pulse Raticate if no Torrent
+  - Bite x3
+  - Water Gun*/Water Pulse Raticate
   ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=39 evolution=2 opponentLevel=23 opponentStat=46 statModifier=1.1 special=false stab=true type=normal}
 :::::
 
@@ -1206,8 +1182,6 @@ Head through the *right* side of the gym
 Head straight to the Safari Zone
 
 **Before the grass in the second area**
-
- - **Rare Candy to level 41**
 
  - **Super Repel**
 
@@ -1247,14 +1221,9 @@ The 1st and 3rd trainer in this gym are spinners, fight the 2nd guy
   :::pokemon[Koffing]
     - Surf
   :::
-  :::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    - Add 1 Defense IV to your squirtle to get accurate calcs of Weezing's Sludge(increase it back after fighting Weezing)
-  :::
   :::pokemon[Weezing]
     - Surf*
-    :::if{source="Squirtle" condition="spatk=(x / x / 30+)"}
-    - 68.75% to OHKO
-    :::
+    - 37.5% to OHKO
     - Consider Bite + Surf if high hp or you want safety
     - Surf Turn 1 if +1 Torrent, Water Pulse + Surf if no Torrent on Weezing
     ::damage[Weezing's Sludge]{source="Squirtle" offensive=false movePower=65 level=42 evolution=2 opponentLevel=43 opponentStat=82 statModifier=1.1 combatStages=0 special=false stab=true type=poison}
@@ -1268,7 +1237,7 @@ The 1st and 3rd trainer in this gym are spinners, fight the 2nd guy
 
 Go to the mansion (approach from the left side)
 
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039546661619380314/Carbos_Chart.png)
+![](https://cdn.discordapp.com/attachments/917309676717244436/1094467178759213156/Carbos_Chart.png)
 
 **Grab this Carbos if “Grab Carbos” on the chart above (Can bag manip the walker downstairs)**
 
@@ -1325,6 +1294,11 @@ Head through the left side of the gym
   :::
 :::::
 
+Menu:-
+- Teach Blizzard over Mega Kick(Slot 4)
+- Rare Candy x2 to Level 44
+- Heal if needed (preferably to high torrent)
+
 :::::trainer[Beauty Lori]
   :::pokemon[Exeggcute]
     - Bite
@@ -1371,7 +1345,7 @@ On spinner bag manip
 
 :::::trainer[Rival 5]
   :::pokemon[Pidgeot]
-    - X Special (+2), X Acc, Surf
+    - X Special x2 + X Acc + Surf
     - Go to +2 SPA if Featherdance turn 1
     ::damage[Pidgeot's Wing Attack]{source="Squirtle" offensive=false movePower=60 level=44 evolution=2 opponentLevel=37 opponentStat=68 statModifier=1.1 special=false stab=true type=flying}
     ::damage[Pidgeot's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=44 evolution=2 opponentLevel=37 opponentStat=68 statModifier=1.1 special=false stab=true type=normal}
@@ -1380,14 +1354,14 @@ On spinner bag manip
     - Blizzard
   :::
   :::pokemon[Gyarados]
-    - Blizzard + Bite
-    - 68.75% to OHKO with +2 Blizzard
+    - Blizzard
+    - Bite stall if not good enough torrent
   :::
   :::pokemon[Growlithe]
     - Bite
   :::
   :::pokemon[Alakazam]
-    - Water Pulse*/Surf
+    - Surf
   :::
 :::::
 
@@ -1427,7 +1401,7 @@ On spinner bag manip
     ::damage[Kangaskhan's Mega Punch]{source="Squirtle" offensive=false movePower=85 level=46 evolution=2 opponentLevel=35 opponentStat=82 statModifier=1.1 special=false stab=true type=normal}
   :::
   :::pokemon[Rhyhorn]
-    - Water Pulse
+    - Surf
   :::
 :::::
 
@@ -1438,6 +1412,7 @@ Tile Puzzle: Top Left, Bottom Left, Down
 :::::trainer[Leader Sabrina]
   :::pokemon[Kadabra]
     - Surf*
+    - X Special if no torrent for Level 46 or 47
   :::
   :::pokemon[Mr. Mime]
     - Surf*
@@ -1470,6 +1445,11 @@ Take the spinny tile on the right
   :::
   :::pokemon[Machoke]
     - Surf
+    :::if{source="Squirtle" condition="spatk=(x / x / 28-29 )"}
+    - 81.25% to OHKO first Machoke
+    :::
+    :::if{source="Squirtle" condition="spatk=(x / x / 30+ )"}
+    - 87.5% to OHKO first Machoke
   :::
 :::::
 
