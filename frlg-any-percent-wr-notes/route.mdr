@@ -25,33 +25,33 @@
     28 ->	10, 8, 19, 9, 2, 25
     29 ->	10, 9, 19, 10, 2, 33
     30 ->	12, 10, 20, 11, 3, 34
-    31 ->	13, 11, 23, 13, 3, 34
-    32 ->	15, 11, 26, 13, 3, 36
-    33 ->	15, 12, 28, 14, 3, 42
-    34 ->	15, 12, 28, 14, 3, 42
-    35 ->	15, 12, 28, 14, 3, 42
-    36 ->	15, 16, 33, 14, 3, 43
-    37 ->	17, 16, 35, 15, 4, 45
-    38 ->	17, 19, 37, 21, 4, 45
-    39 ->	17, 19, 38, 21, 5, 54
-    40 ->	17, 19, 38, 21, 5, 54
-    41 ->	17, 19, 38, 21, 5, 54
-    42 ->	18, 20, 39, 23, 8, 54
-    43 ->	18, 21, 42, 23, 8, 57
-    44 ->	18, 28, 43, 23, 8, 57
-    45 ->	18, 30, 44, 28, 9, 60
-    46 ->	18, 33, 47, 31, 10, 60
-    47 ->	23, 33, 48, 33, 12, 60
-    48 ->	23, 38, 50, 37, 12, 61
-    49 ->	28, 38, 54, 37, 12, 63
-    50 ->	31, 41, 55, 39, 13, 66
-    51 ->	31, 44, 56, 42, 13, 66
-    52 ->	31, 44, 60, 44, 15, 66
-    53 ->	33, 49, 61, 44, 17, 66
-    54 ->	33, 51, 62, 50, 17, 68
-    55 ->	33, 60, 62, 52, 17, 68
-    56 ->	33, 60, 62, 54, 18, 73
-    57 ->	33, 64, 64, 57, 18, 73
+    31 ->	13, 10, 23, 13, 3, 34
+    32 ->	15, 10, 28, 13, 3, 36
+    33 ->	15, 11, 29, 14, 3, 43
+    34 ->	15, 15, 33, 14, 3, 43
+    35 ->	15, 15, 33, 14, 3, 43
+    36 ->	15, 15, 33, 14, 3, 43
+    37 ->	17, 17, 35, 15, 4, 45
+    38 ->	17, 18, 37, 21, 4, 45
+    39 ->	17, 18, 38, 21, 6, 54
+    40 ->	18, 19, 39, 23, 8, 54
+    41 ->	18, 20, 42, 23, 8, 65
+    42 ->	18, 24, 42, 23, 8, 67
+    43 ->	18, 24, 42, 23, 8, 67
+    44 ->	18, 24, 42, 23, 8, 67
+    45 ->	18, 27, 44, 28, 9, 70
+    46 ->	18, 30, 47, 31, 9, 70
+    47 ->	23, 32, 48, 33, 10, 70
+    48 ->	23, 37, 48, 37, 12, 71
+    49 ->	28, 37, 54, 37, 12, 71
+    50 ->	31, 40, 55, 37, 12, 76
+    51 ->	31, 43, 56, 39, 13, 76
+    52 ->	31, 43, 60, 44, 15, 76
+    53 ->	33, 48, 61, 44, 17, 76
+    54 ->	33, 50, 62, 47, 17, 78
+    55 ->	33, 56, 62, 52, 17, 79
+    56 ->	33, 59, 62, 54, 18, 83
+    57 ->	33, 65, 62, 57, 18, 83
 :::
 
 ## Pokémon FireRed/LeafGreen Any% WR Route
@@ -1160,7 +1160,7 @@ Head upstairs and let every Rocket Grunt walk up to you along the way
 :::::trainer[Rocket Grunt]
   - Bite x3
   - Water Gun*/Water Pulse Raticate
-  ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=39 evolution=2 opponentLevel=23 opponentStat=46 statModifier=1.1 special=false stab=true type=normal}
+  ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=38 evolution=2 opponentLevel=23 opponentStat=46 statModifier=1.1 special=false stab=true type=normal}
 :::::
 
 Talk to the old man to exit, then fly to Celadon after getting the Poke Flute
@@ -1216,7 +1216,7 @@ The 1st and 3rd trainer in this gym are spinners, fight the 2nd guy
   :::pokemon[Muk]
     - Surf*, (X-Special) Surf*
     - X Special on Muk if 60+ HP or if in Weezing Kill range after level up
-    ::damage[Muk's Sludge]{source="Squirtle" offensive=false movePower=65 level=41 evolution=2 opponentLevel=39 opponentStat=77 statModifier=1.1 combatStages=0 special=false stab=true type=poison}
+    ::damage[Muk's Sludge]{source="Squirtle" offensive=false movePower=65 level=39 evolution=2 opponentLevel=39 opponentStat=77 statModifier=1.1 combatStages=0 special=false stab=true type=poison}
   :::
   :::pokemon[Koffing]
     - Surf
@@ -1226,7 +1226,7 @@ The 1st and 3rd trainer in this gym are spinners, fight the 2nd guy
     - 37.5% to OHKO
     - Consider Bite + Surf if high hp or you want safety
     - Surf Turn 1 if +1 Torrent, Water Pulse + Surf if no Torrent on Weezing
-    ::damage[Weezing's Sludge]{source="Squirtle" offensive=false movePower=65 level=42 evolution=2 opponentLevel=43 opponentStat=82 statModifier=1.1 combatStages=0 special=false stab=true type=poison}
+    ::damage[Weezing's Sludge]{source="Squirtle" offensive=false movePower=65 level=40 evolution=2 opponentLevel=43 opponentStat=82 statModifier=1.1 combatStages=0 special=false stab=true type=poison}
   :::
 :::::
 
@@ -1264,16 +1264,16 @@ Grab this TM14 (Blizzard) and then grab secret key on table
     - (X-Speed,) Surf
     - X Speed at 21 Speed, only X-Speed at 22/23 if you skipped the Carbos
     - Can Water Pulse both Growlithe and Ponyta in Torrent (Only if low pp on Surf)
-    ::damage[Growlithe's Take Down]{source="Squirtle" offensive=false movePower=90 level=42 evolution=2 opponentLevel=42 statModifier=1.1 opponentStat=64 special=false stab=false type=normal}
-    ::damage[Growlithe's Fire Blast]{source="Squirtle" offensive=false movePower=120 level=42 evolution=2 opponentLevel=42 opponentStat=63 special=true stab=true type=fire}
+    ::damage[Growlithe's Take Down]{source="Squirtle" offensive=false movePower=90 level=40 evolution=2 opponentLevel=42 statModifier=1.1 opponentStat=64 special=false stab=false type=normal}
+    ::damage[Growlithe's Fire Blast]{source="Squirtle" offensive=false movePower=120 level=40 evolution=2 opponentLevel=42 opponentStat=63 special=true stab=true type=fire}
   :::
   :::pokemon[Ponyta]
     - Surf
   :::
   :::pokemon[Rapidash(22-23 Speed Ties)]
     - Surf
-    ::damage[Rapidash's Bounce]{source="Squirtle" offensive=false movePower=85 level=42 evolution=2 opponentLevel=42 statModifier=1.1 opponentStat=80 special=false stab=false type=flying}
-    ::damage[Rapidash's Fire Blast]{source="Squirtle" offensive=false movePower=120 level=42 evolution=2 opponentLevel=42 opponentStat=72 special=true stab=true type=fire}
+    ::damage[Rapidash's Bounce]{source="Squirtle" offensive=false movePower=85 level=41 evolution=2 opponentLevel=42 statModifier=1.1 opponentStat=80 special=false stab=false type=flying}
+    ::damage[Rapidash's Fire Blast]{source="Squirtle" offensive=false movePower=120 level=41 evolution=2 opponentLevel=42 opponentStat=72 special=true stab=true type=fire}
   :::
   :::pokemon[Arcanine]
     - Surf*
@@ -1495,7 +1495,7 @@ Before the grass:
   :::
   :::pokemon[Venusaur]
     - Blizzard	 
-    ::damage[Ivysaur's Razor Leaf]{source="Squirtle" offensive=false movePower=55 level=49 evolution=2 opponentLevel=53 opponentStat=126 statModifier=1.1 special=true stab=true type=grass}
+    ::damage[Ivysaur's Razor Leaf]{source="Squirtle" offensive=false movePower=55 level=50 evolution=2 opponentLevel=53 opponentStat=126 statModifier=1.1 special=true stab=true type=grass}
   :::
   :::pokemon[Rhyhorn]
     - Bite
@@ -1510,7 +1510,7 @@ Before the grass:
   :::
   :::pokemon[Alakazam]
     - Surf 
-    ::damage[Alakazam's Psychic]{source="Squirtle" offensive=false movePower=90 level=50 evolution=2 opponentLevel=47 opponentStat=126 statModifier=1.1 special=true stab=true type=psychic}
+    ::damage[Alakazam's Psychic]{source="Squirtle" offensive=false movePower=90 level=51 evolution=2 opponentLevel=47 opponentStat=126 statModifier=1.1 special=true stab=true type=psychic}
   :::
 :::::
 
@@ -1784,16 +1784,16 @@ Heal to Full + Elixir before Champion
 
 :::::trainer[Champion]
   :::pokemon[Pidgeot]
-    - Guard Spec., X Speed, X Special x3, Surf
+    - Guard Spec, X Speed, X Special x2(x3), Surf
     - If Pidgeot gives you torrent, skip the third X Special, then heal on Gyarados
     - NEED +3 without Torrent or +2 WITH Torrent to get past Alakazam
     - Can Blizzard at +2 if Guard Spec. runs out
     ::damage[Pidgeot's Aerial Ace]{source="Squirtle" offensive=false movePower=60 level=55 evolution=2 opponentLevel=59 opponentStat=117 statModifier=1.1 special=false stab=true type=flying}
   :::
   :::pokemon[Venusaur]
-    - X Accuracy + Blizzard
+    - X Accuracy + Blizzard at +2
+    - Bite + Surf* at +3
     - Skip X Accuracy if feeling risky
-    - Bite + Surf instead if +3 and in Torrent on Venusaur
   :::
   :::pokemon[Alakazam]
     - Surf
@@ -1802,8 +1802,8 @@ Heal to Full + Elixir before Champion
     - Surf
   :::
   :::pokemon[Gyarados]
-    - Bite + Blizzard
-    - Blizzard x2 if at +2
+    - Bite + Blizzard at +3
+    - Blizzard x2 at +2
     ::damage[Gyarados's Thrash]{source="Squirtle" offensive=false movePower=90 level=56 evolution=2 opponentLevel=59 opponentStat=153 statModifier=1.1 special=false stab=false type=normal}
   :::
   :::pokemon[Arcanine]

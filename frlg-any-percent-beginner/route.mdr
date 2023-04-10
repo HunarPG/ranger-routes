@@ -1659,16 +1659,16 @@ Heal to Full + Elixir before Champion
 
 :::::trainer[Champion]
   :::pokemon[Pidgeot]
-    - Guard Spec., X Speed, X Special x3, Surf
+    - Guard Spec, X Speed, X Special x2(x3), Surf
     - If Pidgeot gives you torrent, skip the third X Special, then heal on Gyarados
     - NEED +3 without Torrent or +2 WITH Torrent to get past Alakazam
     - Can Blizzard at +2 if Guard Spec. runs out
     ::damage[Pidgeot's Aerial Ace]{source="Squirtle" offensive=false movePower=60 level=55 evolution=2 opponentLevel=59 opponentStat=117 statModifier=1.1 special=false stab=true type=flying}
   :::
   :::pokemon[Venusaur]
-    - X Accuracy + Blizzard
+    - X Accuracy + Blizzard at +2
+    - Bite + Surf* at +3
     - Skip X Accuracy if feeling risky
-    - Bite + Surf instead if +3 and in Torrent on Venusaur
   :::
   :::pokemon[Alakazam]
     - Surf
@@ -1677,8 +1677,8 @@ Heal to Full + Elixir before Champion
     - Surf
   :::
   :::pokemon[Gyarados]
-    - Bite + Blizzard
-    - Blizzard x2 if at +2
+    - Bite + Blizzard at +3
+    - Blizzard x2 at +2
     ::damage[Gyarados's Thrash]{source="Squirtle" offensive=false movePower=90 level=56 evolution=2 opponentLevel=59 opponentStat=153 statModifier=1.1 special=false stab=false type=normal}
   :::
   :::pokemon[Arcanine]
