@@ -97,6 +97,7 @@ Head down and fight your rival
 :::trainer[Rival 1]
   - Tackle spam
   - Tail Whip turn 1 if Modest or 0-3 Atk Rash/Mild
+
     :::if{source="Squirtle" condition="atk=(0-31 / 0-23 / x)"}
     - Tail Whip x2 if turn one Growl
     :::
@@ -290,13 +291,13 @@ Fight ONE of these optional trainers for exp depending on the situation
 :::::trainer[Youngster Josh]
   :::pokemon[Rattata]
     Water Gun*
-    ::damage[Rattata's Tackle]{source="Squirtle" offensive=false movePower=35 level=15 opponentLevel=10 opponentStat=14 special=false stab=true}
+    ::damage[Rattata's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=15 opponentLevel=10 opponentStat=14 special=false stab=true}
     :::if{source="Squirtle" condition="speed=(x / 16-20 / x)"}
     - Speed Ties
   :::
   :::pokemon[Rattata]
     Water Gun*
-    :damage[Rattata's Tackle]{source="Squirtle" offensive=false movePower=35 level=16 opponentLevel=10 opponentStat=16 special=false stab=true}
+    :damage[Rattata's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=15 opponentLevel=10 opponentStat=16 special=false stab=true}
   :::
   :::pokemon[Zubat]
     Water Gun* (x2)
@@ -316,7 +317,7 @@ Fight ONE of these optional trainers for exp depending on the situation
   :::pokemon[Water Gun (x2)]
     Water Gun*
     - Rattata is 62.5% (10/16) to OHKO in torrent
-    ::damage[Rattata's Tackle]{source="Squirtle" offensive=false movePower=35 level=15 opponentLevel=13 opponentStat=19 special=false stab=true}
+    ::damage[Rattata's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=15 opponentLevel=13 opponentStat=19 special=false stab=true}
     ::damage[Rattata's Hyper Fang]{source="Squirtle" offensive=false movePower=80 level=15 opponentLevel=13 opponentStat=19 special=false stab=true}
   :::
   :::pokemon[Sandshrew]
@@ -681,7 +682,6 @@ Press Select to teach Cut to Rattata/Sandshrew, then Cut the bush to enter the g
 
 ::if{source="Squirtle" condition="$Candy == 'No'"}
 - Make sure to use Candy before fighting Gentleman
-::
 
 Save after you find the 1st Can puzzle 
 - 2nd Can should be anywhere up,down,left, or right of the 1st can
@@ -940,7 +940,7 @@ Head straight to the game corner
 :::::trainer[Rocket Grunt]
   :::pokemon[Raticate]
     - Mega Kick/Water Pulse*
-  ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=32 evolution=1 opponentLevel=20 opponentStat=37 statModifier=1.1 special=false stab=true type=normal}
+  ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=32 evolution=1 opponentLevel=20 opponentStat=37 special=false stab=true type=normal}
   :::
   :::pokemon[Zubat]
     - Water Pulse
@@ -1016,8 +1016,8 @@ Fight the left Rocket Grunt first
   :::pokemon[Kangaskhan]
     - Water Pulse x2-3
     - 98% to 2HKO with Torrent
-    ::damage[Kangaskhan's Mega Punch]{source="Squirtle" offensive=false movePower=85 level=36 evolution=2 opponentLevel=29 opponentStat=68 statModifier=1.1 combatStages=0 special=false stab=true type=normal}
-    ::damage[Kangaskhan's Mega Punch (-1 Defense)]{source="Squirtle" offensive=false movePower=85 level=36 evolution=2 opponentLevel=29 statModifier=1.1 opponentStat=68 combatStages=-1 special=false stab=true type=normal}
+    ::damage[Kangaskhan's Mega Punch]{source="Squirtle" offensive=false movePower=80 level=36 evolution=2 opponentLevel=29 opponentStat=68 combatStages=0 special=false stab=true type=normal}
+    ::damage[Kangaskhan's Mega Punch (-1 Defense)]{source="Squirtle" offensive=false movePower=80 level=36 evolution=2 opponentLevel=29 pponentStat=68 combatStages=-1 special=false stab=true type=normal}
   :::
 :::::
 
@@ -1060,7 +1060,7 @@ After obtaining fly:
 :::::trainer[Rival 4]
   :::pokemon[Pidgeotto]
     - Guard Spec, X Acc, X Attack, Water Pulse*/Mega Kick
-    ::damage[Pidgeotto's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=36 evolution=2 opponentLevel=25 opponentStat=38 statModifier=1.1 special=false stab=true type=normal}
+    ::damage[Pidgeotto's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=36 evolution=2 opponentLevel=25 opponentStat=38 special=false stab=true type=normal}
   :::
   :::pokemon[Ivysaur]
     - Mega Kick
@@ -1068,7 +1068,7 @@ After obtaining fly:
   :::pokemon[Gyarados]
     - Mega Kick
     - Stall a turn on Gyarados if no Torrent
-    ::damage[Gyarados's Thrash]{source="Squirtle" offensive=false movePower=90 level=37 evolution=2 opponentLevel=23 opponentStat=65 statModifier=1.1 special=false stab=false type=normal}
+    ::damage[Gyarados's Thrash]{source="Squirtle" offensive=false movePower=90 level=37 evolution=2 opponentLevel=23 opponentStat=65 special=false stab=false type=normal}
   :::
   :::pokemon[Growlithe]
     - Mega Kick/Water Pulse
@@ -1085,7 +1085,7 @@ After obtaining fly:
     - X Special x1/2, Bite
     - Use 1 X Special if in high enough HP to tank a Overgrow Razor Leaf + Thrash
     - Use an X Accuracy if you get Sand Attacked (Yolo if you get Sand Attack Twice)
-    ::damage[Pidgeotto's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=36 evolution=2 opponentLevel=25 opponentStat=38 statModifier=1.1 special=false stab=true type=normal}
+    ::damage[Pidgeotto's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=36 evolution=2 opponentLevel=25 opponentStat=38 special=false stab=true type=normal}
   :::
   :::pokemon[Ivysaur]
     - Water Pulse*/Bite (x2)
@@ -1100,7 +1100,7 @@ After obtaining fly:
   :::
   :::pokemon[Gyarados]
     - Bite x2
-    ::damage[Gyarados's Thrash]{source="Squirtle" offensive=false movePower=90 level=37 evolution=2 opponentLevel=23 opponentStat=65 statModifier=1.1 special=false stab=false type=normal}
+    ::damage[Gyarados's Thrash]{source="Squirtle" offensive=false movePower=90 level=37 evolution=2 opponentLevel=23 opponentStat=65 special=false stab=false type=normal}
   :::
   :::pokemon[Growlithe]
     - Bite
@@ -1149,7 +1149,7 @@ Grab this Rare Candy before fighting Marowak
   :::pokemon[Marowak]
     - Water Pulse*
     - Mega Kick/Bite for one turn if not in Torrent
-    ::damage[Marowak's Bonemerang(Per Hit)]{source="Squirtle" offensive=false movePower=50 level=37 evolution=2 opponentLevel=30 opponentStat=62 statModifier=1.1 special=false stab=true type=ground}
+    ::damage[Marowak's Bonemerang(Per Hit)]{source="Squirtle" offensive=false movePower=50 level=37 evolution=2 opponentLevel=30 opponentStat=62 special=false stab=true type=ground}
   :::
 :::::
 
@@ -1184,7 +1184,7 @@ Head upstairs and let every Rocket Grunt walk up to you along the way
 :::::trainer[Rocket Grunt]
   - Water Gun x4
   - Water Pulse Raticate if no Torrent
-  ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=39 evolution=2 opponentLevel=23 opponentStat=46 statModifier=1.1 special=false stab=true type=normal}
+  ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=39 evolution=2 opponentLevel=23 opponentStat=46 special=false stab=true type=normal}
 :::::
 
 Talk to the old man to exit, then fly to Celadon after getting the Poke Flute
@@ -1242,7 +1242,7 @@ The 1st and 3rd trainer in this gym are spinners, fight the 2nd guy
   :::pokemon[Muk]
     - Surf*, (X-Special) Surf*
     - X Special on Muk if 60+ HP or if in Weezing Kill range after level up
-    ::damage[Muk's Sludge]{source="Squirtle" offensive=false movePower=65 level=41 evolution=2 opponentLevel=39 opponentStat=77 statModifier=1.1 combatStages=0 special=false stab=true type=poison}
+    ::damage[Muk's Sludge]{source="Squirtle" offensive=false movePower=65 level=41 evolution=2 opponentLevel=39 opponentStat=77 combatStages=0 special=false stab=true type=poison}
   :::
   :::pokemon[Koffing]
     - Surf
@@ -1257,7 +1257,7 @@ The 1st and 3rd trainer in this gym are spinners, fight the 2nd guy
     :::
     - Consider Bite + Surf if high hp or you want safety
     - Surf Turn 1 if +1 Torrent, Water Pulse + Surf if no Torrent on Weezing
-    ::damage[Weezing's Sludge]{source="Squirtle" offensive=false movePower=65 level=42 evolution=2 opponentLevel=43 opponentStat=82 statModifier=1.1 combatStages=0 special=false stab=true type=poison}
+    ::damage[Weezing's Sludge]{source="Squirtle" offensive=false movePower=65 level=42 evolution=2 opponentLevel=43 opponentStat=82 combatStages=0 special=false stab=true type=poison}
   :::
 :::::
 
@@ -1333,6 +1333,7 @@ Head through the left side of the gym
 :::::trainer[Leader Erika]
   :::pokemon[Victreebel]
     - Surf*/Blizzard
+  ::damage[Victreebel's Giga Drain]{source="Squirtle" offensive=false movePower=60 level=44 evolution=2 opponentLevel=29 opponentStat=63 statModifier=1.1 special=true stab=true type=grass}
   :::
   :::pokemon[Tangela]
     - Bite
@@ -1394,6 +1395,7 @@ On spinner bag manip
 :::::trainer[Rocket Grunt]
   :::pokemon[Cubone]
     - Bite/Water Pulse
+    ::damage[Cubone's Bonemerang(Per Hit)]{source="Squirtle" offensive=false movePower=50 level=45 evolution=2 opponentLevel=32 opponentStat=40 special=false stab=true type=ground}
     :::if{source="Squirtle" condition="spatk=(x / x / 28-29)"}
     - 75% to OHKO with Bite
     :::
@@ -1424,7 +1426,7 @@ On spinner bag manip
     - 81.25% to 2HKO
     :::
     ::damage[Kangaskhan's Fake Out]{source="Squirtle" offensive=false movePower=40 level=46 evolution=2 opponentLevel=35 opponentStat=82 statModifier=1.1 special=false stab=true type=normal}
-    ::damage[Kangaskhan's Mega Punch]{source="Squirtle" offensive=false movePower=85 level=46 evolution=2 opponentLevel=35 opponentStat=82 statModifier=1.1 special=false stab=true type=normal}
+    ::damage[Kangaskhan's Mega Punch]{source="Squirtle" offensive=false movePower=80 level=46 evolution=2 opponentLevel=35 opponentStat=82 statModifier=1.1 special=false stab=true type=normal}
   :::
   :::pokemon[Rhyhorn]
     - Water Pulse
@@ -1512,6 +1514,7 @@ Before the grass:
   :::pokemon[Pidgeot]
     - X Special x2, (X Accuracy), Surf
     - Consider X Accuracy skip if you can live a Razor Leaf
+    ::damage[Pidgeot's Wing Attack]{source="Squirtle" offensive=false movePower=60 level=49 evolution=2 opponentLevel=47 opponentStat=88 statModifier=1.1 special=false stab=true type=flying}
   :::
   :::pokemon[Venusaur]
     - Blizzard	 
@@ -1523,6 +1526,7 @@ Before the grass:
   :::pokemon[Gyarados]
     - Bite + Blizzard/Surf
     - If Gyarados Rain Dances you can Surf instead of Blizzard
+    ::damage[Gyarados's Hydro Pump]{source="Squirtle" offensive=false movePower=120 level=50 evolution=2 opponentLevel=45 opponentStat=60 statModifier=1.1 special=true stab=true type=water}
   :::
   :::pokemon[Growlithe]
     - (X Speed,) Bite
@@ -1530,7 +1534,7 @@ Before the grass:
   :::
   :::pokemon[Alakazam]
     - Surf 
-    ::damage[Alakazam's Psychic]{source="Squirtle" offensive=false movePower=90 level=50 evolution=2 opponentLevel=47 opponentStat=126 statModifier=1.1 special=true stab=true type=psychic}
+    ::damage[Alakazam's Psychic]{source="Squirtle" offensive=false movePower=90 level=51 evolution=2 opponentLevel=47 opponentStat=140 statModifier=1.1 special=true stab=true type=psychic}
   :::
 :::::
 
