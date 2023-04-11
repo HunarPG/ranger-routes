@@ -1,4 +1,4 @@
-:::tracker{species="Squirtle" baseStats="[[44, 48, 65, 50, 64, 43], [59, 63, 80, 65, 80, 58], [79, 83, 100, 85, 105, 78]]" type="Water" generation=3}
+:::tracker{species="Squirtle" baseStats="[[44, 48, 65, 50, 64, 43], [59, 63, 80, 65, 80, 58], [79, 83, 100, 85, 105, 78]]" type="Water" generation=3 directInput=true}
   5:
     6 ->	0, 0, 0, 1, 0, 0
     7 ->	0, 0, 0, 1, 0, 2
