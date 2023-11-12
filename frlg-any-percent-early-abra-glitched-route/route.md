@@ -33,7 +33,7 @@ Please DM me if you have any issues!
 Credits for these notes:
   - Ananan for making the route
 
-A couple things to remember with this route:
+A couple things before with this route:
   - You need Mr Mime to be Level 33(to learn Recycle) and Farfetch'd to be level 21(to learn Knock Off) which makes this glitch possible
   - You need to be very catious with the ev's your Mr Mime gets so fighting any extra trainers not in the route will surely mess up routing
   - Ev's you need on Mime before the double battle are 83 HP EV's and 20 Atk ev's(other Ev's don't matter)
@@ -46,13 +46,13 @@ A couple things to remember with this route:
     - For a cut mon I would higly recommend just getting a Rattata from Route 1 and not worry about not getting rattata/sandshrew from route 10 but bellspout/oddish can also be a consideration which can be caught on the same route where abra is caught another good option you can eaisly get is Diglett(as you always go through diglett's cave)
     - While the 2nd random move can be anything catching Pidgey(Route 1) or catching Caterpie(Viridian Forest) is quite easy
 
-If the route does not say to learn a move explicitly, do not learn it.
-
 Before starting your run, make sure your save file has the following:
   - Text: Fast
   - Battle Animations: Off
   - Style: Set
   - Button Mode: L=A
+
+If the route does not say to learn a move explicitly, do not learn it.
 
 Download the RNG Manip program and set the following IV restrictions:
   - Frame window: 4000 to 5500
@@ -164,18 +164,12 @@ Fight the minion
 
 Exit and head straight to the mart
 
-LEAF GREEN Buy:	
+Buy:
+  - 6 Pokeballs
   - 8 Potions           (v)
   - 3 Antidote          (v)
-  - 3 Awakening         (vv)
-  - 3 Repels            (vvv)
-
-FIRE RED Buy: (If you need Paras)
-  - 7 Potions           (v)
-  - 3 Antidote          (v)
-  - 1 Parlyz Heal       (v)
-  - 3 Awakening         (v)
-  - 3 Repels            (vv)
+  - 2 Awakening         (vv)
+  - 5 Repels            (vv)
 
 Head to Route 3 to get your running shoes
 
@@ -236,15 +230,13 @@ Go above shorts guy and fight the next bug catcher
   :::
 :::::
 
-If you didn’t catch Pidgey on route 1, catch a Spearow/Pidgey now in the grass below the lass (Bubble to weaken, Tackle if in torrent)
-  - If no HM Slaves, can catch Nidoran F/M for Cut + Strength
-  - Can Bag Manip the Lass for a free pass
-
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039429533180370964/Persim_Location.png)
 
 Grab this Persim Berry if 28-29 SPA or the chart below says to “Grab Persim” 
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039428835688579113/Persim_Grab.png)
+
+Enter the Pokemon Center and Buy Magikarp
 
 Run up 8 tiles in Mount Moon then::
   - Register TM Case
@@ -255,21 +247,14 @@ Grab this Rare Candy near the Bug Catcher (after fighting him if you’re fighti
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039429908369260564/Moon_Candy.png)
 
-Fight ONE of these optional trainers for exp depending on the situation 
+Fight any one of the 4 Trainers to get exp(no advantage in this route)
 
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039430465737719808/Moon_Trainers.png)
-
-::variable{name="fight" type="select" title="Which trainer will you fight?" options='["Robby", "Josh", "Marcos", "Grunt"]'}
-
-::::::if{source="Squirtle" condition="$fight == 'Robby'"}
 :::::trainer[Bug Catcher Robby]
   Water Gun* x3
   - 0-23 HP and 26-29 HP IV = + 2 HP upon level up
   - 24 HP, 25 HP and 30, 31 HP IV = +3 HP upon level up
 :::::
-::::::
 
-::::::if{source="Squirtle" condition="$fight == 'Josh'"}
 :::::trainer[Youngster Josh]
   :::pokemon[Rattata]
     Water Gun*
@@ -286,15 +271,11 @@ Fight ONE of these optional trainers for exp depending on the situation
     - Zubat is 62.5% (10/16) to OHKO in torrent
   :::
 :::::
-::::::
 
-::::::if{source="Squirtle" condition="$fight == 'Marcos'"}
 :::::trainer[Hiker Marcos]
   Bubble x3
 :::::
-::::::
 
-::::::if{source="Squirtle" condition="$fight == 'Grunt'"}
 :::::trainer[Rocket Spinner]
   :::pokemon[Water Gun (x2)]
     Water Gun*
@@ -306,7 +287,6 @@ Fight ONE of these optional trainers for exp depending on the situation
     Water Gun
   :::
 :::::
-::::::
 
 Force the Rocket Grunt to walk up to you to save repel steps by running.
 
@@ -327,18 +307,6 @@ Force the Rocket Grunt to walk up to you to save repel steps by running.
   :::pokemon[Voltorb]
     Water Gun* (x2)
     - 56.25% (9/16) to OHKO in Torrent
-    :::if{source="Squirtle" condition="$fight == 'Josh'"}
-    - 24-29 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Robby'"}
-    - 25-30 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    - 25-30 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    - 25-30 Speed Ties
-    :::
   :::
   :::pokemon[Koffing]
     Water Gun* (x2)
@@ -354,9 +322,7 @@ Grab the Great Ball if no Cut friend yet
 
 Talk to the Karate Man on the right and teach Mega Kick over Withdraw (Slot 4)
 
-If no cut slave, catch a Sandshrew/Rattata in the grass (Tackle to weaken)
-  - Can teach Strength to Sandshrew later if caught
-  - If you die to Rat/Shrew using a Rare Candy will revive Wartortle
+Catch a Level 10 mon in this grass before going to Cerulean
 
 Head to Cerulean City
 
@@ -395,11 +361,6 @@ After the fight:
 
 Use a Potion before Rival
 
-:::if{source="Squirtle" condition="$fight == 'Josh'"}
-    Subtract 1 Defense IV to your squirtle to get accurate calcs of Pidgeotto's and Rattata's quick attack
-    (increase it back after fighting Rival)
-:::
-
 :::::trainer[Rival 2]
   :::pokemon[Pidgeotto]
     - Bite + Water Pulse
@@ -420,18 +381,6 @@ Use a Potion before Rival
   :::pokemon[Abra]
     - Water Pulse	
     - 81.25% (13/16) to OHKO
-    :::if{source="Squirtle" condition="$fight == 'Josh'"}
-    - 20-23 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Robby'"}
-    - 21-24 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    - 21-24 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    - 21-24 Speed Ties
-    :::
   :::
   :::pokemon[Rattata]
     - Water Pulse
@@ -490,7 +439,12 @@ Use a Potion before Rival
   :::
 :::::
 
-Go above the Hiker and grab this Hidden Elixir
+Put your Level 10 Mon in the first slot of party
+  - Then Use a Repel
+  - Save the Game and then run in the grass to find and catch abra
+
+After Abra has been caught put Squirtle back in front of the party
+  - Then Go above the Hiker and grab this Hidden Elixir
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039450232703942658/Elixir.png)
 
@@ -516,10 +470,6 @@ Pass Dan
   :::
 :::::
 
-:::if{source="Squirtle" condition="speed=(x / x / 28-31)"}
-    If torrent for Level 27 follow the Hiker Nob route
-:::
-
 :::::trainer[Camper Flint]
   :::pokemon[Rattata]
     Water Pulse
@@ -528,6 +478,10 @@ Pass Dan
     Water Pulse
   :::
 :::::
+
+Always grab this Oran Berry(don't use it it's needed for the setup)
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1173174406797860964/Pokemon_-_FireRed_Version_USA_Europe_Rev_1-0.png?ex=6562fecf&is=655089cf&hm=5cd34ec7d414ca17511b95a3ddfba72367dd27817d7af08a59af2337cc71894d&)
 
 :::::trainer[Lass Haley]
   :::pokemon[Oddish]
@@ -549,7 +503,7 @@ Pass Dan
   :::
 :::::
 
-*Grab this hidden Ether (Risky but can skip if Torrent at 26 + 2 MKs left)*
+Just skip the hidden Ether you can just use the Elixir anytime you want
 
 Get S.S. Ticket, then run back to Cerulean and enter the Dig house
 - Ether before Drowzee/Raticate if you need the Mega Kicks (Not in Torrent)
@@ -568,13 +522,7 @@ Head to the Dig house
   :::
 :::::
 
-*Grab this hidden Rare Candy*
-
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039455506873450516/Route6_Candy.png)
-
-*Consider this Sitrus Berry with low Sp.Def*
-
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039455914706620416/Sitrus_Berry.png)
+Skip the Rare Candy for later
 
 Avoid the Bug Catcher and fight the Camper below the girl trainer
 
@@ -591,145 +539,99 @@ Avoid the Bug Catcher and fight the Camper below the girl trainer
 Head straight to the mart
 
 Buy:
- - 5 Super Potions (v)
- - 3 Paralyze Heals (vv)
- - 3 Repels (vvv)
+  - 6 Super Potions (v)
+  - 7 Repels (vvvvv)
+
+Go through Diglett's Cave to Route 4 and trade your Abra for Mr Mime
+  - If you run into A Dugtrio try to run
+  - If you can't escape Water Pulse*(X2)
 
 Head to the S.S. Anne
+  - Put Mr Mime to the front of your party
 
-Before your Rival:
- - Rare Candy to 27(Stay level 26 if Rare Candy level up is out of torrent)
- - Ether Mega Kick if you haven’t already
- - Keep Torrent if you’re still in it and won’t die to a Quick Attack
- - 3, 6, 10, 14, 18, 21, 22, 25, 26, 29 HP IV = +3 Upon Levelup, Everything Else = +2
+Go to the top most deck and fight both the sailors 
+  - Switch Confusion to first slot while battling
 
-::variable{name="Candy" type="select" title="Did you use Candy before Rival ?" options='["Yes", "No"]'}
-
-:::if{source="Squirtle" condition="$fight == 'Josh'"}
-    Subtract 1 Defense IV to your squirtle to get accurate calcs of Pidgeotto's and Raticate's quick attack
-    (increase it back after fighting Rival)
-:::
-
-::::::if{source="Squirtle" condition="$Candy == 'Yes'"}
-:::::trainer[Rival 3]
-  :::pokemon[Pidgeotto]
-    - Water Pulse + Bite
-    - Water Pulse* if in torrent
-    ::damage[Pidgeotto's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=27 evolution=1 opponentLevel=19 opponentStat=28 special=false stab=true type=flying}
+:::::trainer[Sailor Trevor]
+  :::pokemon[Machop]
+    - Confusion x2
+    - Low Kick crit is 37.5% to OHKO
   :::
-  :::pokemon[Ivysaur]
-    - Bite + Mega Kick
-    ::damage[Ivysaur's Vine Whip]{source="Squirtle" offensive=false movePower=35 level=27 evolution=1 opponentLevel=20 opponentStat=39 special=true stab=true type=grass}
-  :::
-  :::pokemon[Raticate]
-    - Mega Kick/Water Pulse*
-    ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=27 evolution=1 opponentLevel=16 opponentStat=34 special=false stab=true type=normal}
-  :::
-  :::pokemon[Kadabra]
-    - Bite
-    ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=27 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
+  :::pokemon[Tentacool]
+    - Confusion x3
+    - Poison Sting does 3(4)
+    - If got Poisoned by Poison Sting it does 4 damage each turn at Level 12
   :::
 :::::
-::::::
 
-::::::if{source="Squirtle" condition="$Candy == 'No'"}
+:::::trainer[Sailor Edmond]
+  :::pokemon[Machop]
+    - Confusion x2
+    - Low Kick does 12-14(15)
+  :::
+  :::pokemon[Shellder]
+    - Confusion x2
+    - Tackle does 7-8(9)
+    - Icicle Spear does 1(2) per hit
+    - Do not learn Double Slap
+  :::
+:::::
+
+Set Battle Style to Shift before Rival Battle 
+- Heal Mr Mime to full and Wartortle to about half HP
+
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
-    - Water Pulse + Bite
-    - Water Pulse* if in torrent
-    ::damage[Pidgeotto'sQuick Attack]{source="Squirtle" offensive=false movePower=40 level=26 evolution=1 opponentLevel=19 opponentStat=28 special=false stab=true type=flying}
+    - Use Confusion with Mr Mime
+    - Switch to Wartortle
+    - Finish with Water Pulse
+    - Pidgeotto's Quick Attack does 11-12(13) damage to Mr Mime
   :::
   :::pokemon[Ivysaur]
-    - Bite + Mega Kick
-    ::damage[Ivysaur's Vine Whip]{source="Squirtle" offensive=false movePower=35 level=26 evolution=1 opponentLevel=20 opponentStat=39 special=true stab=true type=grass}
+    - Switch to Mime on Ivysaur(when the games askes due to Switch Mode)
+    - Confusion x3
+    - Make sure to Setup Barrier before killing Ivysaur and also hide behind a Substitue if possible(should be easy to maintain as AI can just use status move on substitute)
+    - Vine Whip does 10-11(12) damage to Mr Mime
   :::
   :::pokemon[Raticate]
-    - Mega Kick/Water Pulse*
-    ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=26 evolution=1 opponentLevel=16 opponentStat=34 special=false stab=true type=normal}
+    - Confusion x3
+    - Raticate's Hyper Fang does 11-12(13) if Barrier has been used
+    - Raticate's Quick Attack does (5)6(7) if Barrier has been used
   :::
   :::pokemon[Kadabra]
-    - Bite
+    - Switch out to Squirtle and Kill with Bite
     ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=26 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
   :::
 :::::
-::::::
 
-Ivysaur Bite+Mega Kick 2HKO tanges = 
+Set Battle Style back to Set
 
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039460355396616202/Ivyaur_2HKO.png)
+Talk to the captain for HM Cut
 
-Talk to the captain for HM Cut and take the Bed Lady’s free heal on the way out
+Fight the trainer in the room left of Bed Lady's Heal
 
-Press Select to teach Cut to Rattata/Sandshrew, then Cut the bush to enter the gym
-
-::if{source="Squirtle" condition="$Candy == 'No'"}
-- Make sure to use Candy before fighting Gentleman
-
-Save after you find the 1st Can puzzle 
-- 2nd Can should be anywhere up,down,left, or right of the 1st can
-- Soft reset if you didn’t get the 2nd Can after saving
-- Optimal Can movement are the following
-
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039474592852475924/Can_Order.png)
-
-:::::trainer[Gentleman Tucker]
-  :::pokemon[Pikachu]
-    Water Pulse
-    :::if{source="Squirtle" condition="$fight == 'Josh'"}
-    - 24-26 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Robby'"}
-    - 25-27 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    - 25-27 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    - 25-27 Speed Ties
-    :::
+:::::trainer[Gentleman Arthur]
+  :::pokemon[Nidoran M]
+    - Confusion(x2)
+    - Confusion is 56.3% to OHKO
+    - Poison Sting does 5(6)
+    - Poison does 5 HP damage every turn at level 17
+  :::
+  :::pokemon[Nidoran F]
+    - Confusion
+    - Poison does 5 HP damage every turn at level 17
   :::
 :::::
 
-:::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    Add 1 Defense IV to your squirtle to get accurate calcs of Raichu's quick attack(increase it back after 
-    fighting surge)
-:::
-
-:::::trainer[Leader Surge]
-  :::pokemon[Voltorb]
-    - Water Pulse (x2)	
-    :::if{source="Squirtle" condition="spatk=(x / x / 28)"}
-    - 62.5% to 2HKO
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 29-31)"}
-    - 81.25% to 2HKO
-    :::if{source="Squirtle" condition="$fight == 'Josh'"}
-    - 27-30 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Robby'"}
-    - 28-31 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    - 28-31 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    - 28-31 Speed Ties
-    :::
-  :::
-  :::pokemon[Pikachu]
-    - Water Pulse
-  :::
-  :::pokemon[Raichu]{info="Always outspeeds" infoColor=blue}
-    - Water Pulse + Mega Kick
-    - Swap Water Pulse to Slot 2 before using it (Select + A + A)
-    - Water Pulse + Water Pulse if you can get Torrent next turn
-    ::damage[Raichu's Shock Wave]{source="Squirtle" offensive=false movePower=60 level=28 evolution=1 opponentLevel=24 opponentStat=52 special=true stab=true type=electric}
-    ::damage[Raichu's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=28 evolution=1 opponentLevel=24 opponentStat=43 special=false stab=false type=normal}
-    ::damage[Raichu's Quick Attack (-2/After Screech)]{source="Squirtle" offensive=false movePower=40 level=28 evolution=1 opponentLevel=24 opponentStat=43 combatStages=-2 special=false stab=false type=normal}
-  :::
-:::::
+Can Use Bed Lady healing for Safety but not needed
 
 Get the Bike Voucher, then run back to Cerulean City
+
+Also grab this Max Ether before leaving Vermillion
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1173184469591658627/Pokemon_-_FireRed_Version_USA_Europe_Rev_1-0.png?ex=6563082e&is=6550932e&hm=304be10f2ce7a6d93a46164826ad7079e28e60b04c916b9431c0995f0150eb6f&)
+
+Press Select to teach Cut to Rattata/Sandshrew, then Cut the bush to enter Cerulean
 
 Get the bike, then register + use it. 
 
@@ -737,87 +639,72 @@ Head to the right towards Rock Tunnel
 
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
-    - Mega Kick
+    - Substitute + Confusion
+    - Confusion is 56.3% to OHKO
   :::
   :::pokemon[Bellsprout]
-    - Bite
+    - Confusion
   :::
   :::pokemon[Oddish]
-    - Mega Kick
+    - Confusion
+    - Confusion is 81.3% to OHKO
   :::
   :::pokemon[Bellsprout]
-    - Bite
+    - Confusion
   :::
 :::::
 
-Run-into-bike manip the Hiker spinner (If you mess up just use bike from the bag)
+Fight the Spinner Hiker
+  - Use the max Ether before fighting him(can use after him if 3 or more Confusion PP remaining)
+
+:::::trainer[Hiker Jeremy]
+  :::pokemon[Machop]
+    - Confusion
+  :::
+  :::pokemon[Onix]
+    - Confusion x2
+    - Rock Throw does 10-11(12)
+  :::
+:::::
 
 :::::trainer[Bug Catcher Conner]
   :::pokemon[Caterpie]
-    - Water Gun
+    - Confusion
   :::
   :::pokemon[Weedle]
-    - Water Gun
+    - Confusion
   :::
   :::pokemon[Venonat]
-    - Water Pulse (x2)	
-    :::if{source="Squirtle" condition="spatk=(x / x / 28-30)"}
-    - 37.5% to OHKO with Water Pulse
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 31)"}
-    - 43.75% to OHKO with Water Pulse
-    :::
-    :::if{source="Squirtle" condition="atk=(x / 21-23 / x)"}
-    - 81.25% to OHKO with Mega Kick
-    :::
-    :::if{source="Squirtle" condition="atk=(x / 24-27 / x)"}
-    - 93.8% to OHKO with Mega Kick
-    :::
-    :::if{source="Squirtle" condition="atk=(x / 28-31 / x)"}
-    - 100% to OHKO with Mega Kick
+    - Confusion
+    - Teah Magical Leaf over barrier(Slot 2)
   :::
 :::::
-
-Consider these hidden Berries if no Awakenings (Chesto) or Paralyze Heals (Cheri) left
-
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039516529038999602/Chesto_and_Cherri.png)
 
 Grab this hidden Rare Candy after the Hiker 
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039516829808332910/Tunnel_Candy.png)
 
-:::if{source="Squirtle" condition="$fight == 'Robby'"}
-    If your speed is 20-21, 29 or 30-31 switch to Low exp/WR route
-:::
+Grab this Hidden Super Potion
 
-:::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    If your speed is 20-21, 29 or 30-31 switch to Low exp/WR route
-:::
-
-Use Elixir on a Repel menu as necessary for Mega Kick PP
+![](https://cdn.discordapp.com/attachments/917309676717244436/1173187991607463946/Pokemon_-_FireRed_Version_USA_Europe_Rev_1-1.png?ex=65630b75&is=65509675&hm=9577c0d30950a4765318da50faf1c891f5afd7690627b2ece0d2d0c360764ea5&)
 
 :::::trainer[Pokémaniac Ashton]
   :::pokemon[Cubone]
-    Water Gun
+    - Confusion x2-3
+    - Confusion is 64.8% to 2HKO
+    - Can go for Confusion + Magical Leaf
+    - Bone Club does 15-17(18)
   :::
   :::pokemon[Slowpoke]
-    Bite (x2)
-    :::if{source="Squirtle" condition="spatk=(x / x / 28-30)"}
-    - 12.5% to OHKO
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 31)"}
-    - 25% to OHKO
+    - Magical Leaf x2
+    - Tackle does 7-8(9)
   :::
 :::::
 
 :::::trainer[Pokémaniac Winston]
   :::pokemon[Slowpoke]
-    Bite (x2)
-    :::if{source="Squirtle" condition="spatk=(x / x / 28-30)"}
-    - 6.25% to OHKO
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 31)"}
-    - 18.75% to OHKO
+    - Magical Leaf x2
+    - Water Gun does (5)6(7)
   :::
 :::::
 
@@ -825,56 +712,97 @@ Optional: Grab the Elixir before Martha (below and left of her)
 
 :::::trainer[Jr Trainer Martha]
   :::pokemon[Oddish]
-    Mega Kick/Bite x2
+    - Confusion
   :::
   :::pokemon[Bulbasaur]
-    Mega Kick
+    - Confusion(x2)
+    - Confusion is 56.3% to OHKO
+    - Razor Leaf does 8-9(10)
   :::
 :::::
-
-Oddish 2HKO ranges =
-
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039514893675671592/Oddish_Kick.png)
 
 *NEED to fight Hiker Eric on the top right instead of Hiker Allen on the bottom left*
 
 :::::trainer[Hiker Eric]
   :::pokemon[Machop]
-    Water Pulse
+    - Confusion
   :::
   :::pokemon[Onix]
-    Water Pulse
+    - Magical Leaf
   :::
 :::::
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039515270491947060/Top_Hiker.png)
 
-:::::trainer[Hiker Oliver]
-  :::pokemon[Onix]
-    - Bite (x2)
-    - 81.3% to OHKO
-  :::
-  :::pokemon[Onix]
-    - Water Gun
+Now need to fight all 3 Hikers in this Room
+
+First is the Hiker directly right of you
+
+:::::trainer[Hiker Lenny]
+  :::pokemon[Geodude]
+    - Confusion
   :::
   :::pokemon[Geodude]
-    - Bite
+    - Confusion
+  :::
+  :::pokemon[Geodude]
+    - Confusion
+  :::
+  :::pokemon[Machop]
+    - Confusion
+  :::
+:::::
+
+Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
+
+:::::trainer[Hiker Oliver]
+  :::pokemon[Onix]
+    - Confusion
+  :::
+  :::pokemon[Onix]
+    - Magical Leaf/Confusion
+    - Confusion is 56.3% to OHKO
+  :::
+  :::pokemon[Geodude]
+    - Confusion
+  :::
+:::::
+
+Now Hiker neat the Stairs
+
+:::::trainer[Hiker Lucas]
+  :::pokemon[Geodude]
+    - Confusion
+  :::
+  :::pokemon[Graveler]
+    - Magical Leaf
   :::
 :::::
 
 :::::trainer[Jr Trainer Sofia]
-  Water Pulse x3/Water Gun*
+  :::pokemon[Jigglypuff]
+    - Confusion(x2)
+    - Confusion is 18.8% to OHKO
+    - Pound does 7-8(9)
+  :::
+  :::pokemon[mewoth]
+    - Confusion
+  :::
+  :::pokemon[Pidgey]
+    - Confusion
+    - Quick Attack does 7-8(9)
+  :::
 :::::
 
 :::::trainer[Hiker Dudley]
   :::pokemon[Geodude]
-    - Bite
+    - Confusion
   :::
   :::pokemon[Geodude]
-    - Bite
+    - Confusion
   :::
   :::pokemon[Graveler]
-    - Water Gun
+    - Confusion
   :::
 :::::
 
@@ -883,20 +811,16 @@ Run-Into-WALK Manip the Supernerd
 
 :::::trainer[Jr Trainer Dana]
   :::pokemon[Meowth]
-    - Bite
+    - Confusion
+    - Learn Psybeam over Confusion
   :::
   :::pokemon[Pidgey]
-    - Mega Kick
-    - *Check how many Mega Kicks you have here*
+    - Psybeam
   :::
   :::pokemon[Oddish]
-    - Bite
+    - Psybeam
   :::
 :::::
-
-Head south to the mart and buy:
-- 4 Escape Ropes (7 Down)
-- 7 Super Repels (v)
 
 Head left to the next route
 
@@ -904,17 +828,149 @@ Fight the gambler below
 
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
-    - Water Gun
+    - Psybeam(x2)
+    - Psybeam is 31.3% to OHKO
+    - Ember does 7-8(9)
   :::
   :::pokemon[Vulpix]	
-    :::if{source="Squirtle" condition="spatk=(x / x / 28-29)"}
-    - Water Pulse
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 30+)"}
-    - Water Gun
+    - Psybeam x2
+    - Quick Attack does 5(6)
   :::
 :::::
 
-Avoid all the trainers and head into the building above the bikers
+Fight the Spinner above The Gamer
 
-Head straight to the game corner
+:::::trainer[Super Nerd Glenn]
+  :::pokemon[Grimer]
+    - Psybeam
+  :::
+  :::pokemon[Muk]	
+    - Psybeam
+  :::
+  :::pokemon[Grimer]
+    - Psybeam
+  :::
+:::::
+
+Avoid all the Trainers and head towards Cerulean
+
+Grab this Hidden PP UP
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1173196607722889268/Pokemon_-_FireRed_Version_USA_Europe_Rev_1-0.png?ex=6563137c&is=65509e7c&hm=072065493ca47e2387424c52bd97339664867ce4ccfc98dcad8fa244c267cf8b&)
+
+Then Grab Tea and Head to Celadon Deaprtment Store
+- Take Lift to 5F
+
+Talk to Top Vender
+
+Sell :-
+  - Nugget
+  - PP Up
+
+Buy :-
+  - HP Up
+  - Protein
+
+Take stairs to 4F
+
+Buy :- 
+  - 15+ Retro Mails
+
+Take Lift to 1F
+
+Exit and Head towards Fly Girl's House
+
+Catch a Spearow in the Grass
+
+Now Head all the way back to vermillion through Saffron
+  - Also Pickup this hidden Rare Candy
+  - ![](https://cdn.discordapp.com/attachments/917309676717244436/1039455506873450516/Route6_Candy.png)
+
+If for some reason you used your Oran Berry grab this Sitrus Berry and use it where Oran berry is needed
+
+Enter the house East of Fan Club and Trade Spearow for Farfetch'd
+  - Make sure to go to Pokemon Center and withdraw Spearow instead of one of your mons(also Box Heal Mr Mime)
+
+If your Farfetch'd is at Level 20(instead of 22) fight the bug catcher north of vermillion and then a couple of wild encounters to get to Level 21
+  - Make sure to put it in front before the battle
+  - Then teach knock off over any move(Over Pack is the fastest)
+  - Now put Mime back in front
+
+Now go to Route 8 through Saffron
+
+Now go near the double battles(don't fight them yet) and then go left to fight Nerd Leslie
+
+:::::trainer[Super Nerd Leslie]
+  :::pokemon[Koffing]
+    - Psybeam
+  :::
+:::::
+
+Now Candy x2 Mr Mime to Level 33 and teach Recycle over the 4th Move(Meditate)
+
+Now put a mon with less than Half HP in front of the party(preferably Wartortle)
+  - Put Farfetch'd in the Second SLat of the party
+  - Give Wartortle Oran Berry(Sitrus if you don't have Oran)
+  - Give Mr Mime Retro Mail 
+  - Save(optional)
+
+Start the Double battle
+
+Bubble With Wartortle(Any move if not using Wartortle)
+  - Click Leer/Sand Attack with Farfetch'd
+  - Wartortle would have it's Oran/Sitrus Berry consumed
+
+Switch to Mr Mime on Wartortle Slot
+  - Knock Off Wartortle Slot from Farfetch'd
+  - Retro Mail from Mr Mime would now be Knock Offed
+
+Use Recycle with Mr Mime
+  - Use Any move with Farfetch'd
+  - Stall till Mr Mime get to use Recycle
+
+After Mr Mime has used recycle and recovered Oran/Sitrus Berry Kill both mons as fast as possibl
+  - Mr Mime has Magical Leaf if Clefairy uses too many Minimizes
+
+Now after the battle is done giver every mon Retro Mail(excpet Mr Mime)
+  - Now Give Mr Mime the HP Up
+  - Now Give Mr Mime Mail 7 times(Hp Ups will start cloning and you need 7 of them so your HP EV is correct)
+
+After Cloning is done use all 7 HP Ups and Protein on Mr Mime
+  - Head to Lavander Pokemon Center
+
+Take out the Mon deposited at time to withdrawing Spearow
+  - Replace it with Mr Mime and put Mr Mime in Box 3 Slot 1
+
+Now Start naming box 3, 2 and 1 to(The names of the boxes are in brackets and the sentence next to them is explanation)
+
+Box 3 = (...o)               Here the charcater with 3 dots is a seperate character on 3rd page in naming window and tere is no gap after o just type 2 characters
+Box 2 = ( ?"h ?nO)           Here there are 2 empty spaces first is the first character and second is between h and ?
+Box 1 = (dD-nVQ?n)           Here there is no gaps in the box name
+
+Here is how box names look :-
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1173213608491089940/Box_3.png?ex=65632351&is=6550ae51&hm=270c69630cb6a23b2a3cf3c3b972bf97ca346792dbf9ceb17660f3a9a7e5fb06&)
+![](https://cdn.discordapp.com/attachments/917309676717244436/1173213615390724116/Box_2.png?ex=65632353&is=6550ae53&hm=ee5c9f709263530d8f2f8151acd9cb637768857e133277bb070a1d14e3aaba7e&)
+![](https://cdn.discordapp.com/attachments/917309676717244436/1173213636630683739/Box_1.png?ex=65632358&is=6550ae58&hm=213ae676822b65a8dbe7b5be93d8cbf9cdf70cbc1da2b7865c43688318b11289&)
+
+Now give the mon you just withdrew Retro Mail with Wandering written on 2nd slot of the mail(Use Select to switch to character based search)
+
+Like this = 
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1173214219374706718/Wandering_Mail.png?ex=656323e3&is=6550aee3&hm=ecdbe5b06de1b105c3ac4fd221d012f244c44a6cb73a31a920f3ad0df5720dc7&)
+
+Now withdraw Mail from every mon except the one in front of the party(you could do any but front is faster so you can mash A to deposit)
+  - Also the mon you gave wandering mail to will have no item shown so don't do anything with that mon
+  - Now Deposit all mon except the first one in Box 1
+
+Now go to Move Pokemon and go to Box 3
+  - Mr Mime sprite will be replaced by a Question Mark
+  - Pick it up and take it to Box 1
+  - Replace it with any mon in Box 1 twice and your should start saving like you entered hall of fame
+
+Timing ends when you screen fades to Black after showing your Name, Trainer ID and Time
+
+
+
+
+
