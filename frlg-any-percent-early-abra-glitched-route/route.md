@@ -164,6 +164,9 @@ Fight the minion
 
 Exit and head straight to the mart
 
+Sell:
+  - Rock Tomb
+
 Buy:
   - 6 Pokeballs
   - 8 Potions           (v)
@@ -318,7 +321,7 @@ Force the Rocket Grunt to walk up to you to save repel steps by running.
 Praise Helix then head outside of Mt. Moon
 - If poisoned on Koffing, Antidote immediately if you need a Rat/Shrew/Paras, otherwise SKIP Antidote and revive with a Rare Candy
 
-Grab the Great Ball if no Cut friend yet
+Always grab the Great Ball
 
 Talk to the Karate Man on the right and teach Mega Kick over Withdraw (Slot 4)
 
@@ -542,6 +545,8 @@ Buy:
   - 6 Super Potions (v)
   - 7 Repels (vvvvv)
 
+Buy 5 Super Potions and 3 Pokeballs if low on Pokeballs
+
 Go through Diglett's Cave to Route 4 and trade your Abra for Mr Mime
   - If you run into A Dugtrio try to run
   - If you can't escape Water Pulse*(X2)
@@ -642,6 +647,7 @@ Head to the right towards Rock Tunnel
   :::pokemon[Oddish]
     - Substitute + Confusion
     - Confusion is 56.3% to OHKO
+    - Do not Learn Reflect or Light Screen
   :::
   :::pokemon[Bellsprout]
     - Confusion
