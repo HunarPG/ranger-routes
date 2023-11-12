@@ -552,27 +552,28 @@ Head to the S.S. Anne
 Go to the top most deck and fight both the sailors 
   - Switch Confusion to first slot while battling
 
-:::::trainer[Sailor Trevor]
+:::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
-    - Low Kick crit is 37.5% to OHKO
+    - Low Kick does 15-17(18)
   :::
-  :::pokemon[Tentacool]
-    - Confusion x3
-    - Poison Sting does 3(4)
-    - If got Poisoned by Poison Sting it does 4 damage each turn at Level 12
+  :::pokemon[Shellder]
+    - Confusion x2(x3)
+    - Confusion is 59.4% to 2HKO
+    - Tackle does 8-9(10)
+    - Icicle Spear does 2(3) per hit
   :::
 :::::
 
-:::::trainer[Sailor Edmond]
+:::::trainer[Sailor Trevor]
   :::pokemon[Machop]
     - Confusion x2
     - Low Kick does 12-14(15)
   :::
-  :::pokemon[Shellder]
+  :::pokemon[Tentacool]
     - Confusion x2
-    - Tackle does 7-8(9)
-    - Icicle Spear does 1(2) per hit
+    - Poison Sting does 3(4)
+    - If got Poisoned by Poison Sting it does 4 damage each turn at Level 14
     - Do not learn Double Slap
   :::
 :::::
