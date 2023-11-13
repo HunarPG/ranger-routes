@@ -23,7 +23,7 @@
     26 ->	10, 8, 19, 6, 1, 21
 :::
 
-:::tracker{species=Abra baseStats="[[4, 45, 65, 100, 120, 90]]"}
+:::tracker{species=Mimien baseStats="[[4, 45, 65, 100, 120, 90]]" hpIV=20 attackIV=15 defenseIV=17 spAttackIV=23 spDefenseIV=22 speedIV=24 nature=Timid}
 11:
   12 -> 0, 1, 0, 0, 0, 0
   13 -> 0, 1, 1, 0, 0, 0
@@ -478,7 +478,7 @@ Put your Level 10 Mon in the first slot of party
 
 ::variable{name="Item" type="select" title="Did you get TwistedSpoon as an held item from Abra?" options='["Yes", "No"]'}
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
   - Make sure to take Twistedspoon from Abra and give it to Mr Mime after trading
 ::::::
 
@@ -595,7 +595,7 @@ Head to the S.S. Anne
 Go to the top most deck and fight both the sailors 
   - Switch Confusion to first slot while battling
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Sailor Edmond]
@@ -660,7 +660,7 @@ Go to the top most deck and fight both the sailors
 Set Battle Style to Shift before Rival Battle 
 - Heal Mr Mime to full and Wartortle to about half HP
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Rival 3]
@@ -723,7 +723,7 @@ Talk to the captain for HM Cut
 
 Fight the trainer in the room left of Bed Lady's Heal
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Gentleman Arthur]
@@ -771,7 +771,7 @@ Get the bike, then register + use it.
 
 Head to the right towards Rock Tunnel
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Jr. Trainer Alicia]
@@ -848,7 +848,7 @@ Grab this Hidden Super Potion
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1173187991607463946/Pokemon_-_FireRed_Version_USA_Europe_Rev_1-1.png?ex=65630b75&is=65509675&hm=9577c0d30950a4765318da50faf1c891f5afd7690627b2ece0d2d0c360764ea5&)
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Pokémaniac Ashton]
@@ -888,7 +888,7 @@ Grab this Hidden Super Potion
 
 Optional: Grab the Elixir before Martha (below and left of her)
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Jr Trainer Martha]
@@ -918,7 +918,7 @@ Optional: Grab the Elixir before Martha (below and left of her)
 
 *NEED to fight Hiker Eric on the top right instead of Hiker Allen on the bottom left*
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Hiker Eric]
@@ -968,7 +968,7 @@ First is the Hiker directly right of you
 
 Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Hiker Oliver]
@@ -1003,7 +1003,7 @@ Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
 
 Now Hiker neat the Stairs
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Hiker Lucas]
@@ -1092,7 +1092,7 @@ Head left to the next route
 
 Fight the gambler below
 
-:::::::if{source="Abra" condition="startingLevel=11"}
+:::::::if{source="Mimien" condition="startingLevel=11"}
 
 ::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Gambler Rich]
