@@ -1413,12 +1413,12 @@ Run-Into-WALK Manip the Supernerd
 
 Head left to the next route
 
-Fight the gambler below
+Fight the gamer below
 
 :::::::::if{source="Mimien" condition="startingLevel=11"}
 
 :::::::if{source="Mimien" condition="!$Item"}
-:::::trainer[Gambler Rich]
+:::::trainer[Gamer Rich]
   :::pokemon[Growlithe]
     - Substitute + Psybeam(x2)
     - Substitue isn't mandatory but is a safer option as getting burned on gorwlithe or vulpix is super bad
@@ -1433,7 +1433,7 @@ Fight the gambler below
 :::::::
 
 :::::::if{source="Mimien" condition="$Item"}
-:::::trainer[Gambler Rich]
+:::::trainer[Gamer Rich]
   :::pokemon[Growlithe]
     - Substitute + Psybeam(x2)
     - Substitue isn't mandatory but is a safer option as getting burned on gorwlithe or vulpix is super bad
@@ -1453,7 +1453,7 @@ Fight the gambler below
 :::::::::if{source="Mimien" condition="startingLevel=13"}
 
 :::::::if{source="Mimien" condition="!$Item"}
-:::::trainer[Gambler Rich]
+:::::trainer[Gamer Rich]
   :::pokemon[Growlithe]
     - Substitute + Psybeam(x2)
     - Substitue isn't mandatory but is a safer option as getting burned on gorwlithe or vulpix is super bad
@@ -1468,7 +1468,7 @@ Fight the gambler below
 :::::::
 
 :::::::if{source="Mimien" condition="$Item"}
-:::::trainer[Gambler Rich]
+:::::trainer[Gamer Rich]
   :::pokemon[Growlithe]
     - Substitute + Psybeam(x2)
     - Substitue isn't mandatory but is a safer option as getting burned on gorwlithe or vulpix is super bad
@@ -1503,7 +1503,7 @@ Fight the Spinner above The Gamer
 
 :::::::::
 
-Avoid all the Trainers and head towards Cerulean
+Avoid all the Trainers and head towards Celadon
 
 :::::::::if{source="Mimien" condition="startingLevel=13"}
 
@@ -1585,7 +1585,6 @@ Now go near the double battles(don't fight them yet) and then go left to fight N
   :::pokemon[Koffing]
     - Psybeam
   :::
-:::::
 
 :::::::::
 
@@ -1622,13 +1621,10 @@ Also fight the Spinner East of the Double Battle
     - Psybeam
   :::
 :::::
-:::::::
 
 :::::::::
 
 Now Head towards the double battle
-
-:::::::::
 
 Now Candy x2 Mr Mime to Level 33 and teach Recycle over the 4th Move(Meditate)
 
