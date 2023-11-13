@@ -23,7 +23,7 @@
     26 ->	10, 8, 19, 6, 1, 21
 :::
 
-:::tracker{species=Mimien baseStats="[[4, 45, 65, 100, 120, 90]]" hpIV=20 attackIV=15 defenseIV=17 spAttackIV=23 spDefenseIV=22 speedIV=24 nature=Timid}
+:::tracker{species=Mimien baseStats="[[40, 45, 65, 100, 120, 90]]" hpIV=20 attackIV=15 defenseIV=17 spAttackIV=23 spDefenseIV=22 speedIV=24 nature=Timid}
 11:
   12 -> 0, 1, 0, 0, 0, 0
   13 -> 0, 1, 1, 0, 0, 0
@@ -63,7 +63,7 @@
   27 -> 5, 8, 10, 7, 3, 5
   28 -> 5, 8, 14, 7, 3, 7
   29 -> 5, 9, 14, 8, 3, 9
-  30 -> 8, 10, 14, 8, 3, 10
+  30 -> 6, 9, 16, 8, 3, 10
   31 -> 9, 10, 16, 8, 3, 10
 :::
 
@@ -1485,10 +1485,10 @@ Fight the gambler below
 
 :::::::::
 
-Fight the Spinner above The Gamer
-
 :::::::::if{source="Mimien" condition="startingLevel=11"}
 
+Fight the Spinner above The Gamer
+
 :::::trainer[Super Nerd Glenn]
   :::pokemon[Grimer]
     - Psybeam
@@ -1500,42 +1500,6 @@ Fight the Spinner above The Gamer
     - Psybeam
   :::
 :::::
-
-:::::::::
-
-:::::::::if{source="Mimien" condition="startingLevel=13"}
-
-:::::::if{source="Mimien" condition="!$Item"}
-:::::trainer[Super Nerd Glenn]
-  :::pokemon[Grimer]
-    - Psybeam
-  :::
-  :::pokemon[Muk]	
-    - Psybeam(x2)
-    - Psybeam is 50% to OHKO
-    - Sludge does 21-24(25)
-  :::
-  :::pokemon[Grimer]
-    - Psybeam
-  :::
-:::::
-:::::::
-
-:::::::if{source="Mimien" condition="$Item"}
-:::::trainer[Super Nerd Glenn]
-  :::pokemon[Grimer]
-    - Psybeam
-  :::
-  :::pokemon[Muk]	
-    - Psybeam(x2)
-    - Psybeam is 87.5% to OHKO
-    - Sludge does 21-24(25)
-  :::
-  :::pokemon[Grimer]
-    - Psybeam
-  :::
-:::::
-:::::::
 
 :::::::::
 
@@ -1640,6 +1604,27 @@ Fight the Bottom Biker before going near the double Battle
     - Psybeam
   :::
 :::::
+
+:::::::::if{source="Mimien" condition="startingLevel=13"}
+
+Also fight the Spinner East of the Double Battle
+
+:::::trainer[Super Nerd Glenn]
+  :::pokemon[Grimer]
+    - Psybeam
+  :::
+  :::pokemon[Muk]	
+    - Psybeam(x2)
+    - Psybeam is 50% to OHKO
+    - Sludge does 21-24(25)
+  :::
+  :::pokemon[Grimer]
+    - Psybeam
+  :::
+:::::
+:::::::
+
+:::::::::
 
 Now Head towards the double battle
 
