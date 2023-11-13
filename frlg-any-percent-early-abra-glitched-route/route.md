@@ -191,6 +191,8 @@ Fight the minion
 
 Exit and head straight to the mart
 
+
+:::card{theme=neutral}
 Sell:
   - Rock Tomb
 
@@ -200,6 +202,7 @@ Buy:
   - 3 Antidote          (v)
   - 2 Awakening         (vv)
   - 5 Repels            (vv)
+:::
 
 Head to Route 3 to get your running shoes
 
@@ -574,9 +577,11 @@ Avoid the Bug Catcher and fight the Camper below the girl trainer
 
 Head straight to the mart
 
+:::card{theme=neutral}
 Buy:
   - 6 Super Potions (v)
   - 7 Repels (vvvvv)
+:::
 
 Buy 5 Super Potions and 3 Pokeballs if low on Pokeballs
 
@@ -605,28 +610,7 @@ Go to the top most deck and fight both the sailors
     - Icicle Spear does 2(3) per hit
   :::
 :::::
-::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
-:::::trainer[Sailor Edmond]
-  :::pokemon[Machop]
-    - Confusion x2
-    - Low Kick does 15-17(18)
-  :::
-  :::pokemon[Shellder]
-    - Confusion x2(x3)
-    - Confusion is 92.2% to 2HKO
-    - Tackle does 8-9(10)
-    - Icicle Spear does 2(3) per hit
-  :::
-:::::
-::::::
-
-:::::::
-
-:::::::if{source="Abra" condition="startingLevel=11"}
-
-::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Sailor Trevor]
   :::pokemon[Machop]
     - Confusion x2
@@ -642,6 +626,20 @@ Go to the top most deck and fight both the sailors
 ::::::
 
 ::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+
+:::::trainer[Sailor Edmond]
+  :::pokemon[Machop]
+    - Confusion x2
+    - Low Kick does 15-17(18)
+  :::
+  :::pokemon[Shellder]
+    - Confusion x2(x3)
+    - Confusion is 92.2% to 2HKO
+    - Tackle does 8-9(10)
+    - Icicle Spear does 2(3) per hit
+  :::
+:::::
+
 :::::trainer[Sailor Trevor]
   :::pokemon[Machop]
     - Confusion(x2)
@@ -886,9 +884,7 @@ Grab this Hidden Super Potion
   :::pokemon[Slowpoke]
     - Magical Leaf x2
     - Water Gun does (5)6(7)
-  :::
 :::::
-::::::
 
 Optional: Grab the Elixir before Martha (below and left of her)
 
@@ -1018,25 +1014,7 @@ Now Hiker neat the Stairs
     - Magical Leaf
   :::
 :::::
-::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
-:::::trainer[Hiker Lucas]
-  :::pokemon[Geodude]
-    - Confusion
-  :::
-  :::pokemon[Graveler]
-    - Magical Leaf/Confusion
-    - Confusion is 43.8% to OHKO
-  :::
-:::::
-::::::
-
-:::::::
-
-:::::::if{source="Abra" condition="startingLevel=11"}
-
-::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Jr Trainer Sofia]
   :::pokemon[Jigglypuff]
     - Confusion(x2)
@@ -1054,6 +1032,16 @@ Now Hiker neat the Stairs
 ::::::
 
 ::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Hiker Lucas]
+  :::pokemon[Geodude]
+    - Confusion
+  :::
+  :::pokemon[Graveler]
+    - Magical Leaf/Confusion
+    - Confusion is 43.8% to OHKO
+  :::
+:::::
+
 :::::trainer[Jr Trainer Sofia]
   :::pokemon[Jigglypuff]
     - Confusion(x2)
@@ -1162,6 +1150,8 @@ Then Grab Tea and Head to Celadon Deaprtment Store
 
 Talk to Top Vender
 
+:::card{theme=neutral}
+
 Sell :-
   - Nugget
   - PP Up
@@ -1169,11 +1159,15 @@ Sell :-
 Buy :-
   - HP Up
   - Protein
+:::
 
 Take stairs to 4F
 
+:::card{theme=neutral}
+
 Buy :- 
   - 15+ Retro Mails
+:::
 
 Take Lift to 1F
 
