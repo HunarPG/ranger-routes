@@ -614,7 +614,7 @@ Go to the top most deck and fight both the sailors
 
 :::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
@@ -641,7 +641,7 @@ Go to the top most deck and fight both the sailors
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
@@ -666,11 +666,11 @@ Go to the top most deck and fight both the sailors
     - Poison Sting does 3(4)
   :::
 :::::
-::::::
+:::::::
 
 :::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
@@ -697,7 +697,7 @@ Go to the top most deck and fight both the sailors
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
@@ -731,7 +731,7 @@ Set Battle Style to Shift before Rival Battle
 
 :::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Use Confusion with Mr Mime
@@ -757,7 +757,7 @@ Set Battle Style to Shift before Rival Battle
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Use Confusion with Mr Mime
@@ -788,7 +788,7 @@ Set Battle Style to Shift before Rival Battle
 
 :::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Use Confusion with Mr Mime
@@ -815,7 +815,7 @@ Set Battle Style to Shift before Rival Battle
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Use Confusion with Mr Mime
@@ -852,7 +852,7 @@ Talk to the captain for HM Cut
 
 Fight the trainer in the room left of Bed Lady's Heal
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Gentleman Arthur]
   :::pokemon[Nidoran M]
     - Confusion(x2)
@@ -867,7 +867,7 @@ Fight the trainer in the room left of Bed Lady's Heal
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Gentleman Arthur]
   :::pokemon[Nidoran M]
     - Confusion(x2)
@@ -888,7 +888,7 @@ Fight the trainer in the room left of Bed Lady's Heal
 
 Fight the Youngster in 2nd room from left on bottom floor(Room with Brick Break TM)
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Youngster Tyler]
   :::pokemon[Nidoran M]
     - Confusion(x2)
@@ -900,7 +900,7 @@ Fight the Youngster in 2nd room from left on bottom floor(Room with Brick Break 
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Youngster Tyler]
   :::pokemon[Nidoran M]
     - Confusion(x2)
@@ -930,7 +930,7 @@ Head to the right towards Rock Tunnel
 
 :::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
     - Substitute + Confusion
@@ -950,7 +950,7 @@ Head to the right towards Rock Tunnel
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
     - Substitute + Confusion
@@ -973,7 +973,7 @@ Head to the right towards Rock Tunnel
 
 :::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
     - Substitute + Confusion
@@ -992,7 +992,7 @@ Head to the right towards Rock Tunnel
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
     - Confusion
@@ -1045,7 +1045,7 @@ Grab this Hidden Super Potion
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1173187991607463946/Pokemon_-_FireRed_Version_USA_Europe_Rev_1-1.png?ex=65630b75&is=65509675&hm=9577c0d30950a4765318da50faf1c891f5afd7690627b2ece0d2d0c360764ea5&)
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Pokémaniac Ashton]
   :::pokemon[Cubone]
     - Confusion x2-3
@@ -1060,7 +1060,7 @@ Grab this Hidden Super Potion
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Pokémaniac Ashton]
   :::pokemon[Cubone]
     - Confusion x2
@@ -1079,7 +1079,7 @@ Grab this Hidden Super Potion
     - Water Gun does (5)6(7)
 :::::
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Jr Trainer Martha]
   :::pokemon[Oddish]
     - Confusion
@@ -1092,7 +1092,7 @@ Grab this Hidden Super Potion
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Jr Trainer Martha]
   :::pokemon[Oddish]
     - Confusion
@@ -1103,11 +1103,9 @@ Grab this Hidden Super Potion
 :::::
 ::::::
 
-:::::::
-
 *NEED to fight Hiker Eric on the top right instead of Hiker Allen on the bottom left*
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Hiker Eric]
   :::pokemon[Machop]
     - Confusion
@@ -1118,7 +1116,7 @@ Grab this Hidden Super Potion
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Hiker Eric]
   :::pokemon[Machop]
     - Confusion
@@ -1161,7 +1159,7 @@ First is the Hiker directly right of you
 
 Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Hiker Oliver]
   :::pokemon[Onix]
     - Confusion
@@ -1176,7 +1174,7 @@ Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Hiker Oliver]
   :::pokemon[Onix]
     - Confusion
@@ -1196,7 +1194,7 @@ Now Hiker next the Stairs
 
 :::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Hiker Lucas]
   :::pokemon[Geodude]
     - Confusion
@@ -1222,7 +1220,7 @@ Now Hiker next the Stairs
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Hiker Lucas]
   :::pokemon[Geodude]
     - Confusion
@@ -1253,7 +1251,7 @@ Now Hiker next the Stairs
 
 :::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Hiker Lucas]
   :::pokemon[Geodude]
     - Confusion
@@ -1278,7 +1276,7 @@ Now Hiker next the Stairs
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Hiker Lucas]
   :::pokemon[Geodude]
     - Confusion
@@ -1325,7 +1323,7 @@ Now Hiker next the Stairs
 
 :::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Hiker Dudley]
   :::pokemon[Geodude]
     - Confusion
@@ -1340,7 +1338,7 @@ Now Hiker next the Stairs
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Hiker Dudley]
   :::pokemon[Geodude]
     - Confusion
@@ -1398,7 +1396,7 @@ Fight the gambler below
 
 :::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
     - Psybeam(x2)
@@ -1412,7 +1410,7 @@ Fight the gambler below
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
     - Psybeam(x2)
@@ -1431,7 +1429,7 @@ Fight the gambler below
 
 :::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
     - Confusion x2
@@ -1445,7 +1443,7 @@ Fight the gambler below
 :::::
 ::::::
 
-::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
     - Confusion x2
@@ -1482,7 +1480,7 @@ Fight the Spinner above The Gamer
 
 :::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Squirtle" condition="$Item == 'No'"}
+::::::if{source="Mimien" condition="$Item == 'No'"}
 :::::trainer[Super Nerd Glenn]
   :::pokemon[Grimer]
     - Psybeam
@@ -1495,8 +1493,11 @@ Fight the Spinner above The Gamer
   :::pokemon[Grimer]
     - Psybeam
   :::
+:::::
 
-::::::if{source="Squirtle" condition="$Item == 'yes'"}
+::::::
+
+::::::if{source="Mimien" condition="$Item == 'Yes'"}
 :::::trainer[Super Nerd Glenn]
   :::pokemon[Grimer]
     - Psybeam
@@ -1510,7 +1511,7 @@ Fight the Spinner above The Gamer
     - Psybeam
   :::
 :::::
-:::::
+::::::
 
 :::::::
 
