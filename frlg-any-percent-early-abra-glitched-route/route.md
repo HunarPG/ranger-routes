@@ -23,6 +23,33 @@
     26 ->	10, 8, 19, 6, 1, 21
 :::
 
+:::tracker{species=Abra baseStats="[[4, 45, 65, 100, 120, 90]]"}
+11:
+  12 -> 0, 1, 0, 0, 0, 0
+  13 -> 0, 1, 1, 0, 0, 0
+  14 -> 0, 2, 1, 0, 0, 0
+  15 -> 0, 2, 1, 0, 1, 0
+  16 -> 0, 2, 1, 1, 2, 2
+  17 -> 0, 2, 1, 1, 2, 4
+  18 -> 0, 3, 1, 3, 2, 4
+  19 -> 1, 3, 1, 4, 2, 4
+  20 -> 1, 5, 1, 5, 2, 4
+  21 -> 1, 6, 2, 5, 2, 4
+  22 -> 2, 6, 2, 5, 3, 5
+  23 -> 4, 6, 3, 5, 3, 5
+  24 -> 4, 6, 3, 7, 3, 5
+  25 -> 4, 7, 5, 7, 3, 5
+  26 -> 4, 8, 8, 7, 3, 5
+  27 -> 4, 8, 11, 7, 3, 5
+  28 -> 6, 8, 13, 7, 3, 7
+  29 -> 6, 8, 17, 7, 3, 8
+  30 -> 7, 9, 17, 8, 3, 10
+  31 -> 9, 10, 18, 8, 3, 10
+
+13:
+   14 -> 0, 0, 0, 0, 0, 0
+:::
+
 ## Pokémon FireRed/LeafGreen Any% Glitched(Early Abra) Route
 Prepared by Ananan#8613
 
@@ -446,6 +473,12 @@ Put your Level 10 Mon in the first slot of party
   - Then Use a Repel
   - Save the Game and then run in the grass to find and catch abra
 
+::variable{name="Item" type="select" title="Did you get TwistedSpoon as an held item from Abra?" options='["Yes", "No"]'}
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+  - Make sure to take Twistedspoon from Abra and give it to Mr Mime after trading
+::::::
+
 After Abra has been caught put Squirtle back in front of the party
   - Then Go above the Hiker and grab this Hidden Elixir
 
@@ -557,6 +590,9 @@ Head to the S.S. Anne
 Go to the top most deck and fight both the sailors 
   - Switch Confusion to first slot while battling
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
@@ -569,7 +605,28 @@ Go to the top most deck and fight both the sailors
     - Icicle Spear does 2(3) per hit
   :::
 :::::
+::::::
 
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Sailor Edmond]
+  :::pokemon[Machop]
+    - Confusion x2
+    - Low Kick does 15-17(18)
+  :::
+  :::pokemon[Shellder]
+    - Confusion x2(x3)
+    - Confusion is 92.2% to 2HKO
+    - Tackle does 8-9(10)
+    - Icicle Spear does 2(3) per hit
+  :::
+:::::
+::::::
+
+:::::::
+
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Sailor Trevor]
   :::pokemon[Machop]
     - Confusion x2
@@ -582,10 +639,32 @@ Go to the top most deck and fight both the sailors
     - Do not learn Double Slap
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Sailor Trevor]
+  :::pokemon[Machop]
+    - Confusion(x2)
+    - Confusion is 6.3% to OHKO
+    - Low Kick does 12-14(15)
+  :::
+  :::pokemon[Tentacool]
+    - Confusion x2
+    - Poison Sting does 3(4)
+    - If got Poisoned by Poison Sting it does 4 damage each turn at Level 14
+    - Do not learn Double Slap
+  :::
+:::::
+::::::
+
+:::::::
 
 Set Battle Style to Shift before Rival Battle 
 - Heal Mr Mime to full and Wartortle to about half HP
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Use Confusion with Mr Mime
@@ -609,6 +688,36 @@ Set Battle Style to Shift before Rival Battle
     ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=26 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Rival 3]
+  :::pokemon[Pidgeotto]
+    - Use Confusion with Mr Mime
+    - Switch to Wartortle
+    - Finish with Water Pulse
+    - Pidgeotto's Quick Attack does 11-12(13) damage to Mr Mime
+  :::
+  :::pokemon[Ivysaur]
+    - Switch to Mime on Ivysaur(when the games askes due to Switch Mode)
+    - Confusion x2(x3)
+    - Confusion is 34% to 2HKO
+    - Make sure to Setup Barrier before killing Ivysaur and also hide behind a Substitue if possible(should be easy to maintain as AI can just use status move on substitute)
+    - Vine Whip does 10-11(12) damage to Mr Mime
+  :::
+  :::pokemon[Raticate]
+    - Confusion x3
+    - Raticate's Hyper Fang does 11-12(13) if Barrier has been used
+    - Raticate's Quick Attack does (5)6(7) if Barrier has been used
+  :::
+  :::pokemon[Kadabra]
+    - Switch out to Squirtle and Kill with Bite
+    ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=26 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
+  :::
+:::::
+::::::
+
+:::::::
 
 Set Battle Style back to Set
 
@@ -616,6 +725,9 @@ Talk to the captain for HM Cut
 
 Fight the trainer in the room left of Bed Lady's Heal
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Gentleman Arthur]
   :::pokemon[Nidoran M]
     - Confusion(x2)
@@ -628,6 +740,24 @@ Fight the trainer in the room left of Bed Lady's Heal
     - Poison does 5 HP damage every turn at level 17
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Gentleman Arthur]
+  :::pokemon[Nidoran M]
+    - Confusion(x2)
+    - Confusion is 93.8% to OHKO
+    - Poison Sting does 5(6)
+    - Poison does 5 HP damage every turn at level 17
+  :::
+  :::pokemon[Nidoran F]
+    - Confusion
+    - Poison does 5 HP damage every turn at level 17
+  :::
+:::::
+::::::
+
+:::::::
 
 Can Use Bed Lady healing for Safety but not needed
 
@@ -643,6 +773,9 @@ Get the bike, then register + use it.
 
 Head to the right towards Rock Tunnel
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
     - Substitute + Confusion
@@ -660,6 +793,28 @@ Head to the right towards Rock Tunnel
     - Confusion
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Jr. Trainer Alicia]
+  :::pokemon[Oddish]
+    - Substitute + Confusion
+    - Confusion is 81.3% to OHKO
+    - Do not Learn Reflect or Light Screen
+  :::
+  :::pokemon[Bellsprout]
+    - Confusion
+  :::
+  :::pokemon[Oddish]
+    - Confusion
+  :::
+  :::pokemon[Bellsprout]
+    - Confusion
+  :::
+:::::
+::::::
+
+:::::::
 
 Fight the Spinner Hiker
   - Use the max Ether before fighting him(can use after him if 3 or more Confusion PP remaining)
@@ -695,6 +850,9 @@ Grab this Hidden Super Potion
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1173187991607463946/Pokemon_-_FireRed_Version_USA_Europe_Rev_1-1.png?ex=65630b75&is=65509675&hm=9577c0d30950a4765318da50faf1c891f5afd7690627b2ece0d2d0c360764ea5&)
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Pokémaniac Ashton]
   :::pokemon[Cubone]
     - Confusion x2-3
@@ -707,6 +865,22 @@ Grab this Hidden Super Potion
     - Tackle does 7-8(9)
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Pokémaniac Ashton]
+  :::pokemon[Cubone]
+    - Confusion x2
+    - Bone Club does 15-17(18)
+  :::
+  :::pokemon[Slowpoke]
+    - Magical Leaf x2
+    - Tackle does 7-8(9)
+  :::
+:::::
+::::::
+
+:::::::
 
 :::::trainer[Pokémaniac Winston]
   :::pokemon[Slowpoke]
@@ -714,9 +888,13 @@ Grab this Hidden Super Potion
     - Water Gun does (5)6(7)
   :::
 :::::
+::::::
 
 Optional: Grab the Elixir before Martha (below and left of her)
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Jr Trainer Martha]
   :::pokemon[Oddish]
     - Confusion
@@ -727,9 +905,26 @@ Optional: Grab the Elixir before Martha (below and left of her)
     - Razor Leaf does 8-9(10)
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Jr Trainer Martha]
+  :::pokemon[Oddish]
+    - Confusion
+  :::
+  :::pokemon[Bulbasaur]
+    - Confusion
+  :::
+:::::
+::::::
+
+:::::::
 
 *NEED to fight Hiker Eric on the top right instead of Hiker Allen on the bottom left*
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Hiker Eric]
   :::pokemon[Machop]
     - Confusion
@@ -738,6 +933,21 @@ Optional: Grab the Elixir before Martha (below and left of her)
     - Magical Leaf
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Hiker Eric]
+  :::pokemon[Machop]
+    - Confusion
+  :::
+  :::pokemon[Onix]
+    - Magical Leaf/Confusion
+    - Confusion is 56.3% to OHKO
+  :::
+:::::
+::::::
+
+:::::::
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039515270491947060/Top_Hiker.png)
 
@@ -762,6 +972,9 @@ First is the Hiker directly right of you
 
 Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Hiker Oliver]
   :::pokemon[Onix]
     - Confusion
@@ -774,9 +987,29 @@ Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
     - Confusion
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Hiker Oliver]
+  :::pokemon[Onix]
+    - Confusion
+  :::
+  :::pokemon[Onix]
+    - Confusion
+  :::
+  :::pokemon[Geodude]
+    - Confusion
+  :::
+:::::
+::::::
+
+:::::::
 
 Now Hiker neat the Stairs
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Hiker Lucas]
   :::pokemon[Geodude]
     - Confusion
@@ -785,7 +1018,25 @@ Now Hiker neat the Stairs
     - Magical Leaf
   :::
 :::::
+::::::
 
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Hiker Lucas]
+  :::pokemon[Geodude]
+    - Confusion
+  :::
+  :::pokemon[Graveler]
+    - Magical Leaf/Confusion
+    - Confusion is 43.8% to OHKO
+  :::
+:::::
+::::::
+
+:::::::
+
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Jr Trainer Sofia]
   :::pokemon[Jigglypuff]
     - Confusion(x2)
@@ -800,6 +1051,26 @@ Now Hiker neat the Stairs
     - Quick Attack does 7-8(9)
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Jr Trainer Sofia]
+  :::pokemon[Jigglypuff]
+    - Confusion(x2)
+    - Confusion is 62.5% to OHKO
+    - Pound does 7-8(9)
+  :::
+  :::pokemon[mewoth]
+    - Confusion
+  :::
+  :::pokemon[Pidgey]
+    - Confusion
+    - Quick Attack does 7-8(9)
+  :::
+:::::
+::::::
+
+:::::::
 
 :::::trainer[Hiker Dudley]
   :::pokemon[Geodude]
@@ -833,6 +1104,9 @@ Head left to the next route
 
 Fight the gambler below
 
+:::::::if{source="Abra" condition="startingLevel=11"}
+
+::::::if{source="Squirtle" condition="$Item == 'No'"}
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
     - Psybeam(x2)
@@ -844,6 +1118,24 @@ Fight the gambler below
     - Quick Attack does 5(6)
   :::
 :::::
+::::::
+
+::::::if{source="Squirtle" condition="$Item == 'Yes'"}
+:::::trainer[Gambler Rich]
+  :::pokemon[Growlithe]
+    - Psybeam(x2)
+    - Psybeam is 68.8% to OHKO
+    - Ember does 7-8(9)
+  :::
+  :::pokemon[Vulpix]	
+    - Psybeam(x2)
+    - Psybeam is 27.5% to OHKO
+    - Quick Attack does 5(6)
+  :::
+:::::
+::::::
+
+:::::::
 
 Fight the Spinner above The Gamer
 
