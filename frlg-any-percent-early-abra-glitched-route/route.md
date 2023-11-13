@@ -221,6 +221,8 @@ Buy:
   - 5 Repels            (vv)
 :::
 
+**Buy 9 Potions and 4 Repels if not getting Revive in Mount Moon**
+
 Head to Route 3 to get your running shoes
 
 Attempt to get torrent in as little turns as possible on this route
@@ -288,7 +290,7 @@ Grab this Persim Berry if 28-29 SPA or the chart below says to “Grab Persim”
 
 Enter the Pokemon Center and Buy Magikarp
 
-Run up 8 tiles in Mount Moon then::
+Immediately after entering Mount Moon::
   - Register TM Case
   - Equip Persim Berry from the Berry Pouch if you got it
   - Use a repel
@@ -325,6 +327,8 @@ Fight any one of the 4 Trainers to get exp(no advantage in this route)
 :::::trainer[Hiker Marcos]
   Bubble x3
 :::::
+
+Grab the Revive North of the Room(optional)
 
 :::::trainer[Rocket Spinner]
   :::pokemon[Water Gun (x2)]
@@ -383,7 +387,7 @@ Grab this hidden Rare Candy
 Menu:
 - Potion Twice
 - Rare Candy to Level 20
-- Teach Bite over Bubble (Slot 3)
+- Teach Bite over Water Gun (Slot 2)
 
 Skip both gym trainers and talk to Misty from the right side
 
@@ -492,12 +496,13 @@ Use a Potion before Rival
 Put your Level 10 Mon in the first slot of party
   - Then Use a Repel
   - Save the Game and then run in the grass to find and catch abra
+  - If your Abra Breaks out of the Great Ball it's just worth soft resetting than trying to catch another one as chances of abra capture in pokeball are much lower than with Great Ball(27.9% instead of 40.9%)
 
-::variable{name="Item" type="select" title="Did you get TwistedSpoon as an held item from Abra?" options='["Yes", "No"]'}
+::variable{name="Item" type="boolean" title="Did you get TwistedSpoon as an held item from Abra?" defaultValue=false}
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
-  - Make sure to take Twistedspoon from Abra and give it to Mr Mime after trading
-::::::
+:::::::if{source="Mimien" condition="$Item"}
+Make sure to take Twistedspoon from Abra and give it to Mr Mime after trading
+:::::::
 
 After Abra has been caught put Squirtle back in front of the party
   - Then Go above the Hiker and grab this Hidden Elixir
@@ -594,13 +599,29 @@ Avoid the Bug Catcher and fight the Camper below the girl trainer
 
 Head straight to the mart
 
+:::::::::if{source="Mimien" condition="startingLevel=11"}
+
 :::card{theme=neutral}
 Buy:
-  - 6 Super Potions (v)
+  - 5 Super Potions (v)
   - 7 Repels (vvvvv)
 :::
 
-Buy 5 Super Potions and 3 Pokeballs if low on Pokeballs
+Buy 4 Super Potions and 3 Pokeballs if low on Pokeballs
+
+:::::::::
+
+:::::::::if{source="Mimien" condition="startingLevel=13"}
+
+:::card{theme=neutral}
+Buy:
+  - 7 Super Potions (v)
+  - 7 Repels (vvvvv)
+:::
+
+Buy 6 Super Potions and 3 Pokeballs if low on Pokeballs
+
+:::::::::
 
 Go through Diglett's Cave to Route 4 and trade your Abra for Mr Mime
   - If you run into A Dugtrio try to run
@@ -612,9 +633,9 @@ Head to the S.S. Anne
 Go to the top most deck and fight both the sailors 
   - Switch Confusion to first slot while battling
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
@@ -639,9 +660,9 @@ Go to the top most deck and fight both the sailors
     - Do not learn Double Slap
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
@@ -666,11 +687,11 @@ Go to the top most deck and fight both the sailors
     - Poison Sting does 3(4)
   :::
 :::::
-:::::::
+::::::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
@@ -695,9 +716,9 @@ Go to the top most deck and fight both the sailors
     - Do not learn Double Slap
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Sailor Edmond]
   :::pokemon[Machop]
     - Confusion x2
@@ -722,16 +743,16 @@ Go to the top most deck and fight both the sailors
     - Poison Sting does 3(4)
   :::
 :::::
-::::::
-
 :::::::
+
+:::::::::
 
 Set Battle Style to Shift before Rival Battle 
 - Heal Mr Mime to full and Wartortle to about half HP
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Use Confusion with Mr Mime
@@ -755,9 +776,9 @@ Set Battle Style to Shift before Rival Battle
     ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=26 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Use Confusion with Mr Mime
@@ -782,13 +803,13 @@ Set Battle Style to Shift before Rival Battle
     ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=26 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
   :::
 :::::
-::::::
-
 :::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
+
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Use Confusion with Mr Mime
@@ -813,9 +834,9 @@ Set Battle Style to Shift before Rival Battle
     ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=26 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Use Confusion with Mr Mime
@@ -840,19 +861,19 @@ Set Battle Style to Shift before Rival Battle
     ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=26 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
   :::
 :::::
-::::::
-
 :::::::
+
+:::::::::
 
 Set Battle Style back to Set
 
 Talk to the captain for HM Cut
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
 Fight the trainer in the room left of Bed Lady's Heal
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Gentleman Arthur]
   :::pokemon[Nidoran M]
     - Confusion(x2)
@@ -865,9 +886,9 @@ Fight the trainer in the room left of Bed Lady's Heal
     - Poison does 5 HP damage every turn at level 17
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Gentleman Arthur]
   :::pokemon[Nidoran M]
     - Confusion(x2)
@@ -880,15 +901,15 @@ Fight the trainer in the room left of Bed Lady's Heal
     - Poison does 5 HP damage every turn at level 17
   :::
 :::::
-::::::
-
 :::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::
+
+:::::::::if{source="Mimien" condition="startingLevel=13"}
 
 Fight the Youngster in 2nd room from left on bottom floor(Room with Brick Break TM)
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Youngster Tyler]
   :::pokemon[Nidoran M]
     - Confusion(x2)
@@ -898,9 +919,9 @@ Fight the Youngster in 2nd room from left on bottom floor(Room with Brick Break 
     - Do not Learn Reflect or Light Screen
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Youngster Tyler]
   :::pokemon[Nidoran M]
     - Confusion(x2)
@@ -910,9 +931,9 @@ Fight the Youngster in 2nd room from left on bottom floor(Room with Brick Break 
     - Do not Learn Reflect or Light Screen
   :::
 :::::
-::::::
-
 :::::::
+
+:::::::::
 
 Can Use Bed Lady healing for Safety but not needed
 
@@ -928,9 +949,9 @@ Get the bike, then register + use it.
 
 Head to the right towards Rock Tunnel
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
     - Substitute + Confusion
@@ -948,9 +969,9 @@ Head to the right towards Rock Tunnel
     - Confusion
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
     - Substitute + Confusion
@@ -967,13 +988,13 @@ Head to the right towards Rock Tunnel
     - Confusion
   :::
 :::::
-::::::
-
 :::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
+
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
     - Substitute + Confusion
@@ -990,9 +1011,9 @@ Head to the right towards Rock Tunnel
     - Confusion
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Jr. Trainer Alicia]
   :::pokemon[Oddish]
     - Confusion
@@ -1007,9 +1028,9 @@ Head to the right towards Rock Tunnel
     - Confusion
   :::
 :::::
-::::::
-
 :::::::
+
+:::::::::
 
 Fight the Spinner Hiker
   - Use the max Ether before fighting him(can use after him if 3 or more Confusion PP remaining)
@@ -1045,7 +1066,7 @@ Grab this Hidden Super Potion
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1173187991607463946/Pokemon_-_FireRed_Version_USA_Europe_Rev_1-1.png?ex=65630b75&is=65509675&hm=9577c0d30950a4765318da50faf1c891f5afd7690627b2ece0d2d0c360764ea5&)
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Pokémaniac Ashton]
   :::pokemon[Cubone]
     - Confusion x2-3
@@ -1058,9 +1079,9 @@ Grab this Hidden Super Potion
     - Tackle does 7-8(9)
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Pokémaniac Ashton]
   :::pokemon[Cubone]
     - Confusion x2
@@ -1071,7 +1092,7 @@ Grab this Hidden Super Potion
     - Tackle does 7-8(9)
   :::
 :::::
-::::::
+:::::::
 
 :::::trainer[Pokémaniac Winston]
   :::pokemon[Slowpoke]
@@ -1079,7 +1100,7 @@ Grab this Hidden Super Potion
     - Water Gun does (5)6(7)
 :::::
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Jr Trainer Martha]
   :::pokemon[Oddish]
     - Confusion
@@ -1090,9 +1111,9 @@ Grab this Hidden Super Potion
     - Razor Leaf does 8-9(10)
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Jr Trainer Martha]
   :::pokemon[Oddish]
     - Confusion
@@ -1101,11 +1122,11 @@ Grab this Hidden Super Potion
     - Confusion
   :::
 :::::
-::::::
+:::::::
 
 *NEED to fight Hiker Eric on the top right instead of Hiker Allen on the bottom left*
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Hiker Eric]
   :::pokemon[Machop]
     - Confusion
@@ -1114,9 +1135,9 @@ Grab this Hidden Super Potion
     - Magical Leaf
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Hiker Eric]
   :::pokemon[Machop]
     - Confusion
@@ -1126,17 +1147,17 @@ Grab this Hidden Super Potion
     - Confusion is 56.3% to OHKO
   :::
 :::::
-::::::
+:::::::
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039515270491947060/Top_Hiker.png)
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
   - Now need to fight all 3 Hikers in this Room
-:::::::
+:::::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
   - Now need to fight all 2 Hikers in this Room(skipping the one you fight in Any% GLitchless)
-:::::::
+:::::::::
 
 First is the Hiker directly right of you
 
@@ -1155,11 +1176,11 @@ First is the Hiker directly right of you
   :::
 :::::
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
 Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Hiker Oliver]
   :::pokemon[Onix]
     - Confusion
@@ -1172,9 +1193,9 @@ Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
     - Confusion
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Hiker Oliver]
   :::pokemon[Onix]
     - Confusion
@@ -1186,15 +1207,15 @@ Now fight the hiker you usually fight in Any% Glitchless(bottom of the map)
     - Confusion
   :::
 :::::
-::::::
-
 :::::::
+
+:::::::::
 
 Now Hiker next the Stairs
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Hiker Lucas]
   :::pokemon[Geodude]
     - Confusion
@@ -1206,7 +1227,7 @@ Now Hiker next the Stairs
 
 :::::trainer[Jr Trainer Sofia]
   :::pokemon[Jigglypuff]
-    - Confusion(x2)
+    - Magical Leaf x2 / Confusion(x2)
     - Confusion is 18.8% to OHKO
     - Pound does 7-8(9)
   :::
@@ -1218,9 +1239,9 @@ Now Hiker next the Stairs
     - Quick Attack does 7-8(9)
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Hiker Lucas]
   :::pokemon[Geodude]
     - Confusion
@@ -1233,7 +1254,7 @@ Now Hiker next the Stairs
 
 :::::trainer[Jr Trainer Sofia]
   :::pokemon[Jigglypuff]
-    - Confusion(x2)
+    - Magical Leaf x2 / Confusion(x2)
     - Confusion is 62.5% to OHKO
     - Pound does 7-8(9)
   :::
@@ -1245,13 +1266,13 @@ Now Hiker next the Stairs
     - Quick Attack does 7-8(9)
   :::
 :::::
-::::::
-
 :::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
+
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Hiker Lucas]
   :::pokemon[Geodude]
     - Confusion
@@ -1263,7 +1284,7 @@ Now Hiker next the Stairs
 
 :::::trainer[Jr Trainer Sofia]
   :::pokemon[Jigglypuff]
-    - Confusion x2
+    - Magical Leaf x2 / Confusion(x2)
     - Pound does 7-8(9)
   :::
   :::pokemon[mewoth]
@@ -1274,9 +1295,9 @@ Now Hiker next the Stairs
     - Quick Attack does 7-8(9)
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Hiker Lucas]
   :::pokemon[Geodude]
     - Confusion
@@ -1289,7 +1310,7 @@ Now Hiker next the Stairs
 
 :::::trainer[Jr Trainer Sofia]
   :::pokemon[Jigglypuff]
-    - Confusion(x2)
+    - Magical Leaf x2 / Confusion(x2)
     - Confusion is 50% to OHKO
     - Pound does 7-8(9)
   :::
@@ -1301,11 +1322,11 @@ Now Hiker next the Stairs
     - Quick Attack does 7-8(9)
   :::
 :::::
-::::::
-
 :::::::
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::
+
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
 :::::trainer[Hiker Dudley]
   :::pokemon[Geodude]
@@ -1319,11 +1340,11 @@ Now Hiker next the Stairs
   :::
 :::::
 
-:::::::
+:::::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Hiker Dudley]
   :::pokemon[Geodude]
     - Confusion
@@ -1336,9 +1357,9 @@ Now Hiker next the Stairs
     - Confusion is 75% to OHKO
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Hiker Dudley]
   :::pokemon[Geodude]
     - Confusion
@@ -1350,14 +1371,14 @@ Now Hiker next the Stairs
     - Confusion
   :::
 :::::
-::::::
-
 :::::::
+
+:::::::::
 
 Run-Into-WALK Manip the Supernerd
 - Run-Into-Bike manip is slower due to lag from music transitions
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
 :::::trainer[Jr Trainer Dana]
   :::pokemon[Meowth]
@@ -1372,9 +1393,9 @@ Run-Into-WALK Manip the Supernerd
   :::
 :::::
 
-:::::::
+:::::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
 
 :::::trainer[Jr Trainer Dana]
   :::pokemon[Meowth]
@@ -1388,18 +1409,19 @@ Run-Into-WALK Manip the Supernerd
   :::
 :::::
 
-:::::::
+:::::::::
 
 Head left to the next route
 
 Fight the gambler below
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
-    - Psybeam(x2)
+    - Substitute + Psybeam(x2)
+    - Substitue isn't mandatory but is a safer option as getting burned on gorwlithe or vulpix is super bad
     - Psybeam is 31.3% to OHKO
     - Ember does 7-8(9)
   :::
@@ -1408,12 +1430,13 @@ Fight the gambler below
     - Quick Attack does 5(6)
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
-    - Psybeam(x2)
+    - Substitute + Psybeam(x2)
+    - Substitue isn't mandatory but is a safer option as getting burned on gorwlithe or vulpix is super bad
     - Psybeam is 68.8% to OHKO
     - Ember does 7-8(9)
   :::
@@ -1423,16 +1446,17 @@ Fight the gambler below
     - Quick Attack does 5(6)
   :::
 :::::
-::::::
-
 :::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
+
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
-    - Confusion x2
+    - Substitute + Psybeam(x2)
+    - Substitue isn't mandatory but is a safer option as getting burned on gorwlithe or vulpix is super bad
     - Ember does 7-8(9)
     - Learn Psybeam over confusion
   :::
@@ -1441,12 +1465,13 @@ Fight the gambler below
     - Quick Attack does 5(6)
   :::
 :::::
-::::::
+:::::::
 
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Gambler Rich]
   :::pokemon[Growlithe]
-    - Confusion x2
+    - Substitute + Psybeam(x2)
+    - Substitue isn't mandatory but is a safer option as getting burned on gorwlithe or vulpix is super bad
     - Ember does 7-8(9)
     - Learn Psybeam over confusion
   :::
@@ -1456,13 +1481,13 @@ Fight the gambler below
     - Quick Attack does 5(6)
   :::
 :::::
-::::::
-
 :::::::
+
+:::::::::
 
 Fight the Spinner above The Gamer
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
 :::::trainer[Super Nerd Glenn]
   :::pokemon[Grimer]
@@ -1476,11 +1501,11 @@ Fight the Spinner above The Gamer
   :::
 :::::
 
-:::::::
+:::::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
 
-::::::if{source="Mimien" condition="$Item == 'No'"}
+:::::::if{source="Mimien" condition="!$Item"}
 :::::trainer[Super Nerd Glenn]
   :::pokemon[Grimer]
     - Psybeam
@@ -1494,10 +1519,9 @@ Fight the Spinner above The Gamer
     - Psybeam
   :::
 :::::
+:::::::
 
-::::::
-
-::::::if{source="Mimien" condition="$Item == 'Yes'"}
+:::::::if{source="Mimien" condition="$Item"}
 :::::trainer[Super Nerd Glenn]
   :::pokemon[Grimer]
     - Psybeam
@@ -1511,20 +1535,40 @@ Fight the Spinner above The Gamer
     - Psybeam
   :::
 :::::
-::::::
-
 :::::::
 
+:::::::::
+
 Avoid all the Trainers and head towards Cerulean
+
+:::::::::if{source="Mimien" condition="startingLevel=13"}
 
 Grab this Hidden PP UP
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1173196607722889268/Pokemon_-_FireRed_Version_USA_Europe_Rev_1-0.png?ex=6563137c&is=65509e7c&hm=072065493ca47e2387424c52bd97339664867ce4ccfc98dcad8fa244c267cf8b&)
 
+:::::::::
+
 Then Grab Tea and Head to Celadon Deaprtment Store
 - Take Lift to 5F
 
 Talk to Top Vender
+
+:::::::::if{source="Mimien" condition="startingLevel=11"}
+
+:::card{theme=neutral}
+
+Sell :-
+  - Nugget
+
+Buy :-
+  - HP Up
+  - Protein
+:::
+
+:::::::::
+
+:::::::::if{source="Mimien" condition="startingLevel=13"}
 
 :::card{theme=neutral}
 
@@ -1536,6 +1580,8 @@ Buy :-
   - HP Up
   - Protein
 :::
+
+:::::::::
 
 Take stairs to 4F
 
@@ -1567,7 +1613,7 @@ If your Farfetch'd is at Level 20(instead of 22) fight the bug catcher north of 
 
 Now go to Route 8 through Saffron
 
-:::::::if{source="Mimien" condition="startingLevel=11"}
+:::::::::if{source="Mimien" condition="startingLevel=11"}
 
 Now go near the double battles(don't fight them yet) and then go left to fight Nerd Leslie
 
@@ -1577,9 +1623,9 @@ Now go near the double battles(don't fight them yet) and then go left to fight N
   :::
 :::::
 
-:::::::
+:::::::::
 
-:::::::if{source="Mimien" condition="startingLevel=13"}
+:::::::::if{source="Mimien" condition="startingLevel=13"}
 
 Fight the Bottom Biker before going near the double Battle
 
@@ -1597,7 +1643,7 @@ Fight the Bottom Biker before going near the double Battle
 
 Now Head towards the double battle
 
-:::::::
+:::::::::
 
 Now Candy x2 Mr Mime to Level 33 and teach Recycle over the 4th Move(Meditate)
 
