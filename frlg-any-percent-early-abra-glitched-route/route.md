@@ -566,7 +566,7 @@ Always grab this Oran Berry(don't use it it's needed for the setup)
 
 Just skip the hidden Ether you can just use the Elixir anytime you want
 
-Get S.S. Ticket, then run back to Cerulean and enter the Dig house
+Get S.S. Ticket, then teleport back to Cerulean and enter the Dig house
 - Ether before Drowzee/Raticate if you need the Mega Kicks (Not in Torrent)
 
 Head to the Dig house
