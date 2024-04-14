@@ -1,4 +1,4 @@
-:::tracker{species="Treecko" baseStats="[[40, 45, 35, 65, 55, 70], [50, 65, 45, 85, 65, 95], [70, 85, 65, 105, 85, 120]]" hpIV=31 attackIV=7 defenseIV=23 spAttackIV=31 spDefenseIV=7 speedIV=2 nature="Rash" type="Grass" generation=3 directInput=true}
+:::tracker{species="Treecko" baseStats="[[40, 45, 35, 65, 55, 70], [50, 65, 45, 85, 65, 95], [70, 85, 65, 105, 85, 120]]" hpIV=10 attackIV=29 defenseIV=16 spAttackIV=31 spDefenseIV=7 speedIV=7 nature="Modest" type="Grass" generation=3 directInput=true}
   5:
     6 ->	0, 0, 0, 1, 0, 1 # Zigzagoon(1 Speed), Torchic(1 Spatk) 
     7 ->	0, 1, 0, 1, 0, 1 # Poochyena(1 Atk)
