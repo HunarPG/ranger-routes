@@ -1,6 +1,6 @@
-:::tracker{species="Treecko" baseStats="[[40, 45, 35, 65, 55, 70], [50, 65, 45, 85, 65, 95], [70, 85, 65, 105, 85, 120]]" hpIV=10 attackIV=29 defenseIV=16 spAttackIV=31 spDefenseIV=7 speedIV=7 nature="Modest" type="Grass" generation=3 directInput=true}
+:::tracker{species="Treecko" baseStats="[[40, 45, 35, 65, 55, 70], [50, 65, 45, 85, 65, 95], [70, 85, 65, 105, 85, 120]]" hpIV=10 attackIV=29 defenseIV=16 spAttackIV=31 spDefenseIV=31 speedIV=9  nature="Modest" type="Grass" generation=3 directInput=true}
   5:
-    6 ->	0, 0, 0, 1, 0, 1 # Zigzagoon(1 Speed), Torchic(1 Spatk) 
+    6 ->	0, 0, 0, 1, 0, 1 # Zigzagoon(1 Speed), Torchic(1 Spatk)
     7 ->	0, 1, 0, 1, 0, 1 # Poochyena(1 Atk)
     8 ->	0, 2, 0, 1, 0, 1 # Poochyena(1 Atk)
     9 ->	0, 2, 1, 1, 0, 1 # Geodude(1 Def)
@@ -97,7 +97,7 @@ Offset (Flowtimer, GSR emu) 15455
 
 Go north to beat Rival 1(talk to him from the left) 
 
-:::::::trainer[Rival Brendan]
+:::::::trainer[Rival 1]
   :::::pokemon[Torchic]
     - Pound spam
     - Torchic's Scratch does 4(5)
@@ -106,9 +106,9 @@ Go north to beat Rival 1(talk to him from the left)
 
 Double check your stats at end of the fight(22, 10, 10, 15, 10, 13)
 
-Go south again, adjusting 1 tile right before talking to Brendan in Oldale
+Go south again, adjusting 1 tile right before talking to Rival in Oldale
 
-Meet Brendan at lab, then get the Running Shoes from mom (walk to the row below her then over and up to her left)
+Meet Rival at lab, then get the Running Shoes from mom (walk to the row below her then over and up to her left)
   - Can take mom heal if really low
 
 Go back to Oldale and use the west exit
@@ -134,7 +134,7 @@ Enter Petalburg Mart
 :::card{theme=neutral}
 ### Shopping
 #### Buy:
-  - 6 Repels (vvvvvv)
+  - 3 Repels (vvvvvv)
 :::
 
 Enter the Pokecenter to set your hub here, go to the gym to help out Wally, then leave via the west exit to Route 103
@@ -182,14 +182,14 @@ Exit and then Menu:
   - Teach Cut to Treecko
   - Teach Bullet Seed over Pound(Mash A)
 
-Head to Petalburg Gym
+Head to Rustbro Gym
 
 Go through the maze and talk to battle the second youngster
 
 :::::::trainer[Youngster Tommy]
   :::::pokemon[Geodude]
     - Bullet Seed
-    - Abosrb is 68.8% to OHKO
+    - Abosrb is  68.8% to OHKO
   :::::
   :::::pokemon[Geodude]
     - Absorb
@@ -213,7 +213,7 @@ Go through the maze and talk to battle the second youngster
     - Bullet Seed
   :::::
   :::::pokemon[Nosepass]
-    - Bullet Seed spam  
+    - Bullet Seed spam    
     - Nosepass's Rock Tomb does 16-18(19)
     - Nosepass's Tackle does 7-8(9)
   :::::
@@ -292,8 +292,8 @@ Enter the Pokemart
   - 6 X Attacks(vv)
 :::
 
-Go down directly talk to Brendan
-  - Say no to battling him
+Go down directly talk to Rival
+  - Say no to battling him    
 
 ## Miracle Seed and Marill
 
@@ -308,9 +308,14 @@ Go to the right and Cut the top tree
 Go grab the Miracle Seed
 
 Exit through the right exit of the forest
+  - Enter and leave Petalburg City
 
-Catch a Marill(20%)
-  - Weaken with Cut
+Save at this location for Marill Manip
+  - Make sure your Repel has ran out
+
+![Marill Manip Save Location](https://cdn.discordapp.com/attachments/917309676717244436/1230016968036319254/marill_manip_save_location.png?ex=6631c991&is=661f5491&hm=8eef7e86eff701e339a4426d4eaa37e5da4edf76cd6d574f582c40bf53c88e4d&)
+
+Do the marill manip
 
 Go to Mr Briney's house
 
@@ -364,20 +369,22 @@ Avoid all trainers and go fight Brawly
     - 87.8% to 3HKO
     - Can go for Bullet Seed for 3rd hit if High Hp to increase 3HKO range(only happens when he didn't attack you)
     - Machop's Karate Chop does 16-18(19)
-    - Machop's Karate Chop does (22)23-26(27) at +1
-    - Machop's Karate Chop does 30-35(36) at +2
+    - Machop's Karate Chop does (23)24-27(28) at +1
+    - Machop's Karate Chop does 31-36(37) at +2
     - Hope he doesn't crit kill you
   :::::
   :::::pokemon[Meditite]
-    - Pursuit + Cut + Bullet Seed(not guranteed range but pretty likely and avoids super potion range of Pursuit X2)
-    - Absorb spam if HP is below half
+    - Absorb X3
+    - Abosrb is 99.8% to 3HKO
+    - Pursuit + Cut + Bullet Seed if almost full HP
+    - Above is not guranteed range but pretty likely and avoids super potion range of Pursuit X2
   :::::
   :::::pokemon[Makuhita]
     - Spam a combo of Bullet Seed and Absorb(to recover out of his kill ranges)
     - You recover 8-10 HP
-    - Makuhita's Vital Throw does 23-26(27)
-    - Makuhita's Vital Throw does 34-39(40) at +1
-    - Makuhita's Vital Throw does 44-51(52) at +2
+    - Makuhita's Vital Throw does (23)24-27(28)
+    - Makuhita's Vital Throw does (35)36-41(42) at +1
+    - Makuhita's Vital Throw always kill at +2      
   :::::
 :::::::
 
@@ -397,9 +404,9 @@ Then head to Meuseum and talk with Stern
 
 :::::::trainer[Team Aqua Grunt]
   :::::pokemon[Carvanha]
-    - Abosrb
-    - 87.5% to OHKO without Overgrow
-    - Carvanha's Bite does 13-15(16)
+    - Bullet Seed
+    - Abosrb is 87.5% to OHKO without Overgrow
+    - Carvanha's Bite does 11-12(13)
   :::::
 :::::::
 
@@ -412,8 +419,6 @@ Then head to Meuseum and talk with Stern
   :::::
   :::::pokemon[Carvanha]
     - Abosrb
-    - 87.5% to OHKO without Overgrow
-    - Carvanha's Bite does 13-15(16)
   :::::
 :::::::
 
@@ -447,13 +452,13 @@ Heal to full before Rival
   :::::pokemon[Wingull]
     - X Attack X3 + Cut
     - Reset if you get growled
-    - Heal with Super Potion if dead to next Wing Attack  
+    - Heal with Super Potion if dead to next Wing Attack 
     - Wingull's Wing Attack does 20-23(24)
   :::::
   :::::pokemon[Combusken]
     - Cut X2
     - 89.5% to 2HKO
-    - Ember does 32-37(38)
+    - Ember does 25-29(30)
   :::::
   :::::pokemon[Lombre]
     - Cut X2
@@ -508,12 +513,18 @@ Head East to fight youngster
 :::::::trainer[Youngster Deadndre]
   :::::pokemon[Zigzagoon]
     - Bullet Seed
+    - Guranteed OHKO with 3 Bullet Seed hits
+    - Zigzagoon's Headbutt does 7-8(9)
   :::::
   :::::pokemon[Aron]
     - Bullet Seed
+    - 93.8% to OHKO with 3 Bullet Seed hits
+    - Aron's Metal Claw does 8-9(10)
   :::::
   :::::pokemon[Electrike]
     - Bullet Seed
+    - Guranteed OHKO with 3 Bullet Seed hits
+    - Electrike's Tackle does 4(5)
   :::::
 :::::::
 
@@ -523,7 +534,7 @@ Go towards the gym
 :::::::trainer[Rival Wally]
   :::::pokemon[Ralts]
     - Pursuit
-  :::::
+  ::::: 
 :::::::
 
 Head to Verdanturff avoiding all trainers
@@ -545,6 +556,7 @@ Head Back to Mauville
 :::::::trainer[Youngster Ben]
   :::::pokemon[Zigzagoon]
     - X Special + Bullet Seed
+    - Zigzagoon's Headbutt does 10-11(12)
   :::::
   :::::pokemon[Gulpin]
     - Pursuit X2
