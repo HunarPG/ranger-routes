@@ -20,7 +20,7 @@
     23 ->	3, 7, 10, 4, 5, 8 # Tentacool(1 Spdef), Tentacool(1 Spd), Wailmer(1 HP), Wailmer(1 HP)
     24 ->	4, 7, 11, 5, 5, 11 # Zigzagoon(1 Speed), Aron(1 Def), Electrike(1 Speed), Ralts(1 Spatk), Zigzagoon(1 Speed), Gulpin(1 HP)
     25 ->	4, 7, 11, 7, 5, 13 # Voltorb(1 Speed), Electrike(1 Speed), Magneton(2 Spatk)
-    26 ->	4, 7, 11, 7, 5, 13 # Manectric(2 Speed)
+    26 ->	4, 7, 11, 7, 5, 13 # Manectric(2 Speed), Geodude(1 Def), 
     27 ->	0, 0, 0, 0, 0, 0
     28 ->	0, 0, 0, 0, 0, 0
     29 ->	0, 0, 0, 0, 0, 0
@@ -647,5 +647,18 @@ Grab this Carbos
 
 ![Route 114 Carbos](https://cdn.discordapp.com/attachments/917309676717244436/1230044307092668507/route_114_carbos.png?ex=6631e307&is=661f6e07&hm=62d4cad9a487991aa2b57b2d2379a74246dccbf2f9e1f8a7a0dab1b43cc2e55d&)
 
+Go up the stairs
+  - Avoid the ratoto
+  - Talk to fight the Hiker
+
+:::::::trainer[Hiker Lucas]
+  :::::pokemon[Geodude]
+    - Bullet Seed
+  :::::
+  :::::pokemon[Numel]
+    - Pursuit X2
+    - Pursuit is 98.4% to 2HKO
+  :::::
+:::::::
 
 
