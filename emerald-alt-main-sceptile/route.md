@@ -507,6 +507,7 @@ Grab HM for Rock Smash
 Menu:-
   - Give Miracle Seed to Grovyle
   - Register and Use Mach Bike
+  - Teach Rock Smash to Marill
 
 Head East to fight youngster
 
@@ -582,6 +583,69 @@ Heal to full before fighting Wattson
     - Bullet Seed Spam
   :::::
 :::::::
+
+Exit the gym
+
+# Route 111-113
+
+Head to Route 111
+
+Use Rock Smash to break the rocks
+
+Head North
+  - Bike past the first Spinner (won’t spin yet)
+  - Adjust 1 tile to the left to dodge the next one
+
+Stop at the stone wall where pictured and Repel
+![Route 110 Repel Tile](https://cdn.discordapp.com/attachments/917309676717244436/1230040093356462171/route_110_repel_tile.png?ex=6631df1b&is=661f6a1b&hm=35d141369a7220ffe748f83647076bea1684a918fac35829732d570df25b8cb1&)
+
+Bike past the Rotato (top path) and bonk into the stairs/sign
+  - Run to bike or bag manip the Hiker on the left to enter Fiery Path
+
+After Fiery Path bag manip the double Spinners(Repel runs out in front of them)
+  - And in the next Route bike south up to a rock, to reset the 3rd spinner for a load manip
+
+Take the grandma heal
+
+Continuing north avoid CTB by biking below her 
+  - Use another Repel at the start of Route 113 next to a rock where the ash grass starts
+
+Following this path perfectly avoids all optionals without run/bag manips
+![Route 113 Path](https://cdn.discordapp.com/attachments/917309676717244436/1230041700093919242/route_113_path.png?ex=6631e09a&is=661f6b9a&hm=fc89e04986b8f34c218d89a0e217eded36a599d03f2da5e17373b2a7e15fee89&)
+
+# Fallarbor Shopping
+
+Pickup this Nugget
+![Fallarbor Nugget](https://cdn.discordapp.com/attachments/917309676717244436/1230042371110998016/fallarbor_nugget.png?ex=6631e13a&is=661f6c3a&hm=77512f0778959757fd736ee116c5f83b5d7dab1eab9cc9a9c4a3c009d1b941dd&)
+
+:::card{theme=neutral}
+### Shopping
+#### Sell:
+  - Nugget
+  - Tm for Steel Wing
+  - Tm for Bulk Up
+
+#### Buy:
+  - 2 Escape Rope(vvvv)
+  - 12 Super Repels(v)
+  - 3 X Attacks(vvv)
+  - 2 Guard Specs(vvv)
+:::
+
+Exit the Mart
+
+# Meteor Falls
+
+Bike towards Meteor Falls
+
+Catch a Swablu in the grass before Meteor Falls
+  - Use Pursuit to weaken
+
+Use Super Repel after catching Swablu
+
+Grab this Carbos
+
+![Route 114 Carbos](https://cdn.discordapp.com/attachments/917309676717244436/1230044307092668507/route_114_carbos.png?ex=6631e307&is=661f6e07&hm=62d4cad9a487991aa2b57b2d2379a74246dccbf2f9e1f8a7a0dab1b43cc2e55d&)
 
 
 
