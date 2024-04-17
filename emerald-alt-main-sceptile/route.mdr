@@ -20,14 +20,14 @@
     23 ->	3, 7, 10, 4, 5, 8 # Tentacool(1 Spdef), Tentacool(1 Spd), Wailmer(1 HP), Wailmer(1 HP)
     24 ->	4, 7, 11, 5, 5, 11 # Zigzagoon(1 Speed), Aron(1 Def), Electrike(1 Speed), Ralts(1 Spatk), Zigzagoon(1 Speed), Gulpin(1 HP)
     25 ->	4, 7, 11, 7, 5, 13 # Voltorb(1 Speed), Electrike(1 Speed), Magneton(2 Spatk)
-    26 ->	4, 7, 11, 7, 5, 13 # Manectric(2 Speed), Geodude(1 Def), 
-    27 ->	0, 0, 0, 0, 0, 0
-    28 ->	0, 0, 0, 0, 0, 0
-    29 ->	0, 0, 0, 0, 0, 0
-    30 ->	0, 0, 0, 0, 0, 0
-    31 ->	0, 0, 0, 0, 0, 0
-    32 ->	0, 0, 0, 0, 0, 0
-    33 ->	0, 0, 0, 0, 0, 0
+    26 ->	4, 7, 12, 8, 5, 15 # Manectric(2 Speed), Geodude(1 Def), Numel(1 Spatk)
+    27 ->	4, 8, 14, 10, 5, 15 # Geodude(1 Def), Geodude(1 Def), Machop(1 Atk), Roselia(1 Spatk), Roselia(1 Spatk)
+    28 ->	5, 9, 14, 12, 5, 16 # Shroomish(1 HP), Numel(1 Spatk), Numel(1 Spatk), Zubat(1 Speed), Poochyena(1 Atk)
+    29 ->	5, 12, 14, 14, 5, 16 # Mightyena(2 Atk), Camerupt(1 Atk, 1 Spatk), Zubat(1 Speed), Numel(1 Spatk)
+    30 ->	5, 13, 16, 16, 5, 16 # Camerupt(1 Atk, 1 Spatk), Slugma(1 Spatk), Torkoal(2 Def)
+    31 ->	9, 15, 16, 16, 5, 17 # Delcatty(1 Hp, 1 Speed), Wigglytuff(3 Hp), Zangoose(2 Atk)
+    32 ->	12, 15, 16, 17, 5, 21 # Spinda(1 Spatk), Vigoroth(2 Speed), Linoone(2 Speed), Slaking(3 HP)
+    33 ->	12, 15, 16, 17, 5, 21 #
     34 ->	0, 0, 0, 0, 0, 0
     35 ->	0, 0, 0, 0, 0, 0
     36 ->	0, 0, 0, 0, 0, 0
@@ -538,7 +538,7 @@ Go towards the gym
   ::::: 
 :::::::
 
-Head to Verdanturff avoiding all trainers
+Head to Verdanturf avoiding all trainers
 
 Head inside Mart
 
@@ -658,7 +658,254 @@ Go up the stairs
   :::::pokemon[Numel]
     - Pursuit X2
     - Pursuit is 98.4% to 2HKO
+    - Numel's Ember does 15-17(18)
   :::::
 :::::::
+
+Avoid the spinner and the next trainer
+  - Enter Meteor Falls
+
+After the cutscene leave through left exit
+
+Avoid the spinner
+  - Smash the rocks and go down
+  - Refresh Super Repel when it runs out
+
+Jump down the ledge to the left after past both trainers
+
+Pick this PP Up
+![Route 115 PP Up](https://cdn.discordapp.com/attachments/917309676717244436/1230070459903508531/route_115_pp_up.png?ex=6631fb63&is=661f8663&hm=f9a2b4fd4623c0aa175940b5d0aadd110ec44c8df8dfc6ecd2905f7e89ab6ce2&)
+
+Head right towards rusturf tunnel avoiding all trainers
+  - Break the rock smash rock to get HM for Strength
+
+Grab this Max Ether
+![Rusturf Tunnel Max Ether](https://cdn.discordapp.com/attachments/917309676717244436/1230071165356347392/rusturf_tunnel_max_ether.png?ex=6631fc0b&is=661f870b&hm=ed6bf3b831c50192aae5d9a027555a1f055c57f963ce9d37048e822a8ead4cdc&)
+
+Go down to fight the Hiker
+
+:::::::trainer[Hiker Mike]
+  :::::pokemon[Geodude]
+    - Pursuit
+    - Pursuit is 87.5% to OHKO
+  :::::
+  :::::pokemon[Geodude]
+    - Pursuit
+    - Pursuit is 87.5% to OHKO
+  :::::
+  :::::pokemon[Machop]
+    - Bullet Speed
+    - Machop's Karate Chop does 11-12(13)
+  :::::
+:::::::
+
+Exit Rusturf Tunnel
+
+# Verdanturf Town - Mount Chimney 
+
+Enter Verdanturf Mart
+
+:::card{theme=neutral}
+### Shopping
+#### Sell:
+  - Carbos
+  - PP Up
+#### Buy:
+  - 27 X Specials(vvvvvvvvv)
+:::
+
+Exit the mart and Head to Mauville City
+
+Stop and teach Strength to Grovyle over Absorb
+  - Equip Silk Scarf to Grovyle
+
+Fight the trainer just below the youngster you fought before fighting Wally
+
+:::::::trainer[Aroma Lady Rose]
+  :::::pokemon[Roselia]
+    - Strength
+  :::::
+  :::::pokemon[Roselia]
+    - Strength
+  :::::
+  :::::pokemon[Shroomish]
+    - Strength
+  :::::
+:::::::
+
+Go back through Route 111 to Mount Chimney avoiding all the Trainers along the way
+  - Use Repel before smasing the rock smash rock
+
+Go up to Mount Chimney
+
+:::::::trainer[Magma Grunt]
+  :::::pokemon[Numel]
+    - Strength + Pursuit
+    - Numel's Ember does 17-19(20)
+  :::::
+:::::::
+
+:::::::trainer[Magma Grunt]
+  :::::pokemon[Zubat]
+    - Strength
+  :::::
+:::::::
+
+:::::::trainer[Magma Admin Tabitha]
+  :::::pokemon[Numel]
+    - X Attack + Strength
+    - Strength + Pursuit if got growled
+    - Numel's Ember does 15-17(18)
+  :::::
+  :::::pokemon[Numel]
+    - Strength
+    - Strength is 93.8% to OHKO at +1
+    - Strength + Pursuit if got growled
+    - Numel's Ember does 20-23(24)
+  :::::
+  :::::pokemon[Zubat]
+    - Strength
+    - Pursuit X2 if got growled
+    - Zubat's Wing Attack does 27-31(32)
+  :::::
+  :::::pokemon[Poochyena]
+    - Strength
+    - Strength is 69.8% to OHKO if you got growled Once
+    - Strength X2 if you got growled twice
+    - Poochyena's Bite does 7-8(9)
+  :::::
+:::::::
+
+Heal to full before fighting Maxie
+  - Swap marill to slot 1
+
+:::::::trainer[Magma Leader Maxie]
+  :::::pokemon[Mightyena]
+    - Guard Spec and bring Grovyle out after marill faints
+    - X Attack X2 + Strength X2
+    - Mightyena's Bite does 15-17(18)
+  :::::
+  :::::pokemon[Camerupt]
+    - Strength X2
+    - Camerupt's Ember does 30-35(36)
+  :::::
+:::::::
+
+# Lavaridge Town
+
+Head south towards Lavaridge
+
+Go through Jagged Path follow this path
+![Jagged Path Path](https://cdn.discordapp.com/attachments/917309676717244436/1230086501648564306/jagged_path_path.png?ex=66320a53&is=661f9553&hm=44b92a452a7a2ef8c784f08bcf017e0237a04fe98d3c20276fa01519151752c6&)
+
+Immediately enter herb shop
+
+:::card{theme=neutral}
+### Shopping
+#### Buy:
+  - 8 Energy Powders
+  - 4 Energy Roots(v)
+  - 4 Heal Powders(v)
+:::
+
+Enter Lavaridge gym and follow this path
+![Lavaridge Gym Path](https://cdn.discordapp.com/attachments/917309676717244436/1230087400722661427/lavaridge_gym_path.png?ex=66320b2a&is=661f962a&hm=8c416bf1fec24ffd33265da7291974a365cb3d8a6da88853ba3c515794bf6601&)
+
+Save before Flannery
+  - Equip Sceptile Miracle Seed
+  - Also swap Grovyle to top
+
+:::::::trainer[Gym leader Flannery]
+  :::::pokemon[Numel]
+    - Switch and sac Swablu
+    - Reset if Numel misses Overheat
+    - Switch back to Grovyle
+    - X Special X6 avoiding fainting by appropriate healing
+    - Pursuit to kill     
+    - Make sure you are in overgrow after killing Numel(Spam cut to stall)
+    - Teach Leaf Blade over Bullet Seed
+    - Numel's Take Down does 20-23(24)
+    - Numel's Overheat after one use does 32-37(38)
+    - Numel's Overheat after two uses does 22-25(26)
+    - Numel's Overheat after three uses does 17-19(20)  
+    - Numel's Overheat after one use in sun does (45)46-53(54)
+    - Numel's Overheat after two uses in sun does 30-35(36)
+    - Numel's Overheat after three uses in sun does 22-25(26)
+  :::::
+  :::::pokemon[Camerupt]
+    - Leaf Blade
+  :::::
+  :::::pokemon[Slugma]
+    - Pursuit
+  :::::
+  :::::pokemon[Torkoal]
+    - Leaf Blade
+  :::::
+:::::::
+
+Leave the gym
+
+After rival cutscene go East and jump the ledge
+
+Avoid the spinner and repel before grass
+
+Go into desert and grab this Rare Candy(Avoid the spinner near it)
+![Desert Candy](https://cdn.discordapp.com/attachments/917309676717244436/1230092402346295367/desert_candy.png?ex=66320fd2&is=661f9ad2&hm=beda2e203b0b9b70a1cd51ec62a7f238f3952f9f31fb39b149c80a5eae59a9ca&)
+
+No go left and fight the Hiker which is running around a rock
+
+Die to his Sandslash(by spamming Cut)
+
+You will be teleported to Petalburg City
+
+# Petalburg Gym
+
+Go through the right gate(Accuracy Room)
+
+:::::::trainer[Cool Trainer Marry]
+  :::::pokemon[Delcatty]
+    - Strength + leaf Blade(not guranteed range)
+    - Delcatty's Feint Attack does (11)12-13(14)
+  :::::
+:::::::
+
+Go through the left gate(Defense Room)
+
+:::::::trainer[Cool Trainer Alexia]
+  :::::pokemon[Delcatty]
+    - Leaf Blade X2
+    - Wigglytuff's Double Edge does (53)54-62(63)
+  :::::
+:::::::
+
+Go through the left gate(Strength  Room)
+
+Heal out of Slash range
+
+:::::::trainer[Cool Trainer Jody]
+  :::::pokemon[Zangoose]
+    - Leaf Blade X2
+    - Zangoose's Slash does (41)42-48(49)
+  :::::
+:::::::
+
+:::::::trainer[Gym Leader Norman]
+  :::::pokemon[Spinda]
+    - X Special X4 + Leaf Blade
+    - Spinda's Facade does 25-29(30)
+  :::::
+  :::::pokemon[Vigoroth]
+    - Leaf Blade
+    - Make sure to stall for overgrow on Vigoroth
+  :::::
+  :::::pokemon[Linoone]
+    - Leaf Blade
+  :::::
+  :::::pokemon[Slaking]
+    - Leaf Blade
+  :::::
+:::::::
+
+
 
 
