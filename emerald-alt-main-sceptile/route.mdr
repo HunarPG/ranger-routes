@@ -27,11 +27,11 @@
     30 ->	5, 13, 16, 16, 5, 16 # Camerupt(1 Atk, 1 Spatk), Slugma(1 Spatk), Torkoal(2 Def)
     31 ->	9, 15, 16, 16, 5, 17 # Delcatty(1 Hp, 1 Speed), Wigglytuff(3 Hp), Zangoose(2 Atk)
     32 ->	12, 15, 16, 17, 5, 21 # Spinda(1 Spatk), Vigoroth(2 Speed), Linoone(2 Speed), Slaking(3 HP)
-    33 ->	12, 15, 16, 17, 5, 21 #
-    34 ->	0, 0, 0, 0, 0, 0
-    35 ->	0, 0, 0, 0, 0, 0
-    36 ->	0, 0, 0, 0, 0, 0
-    37 ->	0, 0, 0, 0, 0, 0
+    33 ->	12, 19, 16, 17, 5, 22 # Carvanha(1 Atk), Zubat(1 Speed), Poochyena(1 Atk), Poochyena(1 Atk), Carvanha(1 Atk)
+    34 ->	12, 19, 16, 17, 5, 22
+    35 ->	12, 19, 16, 17, 5, 22
+    36 ->	12, 19, 16, 17, 5, 22
+    37 ->	12, 19, 16, 17, 5, 22 # Carvanha(1 Atk), Mightyena(2 Atk)
     38 ->	0, 0, 0, 0, 0, 0
     39 ->	0, 0, 0, 0, 0, 0
     40 ->	0, 0, 0, 0, 0, 0
@@ -478,7 +478,8 @@ Heal to full before Rival
   :::::
 :::::::
 
-Grab the Elixir
+Grab this Elixir
+![Cycling Road Elixir](https://cdn.discordapp.com/attachments/917309676717244436/1230192101090922587/cycling_road_elixir.png?ex=66326cac&is=661ff7ac&hm=945f3294c4111c9f78f5b2f333170d5eab0560de75b9176b58f45c4630929c05&)
 
 Fight the Fisherman just before Mauville City
 
@@ -812,7 +813,7 @@ Enter Lavaridge gym and follow this path
 ![Lavaridge Gym Path](https://cdn.discordapp.com/attachments/917309676717244436/1230087400722661427/lavaridge_gym_path.png?ex=66320b2a&is=661f962a&hm=8c416bf1fec24ffd33265da7291974a365cb3d8a6da88853ba3c515794bf6601&)
 
 Save before Flannery
-  - Equip Sceptile Miracle Seed
+  - Equip Grovyle Miracle Seed
   - Also swap Grovyle to top
 
 :::::::trainer[Gym leader Flannery]
@@ -906,6 +907,83 @@ Heal out of Slash range
   :::::
 :::::::
 
+Go to the pond below
+  - Use Super Repel
+  - Teach Surf to Marill
 
+Grab this Rare Candy
+![Petalburg Rare Candy](https://cdn.discordapp.com/attachments/917309676717244436/1230178175561109585/petalburg_rare_candy.png?ex=66325fb4&is=661feab4&hm=6b72b8601bbe2fbf1bcbf64bf88b18a26b2274047a7ea0d271c8133667bd12d9&)
 
+# Weather Institute
+
+Head to Oldale Town
+  - Go north to Route 103 then Surf East
+  - Head to mauville City avoiding all trainers
+  - Refresh Super Repel again when over
+
+Surf through the narrow surfable tiles near start of cycling Road
+  - Grab this rare Candy and head to Mauville
+
+![Cycling Road Rare Candy](https://cdn.discordapp.com/attachments/917309676717244436/1230179695060979773/cycling_road_rare_candy.png?ex=6632611e&is=661fec1e&hm=9350cda869e510248244e275b65ba1e49ec5f8d56cc20c92b273e66c60bbe039&)
+
+Don't refresh next repel till your reach surf location east of Mauville City
+
+Refresh Super Repel again before starting Surfing
+
+Head east and meet with Steven
+
+Reach Weather Institute avoiding all the trainers
+
+Take the bed heal inside Weather Institute
+
+:::::::trainer[Aqua Grunt]
+  :::::pokemon[Carvanha]
+    - Strength
+  :::::
+:::::::
+
+Fight the right trainer after going upstrairs
+
+:::::::trainer[Aqua Grunt]
+  :::::pokemon[Zubat]
+    - Pursuit X2
+    - Zubat's Wing Attack does 27-31(32)
+  :::::
+  :::::pokemon[Poochyena]
+    - Strength
+  :::::
+:::::::
+
+:::::::trainer[Aqua Grunt]
+  :::::pokemon[Poochyena]
+    - Leaf Blade
+  :::::
+  :::::pokemon[Carvanha]
+    - Strength
+  :::::
+:::::::
+
+Avoid the spinner and fight Shelly
+
+Rare Candy X3 and evovle Grovyle
+
+:::::::trainer[Aqua Admin Shelly]
+  :::::pokemon[Carvanha]
+    - Strength
+  :::::
+  :::::pokemon[Mightyena]
+    - Leaf Blade
+  :::::
+:::::::
+
+Go and fight Rival
+
+:::::::trainer[Rival 3]
+  :::::pokemon[Pelipper]
+    - Strength
+  :::::
+  :::::pokemon[Mightyena]
+    - Leaf Blade
+  :::::
+:::::::
 
