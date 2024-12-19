@@ -130,7 +130,7 @@ Avoid all non mandatory trainers
 
 Grab this hidden potion if necessary
 
-![Sammy]Sammy_Potion.png)
+![Sammy Potion]Sammy_Potion.png)
 
 :::::trainer[Bug Catcher Sammy]
   :::pokemon[Weedle]
@@ -263,6 +263,7 @@ If you didn’t catch Pidgey on route 1, catch a Spearow/Pidgey now in the grass
 Grab this Persim Berry if 28-29 SPA or the chart below says to “Grab Persim” 
 
 ![Persim Grab](Persim_Grab.png)
+
 Run up 8 tiles in Mount Moon then::
   - Register TM Case
   - Equip Persim Berry from the Berry Pouch if you got it
@@ -615,41 +616,13 @@ Buy:
 Head to the S.S. Anne
 
 Before your Rival:
- - Rare Candy to 27(Stay level 26 if Rare Candy level up is out of torrent)
  - Ether Mega Kick if you haven’t already
- - Keep Torrent if you’re still in it and won’t die to a Quick Attack
- - 3, 6, 10, 14, 18, 21, 22, 25, 26, 29 HP IV = +3 Upon Levelup, Everything Else = +2
-
-::variable{name="Candy" type="select" title="Did you use Candy before Rival ?" options='["Yes", "No"]'}
 
 :::if{source="Squirtle" condition="$fight == 'Josh'"}
     Subtract 1 Defense IV to your squirtle to get accurate calcs of Pidgeotto's and Raticate's quick attack
     (increase it back after fighting Rival)
 :::
 
-::::::if{source="Squirtle" condition="$Candy == 'Yes'"}
-:::::trainer[Rival 3]
-  :::pokemon[Pidgeotto]
-    - Water Pulse + Bite
-    - Water Pulse* if in torrent
-    ::damage[Pidgeotto's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=27 evolution=1 opponentLevel=19 opponentStat=28 special=false stab=true type=flying}
-  :::
-  :::pokemon[Ivysaur]
-    - Bite + Mega Kick
-    ::damage[Ivysaur's Vine Whip]{source="Squirtle" offensive=false movePower=35 level=27 evolution=1 opponentLevel=20 opponentStat=39 special=true stab=true type=grass}
-  :::
-  :::pokemon[Raticate]
-    - Mega Kick/Water Pulse*
-    ::damage[Raticate's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=27 evolution=1 opponentLevel=16 opponentStat=34 special=false stab=true type=normal}
-  :::
-  :::pokemon[Kadabra]
-    - Bite
-    ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=27 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
-  :::
-:::::
-::::::
-
-::::::if{source="Squirtle" condition="$Candy == 'No'"}
 :::::trainer[Rival 3]
   :::pokemon[Pidgeotto]
     - Water Pulse + Bite
@@ -669,82 +642,12 @@ Before your Rival:
     ::damage[Kadabra's Confusion]{source="Squirtle" offensive=false movePower=50 level=26 evolution=1 opponentLevel=18 opponentStat=49 special=true stab=true type=psychic}
   :::
 :::::
-::::::
 
-Ivysaur Bite+Mega Kick 2HKO tanges = 
+Ivysaur Bite+Mega Kick 2HKO tanges =
 
 ![Ivysaur 2HKO](Ivyaur_2HKO.png)
 
-Talk to the captain for HM Cut and take the Bed Lady’s free heal on the way out
-
-Press Select to teach Cut to Rattata/Sandshrew, then Cut the bush to enter the gym
-
-::if{source="Squirtle" condition="$Candy == 'No'"}
-- Make sure to use Candy before fighting Gentleman
-
-Save after you find the 1st Can puzzle 
-- 2nd Can should be anywhere up,down,left, or right of the 1st can
-- Soft reset if you didn’t get the 2nd Can after saving
-- Optimal Can movement are the following
-
-![Can Order](Can_Order.png)
-
-:::::trainer[Gentleman Tucker]
-  :::pokemon[Pikachu]
-    Water Pulse
-    :::if{source="Squirtle" condition="$fight == 'Josh'"}
-    - 24-26 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Robby'"}
-    - 25-27 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    - 25-27 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    - 25-27 Speed Ties
-    :::
-  :::
-:::::
-
-:::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    Add 1 Defense IV to your squirtle to get accurate calcs of Raichu's quick attack(increase it back after 
-    fighting surge)
-:::
-
-:::::trainer[Leader Surge]
-  :::pokemon[Voltorb]
-    - Water Pulse (x2)	
-    :::if{source="Squirtle" condition="spatk=(x / x / 28)"}
-    - 62.5% to 2HKO
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 29-31)"}
-    - 81.25% to 2HKO
-    :::if{source="Squirtle" condition="$fight == 'Josh'"}
-    - 27-30 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Robby'"}
-    - 28-31 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Grunt'"}
-    - 28-31 Speed Ties
-    :::
-    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    - 28-31 Speed Ties
-    :::
-  :::
-  :::pokemon[Pikachu]
-    - Water Pulse
-  :::
-  :::pokemon[Raichu]{info="Always outspeeds" infoColor=blue}
-    - Water Pulse + Mega Kick
-    - Swap Water Pulse to Slot 2 before using it (Select + A + A)
-    - Water Pulse + Water Pulse if you can get Torrent next turn
-    ::damage[Raichu's Shock Wave]{source="Squirtle" offensive=false movePower=60 level=28 evolution=1 opponentLevel=24 opponentStat=52 special=true stab=true type=electric}
-    ::damage[Raichu's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=28 evolution=1 opponentLevel=24 opponentStat=43 special=false stab=false type=normal}
-    ::damage[Raichu's Quick Attack (-2/After Screech)]{source="Squirtle" offensive=false movePower=40 level=28 evolution=1 opponentLevel=24 opponentStat=43 combatStages=-2 special=false stab=false type=normal}
-  :::
-:::::
+Talk to the captain for HM Cut and take the Bed Lady’s free heal on the way Out
 
 Get the Bike Voucher, then run back to Cerulean City
 
@@ -1343,7 +1246,79 @@ Head through the left side of the gym
   :::
 :::::
 
-Exiting through the already cut bush, then fly to Celadon and bike to Silph Co.
+Exiting through the already cut bush
+
+
+
+Press Select to teach Cut to Rattata/Sandshrew, then Cut the bush to enter the gym
+
+::if{source="Squirtle" condition="$Candy == 'No'"}
+- Make sure to use Candy before fighting Gentleman
+
+Save after you find the 1st Can puzzle 
+- 2nd Can should be anywhere up,down,left, or right of the 1st can
+- Soft reset if you didn’t get the 2nd Can after saving
+- Optimal Can movement are the following
+
+![Can Order](Can_Order.png)
+
+:::::trainer[Gentleman Tucker]
+  :::pokemon[Pikachu]
+    Water Pulse
+    :::if{source="Squirtle" condition="$fight == 'Josh'"}
+    - 24-26 Speed Ties
+    :::
+    :::if{source="Squirtle" condition="$fight == 'Robby'"}
+    - 25-27 Speed Ties
+    :::
+    :::if{source="Squirtle" condition="$fight == 'Grunt'"}
+    - 25-27 Speed Ties
+    :::
+    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
+    - 25-27 Speed Ties
+    :::
+  :::
+:::::
+
+:::if{source="Squirtle" condition="$fight == 'Marcos'"}
+    Add 1 Defense IV to your squirtle to get accurate calcs of Raichu's quick attack(increase it back after 
+    fighting surge)
+:::
+
+:::::trainer[Leader Surge]
+  :::pokemon[Voltorb]
+    - Water Pulse (x2)	
+    :::if{source="Squirtle" condition="spatk=(x / x / 28)"}
+    - 62.5% to 2HKO
+    :::
+    :::if{source="Squirtle" condition="spatk=(x / x / 29-31)"}
+    - 81.25% to 2HKO
+    :::if{source="Squirtle" condition="$fight == 'Josh'"}
+    - 27-30 Speed Ties
+    :::
+    :::if{source="Squirtle" condition="$fight == 'Robby'"}
+    - 28-31 Speed Ties
+    :::
+    :::if{source="Squirtle" condition="$fight == 'Grunt'"}
+    - 28-31 Speed Ties
+    :::
+    :::if{source="Squirtle" condition="$fight == 'Marcos'"}
+    - 28-31 Speed Ties
+    :::
+  :::
+  :::pokemon[Pikachu]
+    - Water Pulse
+  :::
+  :::pokemon[Raichu]{info="Always outspeeds" infoColor=blue}
+    - Water Pulse + Mega Kick
+    - Swap Water Pulse to Slot 2 before using it (Select + A + A)
+    - Water Pulse + Water Pulse if you can get Torrent next turn
+    ::damage[Raichu's Shock Wave]{source="Squirtle" offensive=false movePower=60 level=28 evolution=1 opponentLevel=24 opponentStat=52 special=true stab=true type=electric}
+    ::damage[Raichu's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=28 evolution=1 opponentLevel=24 opponentStat=43 special=false stab=false type=normal}
+    ::damage[Raichu's Quick Attack (-2/After Screech)]{source="Squirtle" offensive=false movePower=40 level=28 evolution=1 opponentLevel=24 opponentStat=43 combatStages=-2 special=false stab=false type=normal}
+  :::
+:::::
+
 
 Take stairs to 3F and head to the Teleporter on the left
 
@@ -1735,7 +1710,7 @@ Heal to Full before Lance
 
 Lance Dragon Rage x2 Hyper Beam Chart
 
-![Can Order](Can_Order.png)
+![Gyara Dead Chart](Gyara_Dead_Chart.png)
 
 :::::trainer[Elite Four Lance(Safe Lance)]
   :::pokemon[Gyarados]
