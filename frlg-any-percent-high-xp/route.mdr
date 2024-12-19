@@ -1017,7 +1017,7 @@ Fight the left Rocket Grunt first
     - Water Pulse x2-3
     - 98% to 2HKO with Torrent
     ::damage[Kangaskhan's Mega Punch]{source="Squirtle" offensive=false movePower=80 level=36 evolution=2 opponentLevel=29 opponentStat=68 combatStages=0 special=false stab=true type=normal}
-    ::damage[Kangaskhan's Mega Punch (-1 Defense)]{source="Squirtle" offensive=false movePower=80 level=36 evolution=2 opponentLevel=29 pponentStat=68 combatStages=-1 special=false stab=true type=normal}
+    ::damage[Kangaskhan's Mega Punch (-1 Defense)]{source="Squirtle" offensive=false movePower=80 level=36 evolution=2 opponentLevel=29 opponentStat=68 combatStages=-1 special=false stab=true type=normal}
   :::
 :::::
 
