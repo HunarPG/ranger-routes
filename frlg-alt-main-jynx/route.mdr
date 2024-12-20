@@ -39,6 +39,35 @@
 30:
   31 -> 0, 5, 1, 0, 0, 0
   32 -> 0, 5, 2, 3, 0, 0
+  33 -> 0, 5, 2, 3, 0, 8
+  34 -> 0, 5, 2, 5, 2, 8
+  35 -> 1, 6, 3, 5, 2, 8
+  36 -> 1, 6, 6, 5, 3, 8
+  37 -> 1, 8, 6, 5, 3, 11
+  38 -> 1, 9, 6, 8, 3, 11
+  39 -> 1, 9, 7, 10, 4, 11
+  40 -> 1, 11, 10, 10, 5, 11
+  41 -> 6, 11, 10, 10, 5, 11
+  42 -> 6, 11, 10, 13, 7, 12
+  43 -> 6, 12, 10, 16, 7, 13
+  44 -> 6, 14, 10, 16, 7, 15
+  45 -> 6, 19, 12, 16, 7, 15
+  46 -> 11, 19, 13, 16, 7, 15
+  47 -> 11, 19, 17, 16, 7, 17
+  48 -> 14, 22, 17, 16, 7, 17
+  49 -> 14, 25, 18, 16, 7, 20
+  50 -> 14, 25, 18, 21, 8, 20
+  51 -> 16, 25, 18, 21, 10, 20
+  52 -> 16, 25, 22, 23, 10, 20
+  53 -> 16, 25, 22, 23, 10, 20
+  54 -> 16, 25, 22, 23, 10, 20
+  55 -> 16, 25, 22, 23, 10, 20
+  56 -> 16, 28, 24, 23, 12, 20
+  57 -> 16, 32, 24, 26, 12, 22
+  58 -> 16, 34, 24, 31, 12, 22
+  59 -> 16, 39, 24, 31, 12, 22
+  60 -> 16, 43, 24, 31, 12, 27
+  61 -> 16, 47, 24, 33, 13, 27
 :::
 
 ## Pokémon FireRed/LeafGreen Any%(High Exp Route) Route
@@ -761,10 +790,6 @@ Optional: Grab the Elixir before Martha (below and left of her)
   :::
 :::::
 
-![Top Hiker](Top_Hiker.png)
-
-![Bottom Hiker](Bottom_Hiker.png)
-
 :::::trainer[Hiker Oliver]
   :::pokemon[Onix]
     - Water Gun
@@ -1025,7 +1050,9 @@ Before fighting Rival
 
 Head to the 5th floor avoiding all optional trainers along the way
 
-*Do NOT grab any items till the 6th floor*
+Gran this Elixir
+
+![Pokemon Tower Elixir](Pokemon_Tower_Elixir.png)
 
 Use the healing pad if low on PP
 
@@ -1199,17 +1226,11 @@ Grab this hidden Elixir
 
 ![Cycling Elixir](Cycling_Elixir.png)
 
-Head through the *right* side of the gym
-
 Head straight to the Safari Zone
 
-**Before the grass in the second area**
+Super Repel before the grass in the second area
 
- - **Rare Candy to level 41**
-
- - **Super Repel**
-
-Always Grab this Full Restore
+Grab this Full Restore
 
 ![Safari Full Restore](Safari_Restore.png)
 
@@ -1223,94 +1244,54 @@ Fly to Fuchsia and head to the gym
 
 The 1st and 3rd trainer in this gym are spinners, fight the 2nd guy
 
-**During the bag manip on the 1st spinner**
- - **Teach Surf to Blastoise over Water Gun (Slot 1)**
-
 :::::trainer[Juggler Kirk]
-  - Surf* x4
-  - X Special turn 1 if not in Torrent
+  :::pokemon[Drowzee]
+    - X Special X2 + Ice Punch
+  :::
+  :::pokemon[Drowzee]
+    - Ice Punch
+  :::
+  :::pokemon[Kadabra]
+    - Ice Punch
+  :::
+  :::pokemon[Drowzee]
+    - Ice Punch
+  :::
 :::::
 
-**Heal out of Weezing/Muk kill range on the 2nd spinner**
+**Heal to full to be safe(minium above 87 hp to be out of Muk kill range)**
 
 :::::trainer[Leader Koga]
   :::pokemon[Koffing]
-    - Surf
+    - Psychic
   :::
   :::pokemon[Muk]
-    - Surf*, (X-Special) Surf*
-    - X Special on Muk if 60+ HP or if in Weezing Kill range after level up
-    ::damage[Muk's Sludge]{source="Squirtle" offensive=false movePower=65 level=41 evolution=2 opponentLevel=39 opponentStat=77 combatStages=0 special=false stab=true type=poison}
+    - Psychic X2
+    ::damage[Muk's Sludge]{source="Jynx" offensive=false movePower=65 level=34 opponentLevel=39 opponentStat=77 combatStages=0 special=false stab=true type=poison}
   :::
   :::pokemon[Koffing]
-    - Surf
-  :::
-  :::if{source="Squirtle" condition="$fight == 'Marcos'"}
-    - Add 1 Defense IV to your squirtle to get accurate calcs of Weezing's Sludge(increase it back after fighting Weezing)
+    - Psychic
   :::
   :::pokemon[Weezing]
-    - Surf*
-    :::if{source="Squirtle" condition="spatk=(x / x / 30+)"}
-    - 68.75% to OHKO
-    :::
-    - Consider Bite + Surf if high hp or you want safety
-    - Surf Turn 1 if +1 Torrent, Water Pulse + Surf if no Torrent on Weezing
-    ::damage[Weezing's Sludge]{source="Squirtle" offensive=false movePower=65 level=42 evolution=2 opponentLevel=43 opponentStat=82 combatStages=0 special=false stab=true type=poison}
+    - Psychic
   :::
 :::::
 
 **Grab Strength from the warden and once outside**
- - Super Repel
- - Heal out of Growlithe kill range if necessary
- - Fly to Pallet and Surf south to Cinnabar Island
+ - Teach Surf to Blastoise
+ - Teach Strength to Blastoise(Sandshrew is you caught it)
+ - Heal Jynx to full
+ - Use Elixir
+ - Fly to Saffron
 
-Go to the mansion (approach from the left side)
+Head to Mart
 
-![Carbos Chart](Carbos_Chart.png)
+Buy:-
+  - 14 Hyper Potion(v)
+  - 5 Full Heal(vv)
+  - 1 Max Repel(v)
 
-**Grab this Carbos if “Grab Carbos” on the chart above (Can bag manip the walker downstairs)**
-
-![Mansion Carbos](Mansion_Carbos.png)
-
-Grab this hidden Elixir
-
-![Mansion Elixir](Mansion_Elixir.png)
-
-Grab this TM14 (Blizzard) and then grab secret key on table
-
-![Mansion Blizzard](https://cdn.discordapp.com/attachments/917309676717244436/1039547192710545468/Mansion_Blizzard.png)
-
-**Before exiting Cinnabar Mansion:**
-- **Teach Strength to Sandshrew if you caught one**
-- **Teach Blizzard over Mega Kick (Slot 4)**
-- **Carbos now if grabbed for Blane (Delay if you grabbed for Sabrina)**
-- **Escape rope out and bike to the gym**
-
-*Puzzle Answers: A,B,B,B,A,B*
-
-:::::trainer[Leader Blaine]
-  :::pokemon[Growlithe]
-    - (X-Speed,) Surf
-    - X Speed at 21 Speed, only X-Speed at 22/23 if you skipped the Carbos
-    - Can Water Pulse both Growlithe and Ponyta in Torrent (Only if low pp on Surf)
-    ::damage[Growlithe's Take Down]{source="Squirtle" offensive=false movePower=90 level=42 evolution=2 opponentLevel=42 statModifier=1.1 opponentStat=64 special=false stab=false type=normal}
-    ::damage[Growlithe's Fire Blast]{source="Squirtle" offensive=false movePower=120 level=42 evolution=2 opponentLevel=42 opponentStat=63 special=true stab=true type=fire}
-  :::
-  :::pokemon[Ponyta]
-    - Surf
-  :::
-  :::pokemon[Rapidash(22-23 Speed Ties)]
-    - Surf
-    ::damage[Rapidash's Bounce]{source="Squirtle" offensive=false movePower=85 level=42 evolution=2 opponentLevel=42 statModifier=1.1 opponentStat=80 special=false stab=false type=flying}
-    ::damage[Rapidash's Fire Blast]{source="Squirtle" offensive=false movePower=120 level=42 evolution=2 opponentLevel=42 opponentStat=72 special=true stab=true type=fire}
-  :::
-  :::pokemon[Arcanine]
-    - Surf*
-    - Need Torrent for Arcanine (Can also just X-Special on Growlithe or tank a Rapidash hit)
-  :::
-:::::
-
-**SAY NO TO BILL YOU IDIOT, then fly to Celadon and bike to the gym**
+Head to Silph Co building
 
 Take stairs to 3F and head to the Teleporter on the left
 
@@ -1318,84 +1299,56 @@ Run into pause manip the Scientist
 
 Always bag manip the Rocket Spinner
 
-On spinner bag manip
-- Use the Max Elixir
-- Use Carbos if you haven’t already
-- Heal to around the HP below
-
-:::if{source="Squirtle" condition="defense=(0-11 / x / x)"}
-  - 82 HP
-:::
-:::if{source="Squirtle" condition="defense=(12-31 / 0-4 / x)"}
-  - 80 HP
-:::
-:::if{source="Squirtle" condition="defense=(x / 5-25 / x)"}
-  - 76 HP
-:::
-:::if{source="Squirtle" condition="defense=(x / 26-31 / x)"}
-  - 74 HP
-:::
-
 :::::trainer[Rival 5]
   :::pokemon[Pidgeot]
-    - X Special (+2), X Acc, Surf
-    - Go to +2 SPA if Featherdance turn 1
-    ::damage[Pidgeot's Wing Attack]{source="Squirtle" offensive=false movePower=60 level=44 evolution=2 opponentLevel=37 opponentStat=68 statModifier=1.1 special=false stab=true type=flying}
-    ::damage[Pidgeot's Quick Attack]{source="Squirtle" offensive=false movePower=40 level=44 evolution=2 opponentLevel=37 opponentStat=68 statModifier=1.1 special=false stab=true type=normal}
-  :::
-  :::pokemon[Venusaur]
-    - Blizzard
+    - X Special + Ice Punch
+    ::damage[Pidgeot's Wing Attack]{source="Jynx" offensive=false movePower=60 level=36 opponentLevel=37 opponentStat=68 statModifier=1.1 special=false stab=true type=flying}
+    ::damage[Pidgeot's Quick Attack]{source="Jynx" offensive=false movePower=40 level=36 opponentLevel=37 opponentStat=68 statModifier=1.1 special=false stab=true type=normal}
   :::
   :::pokemon[Gyarados]
-    - Blizzard + Bite
-    - 68.75% to OHKO with +2 Blizzard
+    - X Special X2 + Psychic
+    - Heal above 40 to be out of Dragon Rage range
+    ::damage[Gyarados's Bite]{source="Jynx" offensive=false movePower=60 level=36 opponentLevel=38 opponentStat=55 special=true stab=false type=dark}
   :::
   :::pokemon[Growlithe]
-    - Bite
+    - Psychic
   :::
   :::pokemon[Alakazam]
-    - Water Pulse*/Surf
+    - Ice Punch(X2)
+    - 68.8% to OHKO if Alakazam uses Calm Mind
+  :::
+  :::pokemon[Venusaur]
+    - Psychic
   :::
 :::::
 
 :::::trainer[Rocket Grunt]
   :::pokemon[Cubone]
-    - Bite/Water Pulse
-    ::damage[Cubone's Bonemerang(Per Hit)]{source="Squirtle" offensive=false movePower=50 level=45 evolution=2 opponentLevel=32 opponentStat=40 special=false stab=true type=ground}
-    :::if{source="Squirtle" condition="spatk=(x / x / 28-29)"}
-    - 75% to OHKO with Bite
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 30+)"}
-    - 81.25% to OHKO with Bite
-  :::
-  :::pokemon[Drowzee]
-    - Water Pulse
+    - Psychic
   :::
   :::pokemon[Marowak]
     - Water Pulse*
+  :::
+  :::pokemon[Drowzee]
+    - Ice Punch(X2)
+    - Ice Punch is 50% to OHKO
+    - Headbutt does 15-17(18) damage
   :::
 :::::
 
 :::::trainer[Giovanni 2]
   :::pokemon[Nidorino]
-    - Surf*
+    - X Special X2 +  Ice Punch
+    ::damage[Nidorino's Horn Attack]{source="Jynx" offensive=false movePower=65 level=39 opponentLevel=37 opponentStat=75 statModifier=1.1 special=false stab=false type=normal}
   :::
   :::pokemon[Nidoqueen]
-    - Surf*
+    - Psychic
   :::
   :::pokemon[Kangaskhan]
-    - Surf*
-    :::if{source="Squirtle" condition="spatk=(x / x / 28-29)"}
-    - 68.75% to 2HKO
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 30+)"}
-    - 81.25% to 2HKO
-    :::
-    ::damage[Kangaskhan's Fake Out]{source="Squirtle" offensive=false movePower=40 level=46 evolution=2 opponentLevel=35 opponentStat=82 statModifier=1.1 special=false stab=true type=normal}
-    ::damage[Kangaskhan's Mega Punch]{source="Squirtle" offensive=false movePower=80 level=46 evolution=2 opponentLevel=35 opponentStat=82 statModifier=1.1 special=false stab=true type=normal}
+    - Psychic
   :::
   :::pokemon[Rhyhorn]
-    - Water Pulse
+    - Psychic
   :::
 :::::
 
@@ -1405,102 +1358,142 @@ Tile Puzzle: Top Left, Bottom Left, Down
 
 :::::trainer[Leader Sabrina]
   :::pokemon[Kadabra]
-    - Surf*
-  :::
-  :::pokemon[Mr. Mime]
-    - Surf*
+    - X Special X2 + X Speed + Ice Punch(X2)
+    - Stay above like 50% HP to be out of all Kadabra Attack ranges
   :::
   :::pokemon[Venomoth]
-    - (X-Speed), Surf*
-    - Skip the X-Speed on Venomoth if 29+ Speed + Used Carbos
-  ::damage[Venomoth's Psybeam]{source="Squirtle" offensive=false movePower=65 level=47 evolution=2 opponentLevel=38 opponentStat=65 statModifier=1.1 special=true stab=false type=psychic}
+    - Ice Punch
+  :::
+  :::pokemon[Mr. Mime]
+    - Ice Punch
   :::
   :::pokemon[Alakazam]
-    - Surf*
+    - Ice Punch
   :::
 :::::
 
-Escape rope out, then Fly to Viridian and bike to the gym
+Fly to Pallet Town
+  - Take the Mom Heal
+
+
+Teach Calm Mind over Double Slap
+  - Use Super Repel
+
+Head to Cinnabar
+
+Go to the mansion (approach from the left side)
+
+Grab this TM14 (Blizzard) and then grab secret key on table
+
+![Mansion Blizzard](https://cdn.discordapp.com/attachments/917309676717244436/1039547192710545468/Mansion_Blizzard.png)
+
+Escape rope out and bike to the gym
+
+*Puzzle Answers: A,B,B,B,A,B*
+
+:::::trainer[Leader Blaine]
+  :::pokemon[Growlithe]
+    - Psychic
+  :::
+  :::pokemon[Ponyta]
+    - Calm Mind X2 + Psychic
+    ::damage[Ponyta's Bounce]{source="Jynx" offensive=false movePower=85 level=42 opponentLevel=40 statModifier=1.1 opponentStat=73 special=false stab=false type=normal}
+    ::damage[Ponyta's Fire Blast]{source="Jynx" offensive=false movePower=120 level=42 opponentLevel=40 opponentStat=57 special=true stab=true type=fire}
+    ::damage[Ponyta's Fire Blast(+1 Spdef)]{source="Jynx" offensive=false movePower=120 level=42 opponentLevel=40 opponentStat=57 combatStages=+1 special=true stab=true type=fire}
+    ::damage[Ponyta's Fire Blast(+2 Spdef)]{source="Jynx" offensive=false movePower=120 level=42 opponentLevel=40 opponentStat=57 combatStages=+2 special=true stab=true type=fire}
+  :::
+  :::pokemon[Rapidash(22-23 Speed Ties)]
+    - Psychic
+  :::
+  :::pokemon[Arcanine]
+    - Psychic
+    - Psychic is 93.8% to OHKO
+    ::damage[Arcanine's Take Down]{source="Jynx" offensive=false movePower=90 level=42 opponentLevel=47 statModifier=1.1 opponentStat=108 special=false stab=false type=normal}
+    ::damage[Arcanine's Fire Blast]{source="Jynx" offensive=false movePower=120 level=42 opponentLevel=47 opponentStat=108 special=true stab=true type=fire}
+  :::
+:::::
+
+**SAY NO TO BILL YOU IDIOT, then fly to Viridian and bike to the gym**
 
 Take the spinny tile on the right
 
 :::::trainer[Blackbelt Takashi]
   :::pokemon[Machoke]
-    - Surf
-    :::if{source="Squirtle" condition="spatk=(x / x / 28-29 )"}
-    - 81.25% to OHKO first Machoke
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 30+ )"}
-    - 87.5% to OHKO first Machoke
+    - Psychic
   :::
   :::pokemon[Machop]
-    - Surf
+    - Ice Punch
   :::
   :::pokemon[Machoke]
-    - Surf
+    - Psychic
   :::
 :::::
 
 :::::trainer[Cooltrainer Warren]
-  - Water Pulse* x5
-  - Surf Nidorina and Nidoqueen w/o Torrent
+  :::pokemon[Marowak]
+    - Ice Punch
+  :::
+  :::pokemon[Nidoqueen]
+    - Ice Punch
+  :::
+  :::pokemon[Rhyhorn]
+    - Ice Punch
+  :::
+  :::pokemon[Nidorina]
+    - Ice Punch
+  :::
+  :::pokemon[Marowak]
+    - Ice Punch
+  :::
 :::::
 
 :::::trainer[Leader Giovanni]
   :::pokemon[Rhyhorn]
-    - Water Pulse
-    - Can Water Pulse everything in Torrent if less than 5 PP on Surf
-    - Nidoking and Nidoqueen DO NOT die to Water Pulse w/o Torrent
-  :::
-  :::pokemon[Dugtrio]
-    - Water Pulse
-    :::if{source="Squirtle" condition="speed=(x / 18-20 / x )"}
-    - speed tie without Carbos
-  :::
-  :::pokemon[Nidoqueen]
-    - Surf
-  :::
-  :::pokemon[Nidoking]
-    - Surf
+    - Psychic
   :::
   :::pokemon[Rhyhorn]
-    - Surf
-    - Water Pulse Rhyhorn if only 3 Surf PP
+    - Ice Punch
+  :::
+  :::pokemon[Dugtrio]
+    - Ice Punch
+  :::
+  :::pokemon[Nidoqueen]
+    - Ice Punch
+  :::
+  :::pokemon[Nidoking]
+    - Ice Punch
   :::
 :::::
 
 After exiting, bike to Route 22
 
 Before the grass:
-- Use a Full Restore
-- Scroll to X Acc
+- Teach Blizzard over Powder Snow
+- Use Super Repel
+- Scroll to X Speed
 - Yolo the grass
 
 :::::trainer[Rival 6]
   :::pokemon[Pidgeot]
-    - X Special x2, (X Accuracy), Surf
-    - Consider X Accuracy skip if you can live a Razor Leaf
-    ::damage[Pidgeot's Wing Attack]{source="Squirtle" offensive=false movePower=60 level=49 evolution=2 opponentLevel=47 opponentStat=88 statModifier=1.1 special=false stab=true type=flying}
-  :::
-  :::pokemon[Venusaur]
-    - Blizzard	 
-    ::damage[Ivysaur's Razor Leaf]{source="Squirtle" offensive=false movePower=55 level=49 evolution=2 opponentLevel=53 opponentStat=126 statModifier=1.1 special=true stab=true type=grass}
+    - Ice Punch
   :::
   :::pokemon[Rhyhorn]
-    - Bite
-  :::
-  :::pokemon[Gyarados]
-    - Bite + Blizzard/Surf
-    - If Gyarados Rain Dances you can Surf instead of Blizzard
-    ::damage[Gyarados's Hydro Pump]{source="Squirtle" offensive=false movePower=120 level=50 evolution=2 opponentLevel=45 opponentStat=60 statModifier=1.1 special=true stab=true type=water}
+    - Ice Punch
   :::
   :::pokemon[Growlithe]
-    - (X Speed,) Bite
-    - Skip X Speed if Gyarados used Rain Dance and can tank a Psychic
+    - Calm Mind X3 + x Speed + Psychic
+    ::damage[Growlithe's Take Down]{source="Jynx" offensive=false movePower=90 level=48 opponentLevel=45 statModifier=1.1 opponentStat=76 special=false stab=false type=normal}
+    ::damage[Growlithe's Flame Wheel]{source="Jynx" offensive=false movePower=60 level=48 opponentLevel=45 statModifier=1.1 opponentStat=76 special=true stab=true type=fire}
+  :::
+  :::pokemon[Gyarados]
+    - Blizzard
+    ::damage[Gyarados's Hydro Pump]{source="Jynx" offensive=false movePower=120 level=48 opponentLevel=45 opponentStat=60 combatStages=-2 statModifier=1.1 special=true stab=true type=water}
   :::
   :::pokemon[Alakazam]
-    - Surf 
-    ::damage[Alakazam's Psychic]{source="Squirtle" offensive=false movePower=90 level=51 evolution=2 opponentLevel=47 opponentStat=140 statModifier=1.1 special=true stab=true type=psychic}
+    - Ice Punch
+  :::
+  :::pokemon[Venusaur]
+    - Ice Punch
   :::
 :::::
 
@@ -1510,7 +1503,6 @@ Wait to repel and yolo the grass after Rival (1% chance to encounter)
 
 As soon as you reach the water behind the 4th guard:
 - Super Repel (Keep up for the rest of the game)
-- Teach Strength over Water Pulse if you don’t have a Sandshrew
 
 Every trainer here is an optional trainer, so avoid them all
 
@@ -1518,287 +1510,125 @@ Every trainer here is an optional trainer, so avoid them all
 
 **Buy max Full Restores (vv)**
 
-**If doing risky Lorelei Switch to Normal Lorelei if Hail turn 1 or 2**
-
-:::if{source="Squirtle" condition="$fight == 'Josh'"}
-    Subtract 1 Defense IV to your squirtle to get accurate calcs of Lapras's Body Slam(increase it back after 
-    fighting Lorelei)
-:::
-
-:::::trainer[Elite Four Lorelei(Risky)]
+:::::trainer[Elite Four Lorelei]
   :::pokemon[Dewgong]
-    - X Special x2, Bite + Bite, X Special x2, Bite
-    - She will not go for Hail if below half
-    - 16% to knock into Heal Range
-  :::
-  :::pokemon[Cloyster]
-    - Bite
-  :::
-  :::pokemon[Slowbro]
-    - Bite
-  :::
-  :::pokemon[Jynx]
-    - Surf
-    :::if{source="Squirtle" condition="speed=(x / 15-16 / x )"}
-    - speed tie without Carbos
+    - Calm Mind X6 + Psychic
+    - After 1 Calm Mind Dewgong surf does 31-36(37)
+    - After 2 Calm Mind Dewgong surf does (23)24-27(28)
+    - After 3 Calm Mind Dewgong surf does 20-23(24)
+    - After 4 Calm Mind Dewgong surf does 16-18(19)
+    - After 5 Calm Mind Dewgong surf does 15-17(18)
+    - After 6 Calm Mind Dewgong surf does 12-14(15)
   :::
   :::pokemon[Lapras]
-    - Bite x3
-    ::damage[Lapras' Body Slam]{source="Squirtle" offensive=false movePower=85 level=52 evolution=2 opponentLevel=54 opponentStat=113 statModifier=1.1 special=false stab=false type=normal}
-  :::
-:::::
-
-:::::trainer[Elite Four Lorelei(Normal)]
-  :::pokemon[Dewgong]
-    - X Special x4, Bite + Bite
-    - Surf turn 2 if low roll from Bite
-    - Check your X Speed count here
+    - Psychic
   :::
   :::pokemon[Cloyster]
-    - Bite
+    - Psychic
   :::
   :::pokemon[Slowbro]
-    - Bite
+    - Blizzard
+    - Slowbro's Surf at +6 does 16-18(19)
   :::
   :::pokemon[Jynx]
-    - Surf
-    :::if{source="Squirtle" condition="speed=(x / 15-16 / x )"}
-    - speed tie without Carbos
-  :::
-  :::pokemon[Lapras]
-    - Bite x3
-    ::damage[Lapras' Body Slam]{source="Squirtle" offensive=false movePower=85 level=52 evolution=2 opponentLevel=54 opponentStat=113 statModifier=1.1 special=false stab=false type=normal}
+    - Blizzard
   :::
 :::::
 
-**Heal to at least 80 HP before Bruno **
-- Do High HP Bruno if 1 RT, and 2 EQ’s puts you into High Torrent
-- NEED 3 X SPEED’S IN YOUR INVENTORY FOR HIGH HP BRUNO STRATS
-- Always Do Mid HP Bruno if 31 IV Speed
+Heal to full
+ - Rare Candy X3 to Level 55
 
-**Do mid HP strat if 31 Speed + Carbos or 30 Speed + Carbos + 5 Spe IVs**
-
-:::if{source="Squirtle" condition="$fight == 'Rocket'"}
-    Subtract 1 Defense IV to your squirtle to get accurate calcs of all the Bruno fights(increase it back after 
-    fighting Bruno)
-:::
-
-:::if{source="Squirtle" condition="$fight == 'Josh'"}
-    Subtract 1 Defense IV to your squirtle to get accurate calcs of all the Bruno fights(increase it back after 
-    fighting Bruno)
-:::
-
-:::::trainer[Elite Four Bruno(High HP)]
+:::::trainer[Elite Four Bruno]
   :::pokemon[Onix]
-    - X Special x2, X Speed, Surf
-    - Use an Extra X Special if missed Rock Tomb
-    - Bite Both Onix at +3 or More
-    ::damage[Onix's Earthquake]{source="Squirtle" offensive=false movePower=100 level=52 evolution=2 opponentLevel=51 opponentStat=66 statModifier=1.1 special=false stab=true type=ground} 
-    ::damage[Onix's Rock Tomb]{source="Squirtle" offensive=false movePower=50 level=52 evolution=2 opponentLevel=51 opponentStat=66 statModifier=1.1 special=false stab=true type=rock}
-    :::if{source="Squirtle" condition="speed=(x / 31 / x )"}
-    - outspeed onix at -1 
+    - Psychic
   :::
   :::pokemon[Hitmonchan]
-    -  Surf*
-    ::damage[Hitmonchan's Mach Punch]{source="Squirtle" offensive=false movePower=40 level=52 evolution=2 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=true type=fighting} 
-    ::damage[Hitmonchan's Sky Uppercut]{source="Squirtle" offensive=false movePower=85 level=52 evolution=2 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=true type=fighting}
-    ::damage[Hitmonchan's Rock Tomb]{source="Squirtle" offensive=false movePower=50 level=52 evolution=2 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=false type=rock}
-  :::
-  :::pokemon[Hitmonlee]
-    -  Surf*
-  :::
-  :::pokemon[Machamp]
-    -  Surf*
+    -  Psychic
   :::
   :::pokemon[Onix]
-    -  Surf
+    -  Calm Mind + Psychic
+    ::damage[Onix's Iron Tail]{source="Jynx" offensive=false movePower=100 level=55 opponentLevel=54 statModifier=1.1 opponentStat=69 special=false stab=false type=steel}
+  :::
+  :::pokemon[Hitmonlee]
+    -  Psychic
+  :::
+  :::pokemon[Machamp]
+    -  Psychic
   :::
 :::::
 
-:::::trainer[Elite Four Bruno(Mid HP)]
-  :::pokemon[Onix]
-    - Guard Spec., X Special x2, Surf
-    - Continue setting up X Specs until +4 or at least +2 and in Torrent (Machamp will not die otherwise)
-    - Bite Both Onix at +3 or More
-    - Can Super Potion on Hitmonlee
-    ::damage[Onix's Earthquake]{source="Squirtle" offensive=false movePower=100 level=52 evolution=2 opponentLevel=51 opponentStat=66 statModifier=1.1 special=false stab=true type=ground} 
-    ::damage[Onix's Rock Tomb]{source="Squirtle" offensive=false movePower=50 level=52 evolution=2 opponentLevel=51 opponentStat=66 statModifier=1.1 special=false stab=true type=rock} 
-  :::
-  :::pokemon[Hitmonchan]
-    -  Surf*
-    ::damage[Hitmonchan's Mach Punch]{source="Squirtle" offensive=false movePower=40 level=52 evolution=2 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=true type=fighting} 
-    ::damage[Hitmonchan's Sky Uppercut]{source="Squirtle" offensive=false movePower=85 level=52 evolution=2 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=true type=fighting}
-    ::damage[Hitmonchan's Rock Tomb]{source="Squirtle" offensive=false movePower=50 level=52 evolution=2 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=false type=rock}
-  :::
-  :::pokemon[Hitmonlee]
-    -  Surf*
-    :::if{source="Squirtle" condition="speed=(x / 17-18 / x)"}
-    - Speed Tie Unless Carbos
-  :::
-  :::pokemon[Machamp]
-    -  Surf*
-    - **Need at least +2 in torrent or +4 without Torrent to OHKO**
-  :::
-  :::pokemon[Onix]
-    -  Surf
-  :::
-:::::
-
-:::::trainer[Elite Four Bruno(Low HP)]
-  :::pokemon[Onix]
-    - Full Restore, X Special x2, X Speed, Surf
-    - Use an Extra X Special if missed Rock Tomb
-    - Bite Both Onix at +3 or More
-    ::damage[Onix's Earthquake]{source="Squirtle" offensive=false movePower=100 level=52 evolution=2 opponentLevel=51 opponentStat=66 statModifier=1.1 special=false stab=true type=ground} 
-    :::damage[Onix's Rock Tomb]{source="Squirtle" offensive=false movePower=50 level=52 evolution=2 opponentLevel=51 opponentStat=66 statModifier=1.1 special=false stab=true type=rock}
-    :::if{source="Squirtle" condition="speed=(x / 31 / x )"}
-    - outspeed onix at -1 
-  :::
-  :::pokemon[Hitmonchan]
-    -  Surf*
-    ::damage[Hitmonchan's Mach Punch]{source="Squirtle" offensive=false movePower=40 level=52 evolution=2 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=true type=fighting} 
-    ::damage[Hitmonchan's Sky Uppercut]{source="Squirtle" offensive=false movePower=85 level=52 evolution=2 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=true type=fighting}
-    ::damage[Hitmonchan's Rock Tomb]{source="Squirtle" offensive=false movePower=50 level=52 evolution=2 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=false type=rock}
-  :::
-  :::pokemon[Hitmonlee]
-    -  Surf*
-  :::
-  :::pokemon[Machamp]
-    -  Surf*
-  :::
-  :::pokemon[Onix]
-    -  Surf
-  :::
-:::::
-
-Heal out of Agatha kill range, but keep Torrent if possible
-
-:::if{source="Squirtle" condition="$fight == 'Josh'"}
-    Subtract 1 Defense IV to your squirtle to get accurate calcs of Gengar's Shadow Punch(increase it back after 
-    fighting Agatha)
-:::
+Heal to full and use Max Elixir
 
 :::::trainer[Elite Four Agatha]
   :::pokemon[Gengar]
-    - X Speed, X Spec, Surf*
-    - Need to be at least +3 from here if you don’t have Torrent
-    ::damage[Gengar's Shadow Punch]{source="Squirtle" offensive=false movePower=60 level=53 evolution=2 opponentLevel=54 opponentStat=100 statModifier=1.1 special=false stab=true type=ghost}
+    - Psychic
   :::
   :::pokemon[Golbat]
-    - Surf*
+    - X Speed + Psychic
+    ::damage[Golbat's Air Cutter]{source="Jynx" offensive=false movePower=55 level=56 opponentLevel=54 statModifier=1.1 opponentStat=107 special=false stab=false type=flying}
   :::
   :::pokemon[Arbok]
-    - Surf*
+    - Psychic
   :::
   :::pokemon[Gengar]
-    - Surf*
+    - Psychic
   :::
   :::pokemon[Haunter]
-    - Surf*
+    - Psychic
   :::
 :::::
 
 Heal to Full before Lance
 
-Lance Dragon Rage x2 Hyper Beam Chart
-
-![Gyara Dead Chart](Gyara_Dead_Chart.png)
-
 :::::trainer[Elite Four Lance(Safe Lance)]
   :::pokemon[Gyarados]
-    - Bite, X Accuracy, X Special, Blizzard + Blizzard
-    :::if{source="Squirtle" condition="spatk=(x / x / 30 )"}
-    - 31.25% to 2HKO with Blizzard
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 31 )"}
-    - 41.8% to 2HKO with Blizzard
-    ::damage[Gyarados' Hyper Beam ]{source="Squirtle" offensive=false movePower=150 level=54 evolution=2 opponentLevel=56 opponentStat=161 statModifier=1.1 special=false stab=false type=normal}
-  :::
-  :::pokemon[Dragonair]
-    - Blizzard
-    - Dragonair Hyper Beam does 45-66
-  :::
-  :::pokemon[Dragonair]
-    - Blizzard
-    - Dragonair Hyper Beam does 45-66
-  :::
-  :::pokemon[Dragonite]
-    - Blizzard
+    - X Defense X2 + X Speed + Calm Mind + Ice Punch X2
+    - Gyarados's Hyper beam does 117-136(138) at +1
+    - Gyarados's Hyper beam does 87-101(103) at +2
   :::
   :::pokemon[Aerodactyl]
-    - Blizzard
-    - If Ancient Power Boost, either spam Surf or Heal + go for the range
-    - 37.5% to ohko if Ancient Power boost + no Torrent, guaranteed /w Torrent
-    ::damage[Aerodactyl's Hyper Beam]{source="Squirtle" offensive=false movePower=150 level=55 evolution=2 opponentLevel=58 opponentStat=129 statModifier=1.1 special=false stab=false type=normal}
+    - Ice Punch
+  :::
+  :::pokemon[Dragonite]
+    - Psychic
+  :::
+  :::pokemon[Dragonair]
+    - Psychic
+  :::
+  :::pokemon[Dragonair]
+    - Psychic
   :::
 :::::
 
-**Consider Risky Lance if 2 Dragon Rages puts you into Hyper Beam range**
-
-:::::trainer[Elite Four Lance(Risky Lance)]
-  :::pokemon[Gyarados]
-    - X Special, Bite x2, X Accuracy, Blizzard
-    ::damage[Gyarados' Hyper Beam ]{source="Squirtle" offensive=false movePower=150 level=54 evolution=2 opponentLevel=56 opponentStat=161 statModifier=1.1 special=false stab=false type=normal}
-    :::if{source="Squirtle" condition="spatk=(x / x / 31 )"}
-    - 85% to 3HKO 
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 28-30 )"}
-    - 72% to 3HKO 
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 31 )"}
-    - 83% to 2HKO with Bite Crit+Blizzard
-    :::
-    :::if{source="Squirtle" condition="spatk=(x / x / 28-30 )"}
-    - 72% to 2HKO with Bite Crit+Blizzard
-  :::
-  :::pokemon[Dragonair]
-    - Blizzard
-    - Dragonair Hyper Beam does 45-66
-  :::
-  :::pokemon[Dragonair]
-    - Blizzard
-    - Dragonair Hyper Beam does 45-66
-  :::
-  :::pokemon[Dragonite]
-    - Blizzard
-  :::
-  :::pokemon[Aerodactyl]
-    - Blizzard
-    - If Ancient Power Boost, either spam Surf or Heal + go for the range
-    - 37.5% to ohko if Ancient Power boost + no Torrent, guaranteed /w Torrent
-    ::damage[Aerodactyl's Hyper Beam]{source="Squirtle" offensive=false movePower=150 level=55 evolution=2 opponentLevel=58 opponentStat=129 statModifier=1.1 special=false stab=false type=normal}
-  :::
-:::::
-
-Heal to Full + Elixir before Champion
+Heal to Full before Champion
 
 :::::trainer[Champion]
   :::pokemon[Pidgeot]
-    - Guard Spec, X Speed, X Special x2(x3), Surf
-    - If Pidgeot gives you torrent, skip the third X Special, then heal on Gyarados
-    - NEED +3 without Torrent or +2 WITH Torrent to get past Alakazam
-    - Can Blizzard at +2 if Guard Spec. runs out
-    ::damage[Pidgeot's Aerial Ace]{source="Squirtle" offensive=false movePower=60 level=55 evolution=2 opponentLevel=59 opponentStat=117 statModifier=1.1 special=false stab=true type=flying}
-  :::
-  :::pokemon[Venusaur]
-    - X Accuracy + Blizzard at +2
-    - Bite + Surf* at +3
-    - Skip X Accuracy if feeling risky
-  :::
-  :::pokemon[Alakazam]
-    - Surf
+    - Guard Spec + X Accuracy + Calm Mind X2 + Psychic(Can Defense twice if want to play safe)
+    - At +0 Pidgeot's Aerial Ace does 77-90(91)
+    - At +1 Pidgeot's Aerial Ace does 51-60(61)
+    - At +2 Pidgeot's Aerial Ace does 51-60(61)
   :::
   :::pokemon[Rhydon]
-    - Surf
+    - Psychic
   :::
   :::pokemon[Gyarados]
-    - Bite + Blizzard at +3
-    - Blizzard x2 at +2
-    ::damage[Gyarados's Thrash]{source="Squirtle" offensive=false movePower=90 level=56 evolution=2 opponentLevel=59 opponentStat=153 statModifier=1.1 special=false stab=false type=normal}
+    - Blizzard
   :::
   :::pokemon[Arcanine]
-    - Surf
-    ::damage[Arcanine's Extremespeed]{source="Squirtle" offensive=false movePower=80 level=56 evolution=2 opponentLevel=61 opponentStat=158 statModifier=1.1 special=false stab=false type=normal}
+    - Psychic
+    - Psychic is 93.8% to OHKO
+    - Arcanine's Extremespeed at +1 does 64-75(76)
+    - Arcanine's Extremespeed at +2 does 48-56(57)
+  :::
+  :::pokemon[Venusaur]
+    - Blizzard / Ice Punch
+  :::
+  :::pokemon[Alakazam]
+    - Blizzard / Ice Punch
+    - Ice Punch is 68.8% to OHKO
+    - Alakazam's Psychic does 18-21(22) at +2
+  :::
 :::::
 
 Ending split is on fadeout after Hall of Fame
