@@ -35,7 +35,7 @@
   38 -> 15, 19, 36, 19, 4, 44
 :::
 
-:::tracker{species="Jynx" baseStats="[65, 50, 35, 115, 95, 95]" type="Ice/Psychic" hpIV=18 attackIV=17 defenseIV=18 spAttackIV=25 spDefenseIV=21 speedIV=22 nature="Mild"  generation=3}
+:::tracker{species="Jynx" baseStats="[[65, 50, 35, 115, 95, 95]]" type="Ice/Psychic" hpIV=18 attackIV=17 defenseIV=18 spAttackIV=25 spDefenseIV=21 speedIV=22 nature="Mild" generation=3}
 30:
   31 -> 0, 5, 1, 0, 0, 0
   32 -> 0, 5, 2, 3, 0, 0
