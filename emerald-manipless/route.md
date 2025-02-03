@@ -68,7 +68,9 @@
   - Text: Fast
   - Battle Scene: Off
   - Battle Style: SET
-  - Button Mode: L=A
+  - Button Mode: L=A(Not required by recommended for mashing)
+
+![Game Settings](https://media.discordapp.net/attachments/917309676717244436/1335852931789881354/game_settings.png?ex=67a1ad7d&is=67a05bfd&hm=14cefa1f3dfcc64ab0050268e593fa43a54b91debd93f4c6e819043faaca36b1&=&format=webp&quality=lossless)
 
 ## Intro
   - **Pick Girl**
@@ -152,7 +154,7 @@ Menu:
   - Use Potion(if low)
   - Use Repel
 
-In the forest run manip the first trainer and follow the path
+In the forest run manip the first trainer
 
 :::::::trainer[Team Aqua Grunt]
   :::::pokemon[Poochyena]
@@ -324,18 +326,26 @@ Go towards Briney's Cottage
 
 Get beach Potion
 
+![Beach Potion](https://media.discordapp.net/attachments/917309676717244436/1335853758617358366/beach_potion.png?ex=67a1ae43&is=67a05cc3&hm=8301d5bb4f1cd27af6b9bf1a60c55176191a5a1da1282ac848294d68a1675146&=&format=webp&quality=lossless)
+
 Head to Dewford
   - Enter Pokemon Center to set death warp
 
 Enter Granite Cave
   - Grab Escape Rope
 
+![Granite Cave Path](https://media.discordapp.net/attachments/917309676717244436/1335854074389594133/granite-cave_path.png?ex=67a1ae8e&is=67a05d0e&hm=187e1a8abb97e1d6a6e4b9463a4b58f083b619a8f778f782e4ee60acba6c1986&=&format=webp&quality=lossless)
+
 Escape rope out after talking to Steven
   - Sail to Slateport
 
 Get beach Revive
 
+![Beach Revive](https://media.discordapp.net/attachments/917309676717244436/1335855415094673419/beach_revive.png?ex=67a1afcd&is=67a05e4d&hm=19c69e12e2942b3a76e499f30b3de8322223f901d7259d6c9d330c6695965b40&=&format=webp&quality=lossless)
+
 Get Soft Sand
+
+![Soft Sand](https://media.discordapp.net/attachments/917309676717244436/1335855586356756522/soft_sand.png?ex=67a1aff6&is=67a05e76&hm=2e30b1dc2dd2edebb23b7ab5a5fb0977e7006eb354028bbccaa5276225377596&=&format=webp&quality=lossless)
 
 Head to shipyard
 
@@ -383,7 +393,7 @@ Exit Museum
 Go to Route 110
   - Fight next trainers as double battle
 
-:::::::trainer[Team Aqua Grunt]
+:::::::trainer[Pokefan Isabel and Kaleb]
   :::::pokemon[Plusle and Minun]
     - Mud Shot Spam
   :::::
@@ -396,6 +406,8 @@ Before Grass
 
 Pass the youngster
   - Grab Full Heal before Rival
+
+![Route 110 Full Heal](https://media.discordapp.net/attachments/917309676717244436/1335857640391315466/route_110_full_heal.png?ex=67a1b1e0&is=67a06060&hm=da353997d2ee58cf013abbc3baf101be20c2dd657bde49201ac487bb9788fe9e&=&format=webp&quality=lossless)
 
 :::::::trainer[Rival 2]
   :::::pokemon[Slugma]
@@ -435,6 +447,8 @@ Pass the youngster
 :::::::
 
 Grab Elixir and head to Mauville
+
+![Cycling Road Elixir](https://media.discordapp.net/attachments/917309676717244436/1335858254969831435/cycling_road_elixir.png?ex=67a1b273&is=67a060f3&hm=4c666ce39494086ef48825fd5698b1aac5f18324e81f47f2ca548a946bc3a8f7&=&format=webp&quality=lossless)
 
 ## Mauville City
 
@@ -542,6 +556,8 @@ Exit the gym
 
 Grab this Elixir
 
+![Route 111 Elixir](https://media.discordapp.net/attachments/917309676717244436/1335859044019077190/route_111_elixir.png?ex=67a1b32f&is=67a061af&hm=293881fe5d74ee8b4af2b3ee36784d6072fa729e6b56b39ded0a16437c7161cd&=&format=webp&quality=lossless)
+
 Use Rock Smash to break the rocks
 
 Head North
@@ -549,6 +565,8 @@ Head North
   - Adjust 1 tile to the left to dodge the next one
 
 Stop at the stone wall where pictured and Repel
+
+![Route 111 Repel Locaion](https://media.discordapp.net/attachments/917309676717244436/1335859548820607026/route_111_repel_tile.png?ex=67a1b3a7&is=67a06227&hm=2df5e8da0765dfa14204c69fae7365c1925cfbb9904a589aa137582bb322228f&=&format=webp&quality=lossless)
 
 Bike past the Rotato (top path) and bonk into the stairs/sign
   - Run to bike or bag manip the Hiker on the left to enter Fiery Path
@@ -559,11 +577,15 @@ After Fiery Path bag manip the double Spinners(Repel runs out in front of them)
 Continuing north avoid CTB by biking below her 
   - Use another Repel at the start of Route 113 next to a rock where the ash grass starts
 
+![Route 113 Path](https://media.discordapp.net/attachments/917309676717244436/1335859955638599700/route_113_path.png?ex=67a1b408&is=67a06288&hm=04df0840df7bd52e4baa2bc8dc86da60d29aac1d0fdaa5dd7ce1993857fc5afc&=&format=webp&quality=lossless&width=550&height=124)
+
 Following this path perfectly avoids all optionals without run/bag manips
 
 ## Fallarbor
 
 Pickup this Nugget in Fallarbor
+
+![Fallarbor Nugget](https://media.discordapp.net/attachments/917309676717244436/1335860320299782176/fallarbor_nugget.png?ex=67a1b45f&is=67a062df&hm=962fc7913338961b9515f1b4c0927fe2e13148f67d5ac69bb8c0d961335b2e84&=&format=webp&quality=lossless)
 
 :::card{theme=neutral}
 ### Shopping
@@ -629,6 +651,8 @@ After the cutscene leave through left exit
 
 Break the rock smash rock to get HM for Strength
   - Grab this Max Ether
+
+![Rusturf Tunnel Max Ether](https://media.discordapp.net/attachments/917309676717244436/1335861272062984192/rusturf_tunnel_max_ether.png?ex=67a1b542&is=67a063c2&hm=37e62b0c17e601cf089b1b2d528ce4d73d64a3779ea25ba1364cf1a775058410&=&format=webp&quality=lossless)
 
 **Menu before Hiker if 0 Mud Shot PP Left**
   - Teach Strength over Mud-Slap
@@ -720,17 +744,17 @@ Before Fighting Maxie
   :::::pokemon[Mightyena]
     - Guard Spec and bring Marshtomp out after swablu faints
     :::if{source="Mudkip" condition="atk=(x / 20-21 / 0-2)"}
-    - Mud Shot x2
+    - X Attack + Mud Shot x2
     :::
     :::if{source="Mudkip" condition="atk=(x / 21-31 / 3-13)"}
-    - Mud Shot + Strength
+    - X Attack + Mud Shot + Strength
     :::
     :::if{source="Mudkip" condition="atk=(x / x / 14-17)"}
-    - Strength x2
+    - X Attack + Strength x2
     - It's a 94.1% range
     :::
     :::if{source="Mudkip" condition="atk=(x / x / 18-31)"}
-    - Strength x2
+    - X Attack + Strength x2
     :::
   :::::
   :::::pokemon[Zubat]
@@ -748,7 +772,11 @@ Head south towards Lavaridge
 
 Go through Jagged Path follow this path
 
+![Jagged Path](https://media.discordapp.net/attachments/917309676717244436/1335862467653402634/jagged_path_path.png?ex=67a1b65f&is=67a064df&hm=161c4000dc05dae2d161fbd727d62b66c0416132836b42121d0475f623fd3370&=&format=webp&quality=lossless)
+
 Enter Lavaridge gym and follow this path
+
+![Lavaridge Gym Path](https://media.discordapp.net/attachments/917309676717244436/1335862468102328342/lavaridge_gym_path.png?ex=67a1b65f&is=67a064df&hm=712ba87a94519e6b6e814e5faee84bc0119c08050009d02fea3c1a639cd1d582&=&format=webp&quality=lossless)
 
 Before Flannery
   - Swap Marshtomp to top
@@ -797,9 +825,13 @@ Head to Lavardige Heb Shop
   - Max Energy Powders(^)
 :::
 
+![Path to Desert Candy 1](https://media.discordapp.net/attachments/917309676717244436/1335865150703403038/desert_candy_path_1.png?ex=67a1b8df&is=67a0675f&hm=4ecacaefa98bd349d00bc07b19c923933905664fc17473073d88fcb61d8bf612&=&format=webp&quality=lossless)
+
 Menu before Camper
   - Super Repel
   - Heal if needed
+
+![Path to Desert Candy 2](https://media.discordapp.net/attachments/917309676717244436/1335865155417800775/desert_candy_path_2.png?ex=67a1b8e0&is=67a06760&hm=143dfbd68b3f09728c0862ab5183b6b248e0ae56b7d3da834cc1c8a7440fb84f&=&format=webp&quality=lossless)
 
 Grab Desert Candy
 
@@ -809,6 +841,8 @@ Bike till you whiteout
 
 Menu:
   - Rare Candy to Level 30
+
+![Dewford Gym path](https://media.discordapp.net/attachments/917309676717244436/1335865550584418344/dewford_gym_path.png?ex=67a1b93e&is=67a067be&hm=23ac0c5b1856614c3f4636cc33aff9e7b3c66cd6ff927218b72bf100dbb921cf&=&format=webp&quality=lossless)
 
 :::::::trainer[Leader Brawly]
   :::::pokemon[Machop]
@@ -914,7 +948,7 @@ Heal to full before fithing Norman
     - X Attack x4
     :::
     :::if{source="Mudkip" condition="speed=(20-27 / 0-10 / 0-1)"}
-    - X Speed x1
+    - X Speed x2
     :::
     :::if{source="Mudkip" condition="speed=(27-31 / 11-31 / 2-31)"}
     - X Speed x1
@@ -960,6 +994,8 @@ Menu:
   
 Get Petalburg Candy
 
+![Petalburg Candy](https://media.discordapp.net/attachments/917309676717244436/1335866926156480535/petalburg_candy.png?ex=67a1ba86&is=67a06906&hm=5c4c59d6973f6f1806e05247f6eb1bc69bc960fa61567bb0f445644b3cb7719a&=&format=webp&quality=lossless)
+
 ## Ice Beam Sidetrack
 
 Head to Oldale Town
@@ -970,17 +1006,22 @@ At the water Super Repel
 
 Grab this Rare Candy below ship
 
+![Ship Candy](https://media.discordapp.net/attachments/917309676717244436/1335867529763094538/ship_candy.png?ex=67a1bb16&is=67a06996&hm=609585bfc943494d42a6f6c086b4e26f7150fd2719c5e5d84f8fafe3ac68b0d7&=&format=webp&quality=lossless)
+
 Grab Storage key and head to grab TM13 Ice Beam
 
 Menu:
   - Escape Rope
   - Super Repel
   
-Surf back to Petalburg City
+Surf back to Slateport City
   - Head North to Route 110
   - Repel when previous wears off
   - Grab Route 110 Rare Candy
-  - Head to Mauville City
+
+![Route 110 Rare Candy](https://media.discordapp.net/attachments/917309676717244436/1335868490770415687/route_110_candy.png?ex=67a1bbfb&is=67a06a7b&hm=6e398047819323c2c240cf08390f6f8696220d830d774fca619efb5ac8afe392&=&format=webp&quality=lossless)
+
+Head to Mauville City
 
 ## Weather Institute
 
@@ -1055,7 +1096,11 @@ Give Castform one character name
 
 ## Rival 3
 
-Grab this Elixir and then Menu(Pokemon):
+Grab this Elixir
+
+![Institute Elixir](https://media.discordapp.net/attachments/917309676717244436/1335869746067013642/Institute_Elixir.png?ex=67a1bd26&is=67a06ba6&hm=e8bb2b94752d70c4f1f5dd665bfc5f31c760b4965426a0872e385af62052737d&=&format=webp&quality=lossless)
+
+Then Menu(Pokemon):
   - Take Soft Sand from Swampert
   - Take Mystic Water from Castform
   - Move Castform to slot 2
@@ -1090,13 +1135,15 @@ Menu(Bag):
 Head towards Fortree City
 
 Menu before Grass:
-  - Super Repel
+  - Super Repel(if didn't do in the previous menu)
   - Potion to High Torrent if possible
 
 ## Fortree City
 
 Head East towards Steven
   - Run away from Kecleon and get Devon Scope
+
+![Devon Scope Path](https://media.discordapp.net/attachments/917309676717244436/1335870707632046160/devon_sope_path.png?ex=67a1be0b&is=67a06c8b&hm=e6872f6eb42f5992104140860470076bf1a12396a0b89b05f5117c2a26a794ca&=&format=webp&quality=lossless)
 
 Head back to Fortree Gym
 
@@ -1134,7 +1181,7 @@ Head back to Fortree Gym
 
 :::::::trainer[Leader Winnona]
   :::::pokemon[Swablue]
-    - Surf * Ice Beam
+    - Surf * / Ice Beam
     ::damage[Swampert's Ice Beam]{source="Mudkip" offensive=true movePower=95 level=37 evolution=2 opponentLevel=29 opponentStat=55 healthThreshold=72 special=true stab=false type=ice effectiveness=2}
   :::::
   :::::pokemon[Tropius]
@@ -1143,6 +1190,7 @@ Head back to Fortree Gym
   :::::pokemon[Pelipper]
     - If Torrent
       - Rock Smash + Surf x2
+    - Otherwise
       - X Special + Ice Beam x2 / Surf x2
     - **Save 1 Ice Beam PP for Altaria**
   :::if{source="Mudkip" condition="spatk=(x / 0-1 / x)"}
@@ -1183,9 +1231,15 @@ Head back to Fortree Gym
 Go through Route 120
   - Super Repel before Grass(need to use 2 more to get through Mount Pyre)
 
+![Route 120 Path 1](https://media.discordapp.net/attachments/917309676717244436/1335871599152205834/route_120_path_1.png?ex=67a1bee0&is=67a06d60&hm=0eca737c856c171f923c49509ca2765c7fa261bcef8be7b795ddab7bfcf5918d&=&format=webp&quality=lossless)
+
 Get the Lake Rare Candy
 
+![Route 120 Path 2](https://media.discordapp.net/attachments/917309676717244436/1335871602218369075/route_120_path_2.png?ex=67a1bee1&is=67a06d61&hm=85785be35fc2ffaf7cd8063edb03e0027801563408990ea5d4256b74a05b44d2&=&format=webp&quality=lossless)
+
 Grab this Persim Berry
+
+![Route 120 Persim Berry](https://media.discordapp.net/attachments/917309676717244436/1335872328998977587/route_120_persim_berry.png?ex=67a1bf8e&is=67a06e0e&hm=f108b876581c80010377eb3344f6935409df07d52d44f4220e8a9d0a53b7a1e2&=&format=webp&quality=lossless)
 
 **Teach Fly to Swablu**
 
@@ -1217,6 +1271,8 @@ Bike Flash while entering to skip Bike Music Audio Lag
   :::::
 :::::::
 
+**Go in front of left grunt instead of middle**
+
 :::::::trainer[Aqua Gunt 3 and 4]
   :::::pokemon[Wailmer and Poochyena]
     - Surf, Facade Wailmer
@@ -1231,6 +1287,8 @@ Bike Flash while entering to skip Bike Music Audio Lag
 :::::::
 
 Get Hidden Mount Pyre Candy
+
+![Pyre Candy](https://media.discordapp.net/attachments/917309676717244436/1335873117830123600/pyre_candy.png?ex=67a1c04a&is=67a06eca&hm=de9013979ad4029ddad9147b2c137b63191c1a5c807ae1313e30d18b19b52033&=&format=webp&quality=lossless)
 
 ## Magma Hideout
 
@@ -1308,6 +1366,8 @@ Use Super Repel when it runs out
 
 Gat this Max Revive if want to play Super Safe
 
+![Magma Hideout Max Revive](https://media.discordapp.net/attachments/917309676717244436/1335874202238058576/magma_hideout_max_revive.png?ex=67a1c14d&is=67a06fcd&hm=88ad73e7159dd07c0f39be4f38cfc70c0d5005ec27808c1993f0859cc6f7442e&=&format=webp&quality=lossless)
+
 :::::::trainer[Magma Leader Maxie 2]
   :::::pokemon[Mightyena]
     - Surf*
@@ -1380,11 +1440,17 @@ Go to the docks north of the museum for a cutscene
   - Talk to Stern here
   - After the submarine leaves, Fly to Lilycove City
 
-Grab this Elixir if low on Surf PP and use before Matt
+Grab the Elixir if low on Surf PP and use before Matt
 
 Head to Aqua Hideout
 
+![Aqua Hideout Path 1](https://media.discordapp.net/attachments/917309676717244436/1335877683703189635/aqua_hideout_path_1.png?ex=67a1c48b&is=67a0730b&hm=1140112c134fd1036e5062c95e77aa3592e32ee15d74c5550bb17100dbc2b155&=&format=webp&quality=lossless&width=250&height=350)
+
+![Aqua Hideout Path 2](https://media.discordapp.net/attachments/917309676717244436/1335877722152374282/aqua_hideout_path_2.png?ex=67a1c494&is=67a07314&hm=d50263bc37793474d7168aa833cc30265c00398a750943ddb214c269ef57080f&=&format=webp&quality=lossless)
+
 Grab Master Ball
+
+![Aqua Hideout Master Ball](https://media.discordapp.net/attachments/917309676717244436/1335875938340306956/auqa_hideout_master_ball.png?ex=67a1c2eb&is=67a0716b&hm=504a9c67e77b49433d4d489deeaa53a344fc16cc80c74fd1f19f44bbff70acb0&=&format=webp&quality=lossless)
 
 :::::::trainer[Aqua Gunt 1 and 2]
   :::::pokemon[Zubat and Poochyena]
@@ -1423,6 +1489,8 @@ Grab Master Ball
 :::::::
 
 Remeber to Grab this Elixir before leaving
+
+![Aqua Hideout Elixir](https://media.discordapp.net/attachments/917309676717244436/1335875932271149137/auqa_hideout_elixir.png?ex=67a1c2e9&is=67a07169&hm=232f078192ea6f63c4d2bb6f7163bc6eb34eb2924b1dc47d7a8fa073be134a6e&=&format=webp&quality=lossless)
 
 Menu:
   - Super Repel
@@ -1693,7 +1761,11 @@ Max Repel here
 
 ## Save the World
 
-Max Repel then follow this Movement
+Follow this Movement
+
+![Pacifidlog Path 1](https://media.discordapp.net/attachments/917309676717244436/1335882077622763620/pacifidlog_path_1.png?ex=67a1c8a2&is=67a07722&hm=5595546aeb60244e4dbe2466f448f19b54e4777f60aa801c1a3cbbf1a1278471&=&format=webp&quality=lossless&width=776&height=694)
+
+![Pacifidlog Path 2](https://media.discordapp.net/attachments/917309676717244436/1335882088775155764/pacifidlog_path_2.png?ex=67a1c8a5&is=67a07725&hm=e0ca9232b369a2300a657356abb4d50ae061a9d16299e5087d4e160db297f7fe&=&format=webp&quality=lossless)
 
 After flagging Pacifidlog fly to Mossdeep
   - Surf to Sootopolis
@@ -1725,6 +1797,8 @@ Menu:
 Talk to Archie, Maxie then Wallace
 
 Do the Gym Puzzle
+
+![Sootopolis Gym Path](https://media.discordapp.net/attachments/917309676717244436/1335884702011359254/sootopolis_gym_path.png?ex=67a1cb14&is=67a07994&hm=7dd5c0c089dc9bd4f48e3a5e6debc767d85ef10de3979a4d351775cc17e2d9cf&=&format=webp&quality=lossless)
 
 :::::::trainer[Leader Juan]
   :::::pokemon[Luvdisc]
@@ -1780,6 +1854,8 @@ In Victory Road bike up, use the stairs and go left
     - Outrage
   :::::
 :::::::
+
+![Victory Road Path](https://media.discordapp.net/attachments/917309676717244436/1335887096040132640/victory_road_path.png?ex=67a1cd4f&is=67a07bcf&hm=db35a3afcd48cc83b58c18ebe68fb105da07ae2bf4a7ace04f8648430fe0fda3&=&format=webp&quality=lossless&width=507&height=694)
 
 :::::::trainer[Cooltrainer Hope]
   :::::pokemon[Roselia]
