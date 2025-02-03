@@ -391,11 +391,25 @@ Equip Soft sand after exiting shipyard
 Exit Museum
 
 Go to Route 110
-  - Fight next trainers as double battle
+  - Fight next trainers as single battle
 
-:::::::trainer[Pokefan Isabel and Kaleb]
-  :::::pokemon[Plusle and Minun]
-    - Mud Shot Spam
+:::::::trainer[Pokefan Isabel]
+  :::::pokemon[Plusle]
+    - Mud Shot
+  :::::
+  :::::pokemon[Minun]
+    - Mud Shot(x2 if got growled)
+    ::damage[Marshtomp's Mud Shot(-1)]{source="Mudkip" offensive=true movePower=55 level=17 evolution=1 opponentLevel=14 opponentStat=19 healthThreshold=40 special=false statModifier=1.1 combatStages=-1 otherPowerModifier=1.1 stab=true type=ground effectiveness=2}
+  :::::
+:::::::
+
+:::::::trainer[Pokefan Kaleb]
+  :::::pokemon[Minun]
+    - Mud Shot
+  :::::
+  :::::pokemon[Plusle]
+    - Mud Shot(x2 if got growled twice)
+    ::damage[Marshtomp's Mud Shot(-2)]{source="Mudkip" offensive=true movePower=55 level=18 evolution=1 opponentLevel=14 opponentStat=17 healthThreshold=40 special=false statModifier=1.1 combatStages=-2 otherPowerModifier=1.1 stab=true type=ground effectiveness=2}
   :::::
 :::::::
 
